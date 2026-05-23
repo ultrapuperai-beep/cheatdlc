@@ -1,0 +1,16 @@
+src/main/java/ru/whylol/client/modules/impl\render\BlockOverlay.java:new ModeSetting("Режим", "Шейдер", "Шейдер", "Нитки");
+src/main/java/ru/whylol/client/modules/impl\render\Cubes.java:new ModeSetting("Анимация", "Разлет", "Разлет", "Падение");
+src/main/java/ru/whylol/client/modules/impl\misc\TpLoot.java:new ModeSetting("После лута", "Возвращаться", "Возвращаться", "Тепаться на спавн");
+src/main/java/ru/whylol/client/modules/impl\movement\PlayerFakeLags.java:new ModeSetting("Режим", "Blink", "Blink", "Pulse");
+src/main/java/ru/whylol/client/modules/impl\combat\Aura.java:new ModeSetting("Ротация", "LegitRotation", "LegitRotation", "HolyWorld", "WellMine", "Snap", "Smooth");
+src/main/java/ru/whylol/client/modules/impl\combat\Aura.java:new ModeSetting("Приоритет", "Дистанция", "Дистанция", "Здоровье", "Угол", "Никакой");
+src/main/java/ru/whylol/client/modules/impl\movement\AirStuck.java:new ModeSetting("Мод", "Обычный", "Обычный", "LonyGrief");
+src/main/java/ru/whylol/client/modules/impl\render\EntityESP.java:new ModeSetting("Мод заливки", "Обычный", "Обычный", "Волны", "Нитки");
+src/main/java/ru/whylol/client/modules/impl\movement\InventoryWalk.java:new ModeSetting("Обход", "Обычный", "Обычный", "Grim");
+src/main/java/ru/whylol/client/modules/impl\movement\NoWeb.java:new ModeSetting("Мод", "Коллизия", "Коллизия", "Обычный", "Тест");
+src/main/java/ru/whylol/client/modules/impl\movement\ElytraBoost.java:new ModeSetting("Сервер", "Custom", "Custom", "LonyGrief", "BravoHVH", "ReallyWorld", "SlimeWorld");
+src/main/java/ru/whylol/client/modules/impl\render\Interface.java:new ModeSetting("Стиль", "Wave", "Wave", "Обычный");
+src/main/java/ru/whylol/client/modules/impl\render\Particle.java:new ModeSetting("Тип частиц", "Звездочки", "Звездочки",
+src/main/java/ru/whylol/client/modules/impl\render\ShaderHands.java:new ModeSetting("Режим", "Свечение", "Свечение", "Красивый");
+src/main/java/ru/whylol/client/modules/impl\render\SwingAnimations.java:new ModeSetting(
+src/main/java/ru/whylol/client/modules/impl\render\TargetESP.java:new ModeSetting("Режим", "Картинка", "Картинка", "Призраки", "Райдер", "Души", "Кристаллы");

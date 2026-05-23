@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "preset": "R_16_9",
+  "customRatio": 1.333,
+  "viewModel": {
+    "enabled": true,
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "scale": 100
+  }
+}

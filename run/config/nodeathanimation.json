@@ -1,0 +1,54 @@
+[
+  {
+    "name": "General",
+    "options": [],
+    "groups": [
+      {
+        "name": "General Options",
+        "expanded": true,
+        "options": [
+          {
+            "name": "Mod Enabled",
+            "type": "boolean",
+            "value": true,
+            "min": null,
+            "max": null,
+            "increment": null
+          }
+        ]
+      },
+      {
+        "name": "Additional Options",
+        "expanded": true,
+        "options": [
+          {
+            "name": "Affected Entities",
+            "type": "list",
+            "value": [
+              "player"
+            ],
+            "min": null,
+            "max": null,
+            "increment": null
+          },
+          {
+            "name": "Death Time",
+            "type": "integer",
+            "value": 22,
+            "min": 0,
+            "max": 100,
+            "increment": 1
+          },
+          {
+            "name": "Death Overlay Time",
+            "type": "integer",
+            "value": 22,
+            "min": 0,
+            "max": 100,
+            "increment": 1
+          }
+        ]
+      }
+    ]
+  }
+]

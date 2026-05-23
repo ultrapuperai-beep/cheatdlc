@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "hideArrow": false,
+  "changeTargetColor": true,
+  "eyeColor": -65536,
+  "lookColor": -16776961,
+  "hitBoxColor": -1,
+  "targetBoxColor": -65536,
+  "hitBoxHurt": false,
+  "renderEyeHeight": true,
+  "renderLookDir": true,
+  "hurtBoxColor": -65281,
+  "line1": 2.5,
+  "distFor2": 32.0,
+  "line2": 2.5
+}
