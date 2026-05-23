@@ -30,15 +30,15 @@ public abstract class RotationsSystem implements QClient {
                 && target != null
                 && mc.player.isGliding()
                 && target.isGliding()
-                && ModuleClass.elytraTarget != null
-                && ModuleClass.elytraTarget.isEnable();
+                && ModuleClass.forward != null
+                && ModuleClass.forward.isEnable();
     }
 
     protected int getElytraPredictTicks() {
-        if (ModuleClass.elytraTarget == null) {
+        if (ModuleClass.forward == null) {
             return 0;
         }
-        return Math.max(0, ModuleClass.elytraTarget.forward.getValue().intValue());
+        return Math.max(0, ModuleClass.forward.forward.getValue().intValue());
     }
 
     protected Vec3d getPredictedPoint(LivingEntity target, Vec3d point) {

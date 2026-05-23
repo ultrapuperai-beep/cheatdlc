@@ -1,50 +1,50 @@
-/kit vipe
-/kit vaip
-/kit pvp
-/vipe
-/kit olyx
-/kit
-/rtp
-/warp vipe
-/warp viperrr
-/l Armavir
-/l loxlox
-/reg Armavir Armavir
-/warp skor4el
-/kit
-/code free
-/codes
+/craft
 /shop
+/trade
+/shop
+/craft
+/ec
+/shop
+/trade
+/shop
+/tpa EternalOwner
+/shop
+/ec
+/fly
+/hub
+/warp bix
+/reg Mango22 Mango22
+/warp pvp
+/l Mango22
+/reg Mango22
+/reg Mango22 Mang o22
+/reg Mango22 Mango22
+/kit
+/shar
 /pvp
-/pvp list
-/warp 1x1ezz
-/l Armavir
-/warp kokkk
-/pvp
-/sethome
-/spawn
-/ah search сфера Гидры
-/ah search сфера Ареса
-/ah search незеритовый меч
-/ah search Зачарованное золотое яблоко
-/ah search Золотое яблоко
-/ah search золотая морковь
-/ah search Эндер жемчуг
-/ah search Дезориентация
-/ah search Явная пыль
-/ah search незеритовый шл
-/ah search алмазный шлем
-/ah search Незеритовые ботинки
-/ah search незеритовый нагрудник
-/ah search алмазные поножи
-/ah search хорус
-/ah search пласт
-/ah search Шалкер
-/ah search Тотем бессмертия
-/ah search зелье Силы
-/ah search исцел
-/ah search зелье Ассасина
-/ah search Святая
-/ah search Палладин
-/home
-/ah search Заряд ветра
+/home a
+/kit
+/tpa EternalOwner
+/msg Kigumka ты лох\
+/shop
+/trade
+/shop
+/trade
+/shop
+/warp afk
+/freee
+/free
+/warp case
+/free
+/rtp
+/tpaccept
+/ac Vanilla
+/give elytra
+/give firework_rocket 1231
+/god
+/give elytra
+/give firework_rocket
+/give firework_rocket132
+/give firework_rocket 12313
+/ac Vanilla
+/tp EternalOwner

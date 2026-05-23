@@ -19,8 +19,9 @@ public class Information extends InterfaceProcessing {
 
     @Override
     public void onRender(EventRender.Default eventRender) {
-        if (!ModuleClass.interfaceModule.style.is("Wave")) DefaultStyle(eventRender);
-        else WaveStyle(eventRender);
+        if (ModuleClass.interfaceModule.style.is("New")) NewStyle(eventRender);
+        else if (ModuleClass.interfaceModule.style.is("Wave")) WaveStyle(eventRender);
+        else DefaultStyle(eventRender);
         super.onRender(eventRender);
     }
 
@@ -42,7 +43,7 @@ public class Information extends InterfaceProcessing {
         int py = (int)Math.floor(mc.player.getY());
         int pz = (int)Math.floor(mc.player.getZ());
 
-        float height = 16f;
+        float height = 20f;
         double bps = MathUtils.calculateBPS();
         String xValue = String.valueOf(px);
         String yValue = String.valueOf(py);
@@ -55,33 +56,129 @@ public class Information extends InterfaceProcessing {
         float widthCords = font.getWidth(coordsText);
         float totalWidth = 13 + widthCords + widthbps + 2 + 13.8f;
 
-        RenderUtils.drawDefaultHudThemedPanel(eventRender.getContext().getMatrices(), x, y, totalWidth, height, 3f, 3.5f, colorTheme);
+        // Рисуем панель с эффектом свечения (как в WaterMark)
+        int glowColor = ColorUtils.applyAlpha(colorTheme, 0.25f);
+        RenderUtils.drawShadow(eventRender.getContext().getMatrices(), x, y, totalWidth, height, 8, 12f, glowColor);
+        RenderUtils.drawDefaultHudThemedPanel(eventRender.getContext().getMatrices(), x, y, totalWidth, height, 3.5f, 4f, colorTheme);
+        
         if (drawSquares) {
             RenderUtils.drawHudSquarePattern(eventRender.getContext().getMatrices(), x, y, totalWidth, height, colorTheme);
         }
 
         float speedTextX = x + 13.5f;
         float bpsValueWidth = font.getWidth(bpsValue);
-        font.draw(eventRender.getContext().getMatrices(), bpsValue, speedTextX, y + 6.6, -1);
-        font.draw(eventRender.getContext().getMatrices(), bpsSuffix, speedTextX + bpsValueWidth - 2, y + 6.6, colorTheme);
+        font.draw(eventRender.getContext().getMatrices(), bpsValue, speedTextX, y + 8.5, -1);
+        font.draw(eventRender.getContext().getMatrices(), bpsSuffix, speedTextX + bpsValueWidth - 2, y + 8.5, colorTheme);
         float coordsX = xbps + 9f;
-        font.draw(eventRender.getContext().getMatrices(), xValue, coordsX, y + 6.6, -1);
+        font.draw(eventRender.getContext().getMatrices(), xValue, coordsX, y + 8.5, -1);
         coordsX += font.getWidth(xValue);
-        font.draw(eventRender.getContext().getMatrices(), "x", coordsX - 1, y + 6.6, colorTheme);
+        font.draw(eventRender.getContext().getMatrices(), "x", coordsX - 1, y + 8.5, colorTheme);
         coordsX += font.getWidth("x ");
-        font.draw(eventRender.getContext().getMatrices(), yValue, coordsX, y + 6.6, -1);
+        font.draw(eventRender.getContext().getMatrices(), yValue, coordsX, y + 8.5, -1);
         coordsX += font.getWidth(yValue);
-        font.draw(eventRender.getContext().getMatrices(), "y", coordsX - 1, y + 6.6, colorTheme);
+        font.draw(eventRender.getContext().getMatrices(), "y", coordsX - 1, y + 8.5, colorTheme);
         coordsX += font.getWidth("y ");
-        font.draw(eventRender.getContext().getMatrices(), zValue, coordsX, y + 6.6, -1);
+        font.draw(eventRender.getContext().getMatrices(), zValue, coordsX, y + 8.5, -1);
         coordsX += font.getWidth(zValue);
-        font.draw(eventRender.getContext().getMatrices(), "z", coordsX - 1, y + 6.6, colorTheme);
-        iconFont.draw(eventRender.getContext().getMatrices(), "c", x + 3.25, y + 6.6, colorTheme);
-        smallIconFont.draw(eventRender.getContext().getMatrices(), "x", xbps - 1, y + 6.85, colorTheme);
+        font.draw(eventRender.getContext().getMatrices(), "z", coordsX - 1, y + 8.5, colorTheme);
+        iconFont.draw(eventRender.getContext().getMatrices(), "c", x + 3.25, y + 8.5, colorTheme);
+        smallIconFont.draw(eventRender.getContext().getMatrices(), "x", xbps - 1, y + 8.75, colorTheme);
 
 
         draggable.setHeight(height);
         draggable.setWidth(totalWidth);
+    }
+
+    public void NewStyle(EventRender.Default eventRender) {
+        float baseX = draggable.getX(), y = draggable.getY();
+        var matrices = eventRender.getContext().getMatrices();
+        
+        // Получаем цвет темы
+        int themeColor;
+        if (!eversense.INSTANCE.themeStorage.getThemes().getTheme().getName().equals("Rainbow")) {
+            themeColor = eversense.INSTANCE.themeStorage.getThemes().getTheme().color[0];
+        } else {
+            themeColor = ColorUtils.getThemeColor();
+        }
+        
+        int whiteColor = ColorUtils.rgba(255, 255, 255, 255);
+        int grayBgColor = ColorUtils.rgba(35, 37, 40, 100);
+        int blackBgColor = ColorUtils.rgba(0, 0, 0, 180);
+        
+        var textFont = Fonts.getFont("suisse", 13);
+        var iconFont = Fonts.getFont("icon", 14);
+        
+        if (textFont == null) textFont = Fonts.getFont("suisse", 12);
+        if (iconFont == null) iconFont = Fonts.getFont("icon", 14);
+        
+        // Получаем данные
+        int px = (int)Math.floor(mc.player.getX());
+        int py = (int)Math.floor(mc.player.getY());
+        int pz = (int)Math.floor(mc.player.getZ());
+        double bps = MathUtils.calculateBPS();
+        
+        String bpsValue = formatTwoDecimals(bps);
+        String bpsText = bpsValue + " b/s";
+        String coordsText = px + "x " + py + "y " + pz + "z";
+        
+        // Подсчитываем максимальную ширину
+        float bpsWidth = textFont.getStringWidth(bpsText);
+        float coordsWidth = textFont.getStringWidth(coordsText);
+        float maxWidth = Math.max(bpsWidth, coordsWidth) + 30f; // отступы + иконки
+        
+        // Размеры
+        float headerHeight = 18f;
+        float itemHeight = 14f;
+        float totalHeight = headerHeight + (2 * itemHeight); // 2 строки: bps и coords
+        float width = maxWidth + 10f;
+        
+        // Рисуем общий фон (черный) - с закруглениями
+        RenderUtils.drawRoundedRect(matrices, baseX, y, width, totalHeight, 3f, blackBgColor);
+        
+        // Рисуем заголовок (серый фон) - с закруглениями сверху
+        RenderUtils.drawRoundedRect(matrices, baseX, y, width, headerHeight, 3f, grayBgColor);
+        
+        // Текст "Information" и иконка в заголовке
+        String headerText = "Information";
+        textFont.drawString(matrices, headerText, baseX + 6f, y + 7f, whiteColor);
+        
+        // Иконка справа в заголовке
+        String headerIconGlyph = "x"; // иконка координат
+        float headerIconX = baseX + width - iconFont.getStringWidth(headerIconGlyph) - 6f;
+        iconFont.drawString(matrices, headerIconGlyph, headerIconX, y + 7.5f, themeColor);
+        
+        // Рисуем содержимое
+        float offsetY = headerHeight + 4f;
+        
+        // Строка BPS
+        textFont.drawString(matrices, bpsValue, baseX + 6f, y + offsetY + 1f, whiteColor);
+        float bpsValueWidth = textFont.getStringWidth(bpsValue);
+        textFont.drawString(matrices, " b/s", baseX + 6f + bpsValueWidth, y + offsetY + 1f, themeColor);
+        
+        offsetY += itemHeight;
+        
+        // Строка координат
+        String xValue = String.valueOf(px);
+        String yValue = String.valueOf(py);
+        String zValue = String.valueOf(pz);
+        
+        float coordsX = baseX + 6f;
+        textFont.drawString(matrices, xValue, coordsX, y + offsetY + 1f, whiteColor);
+        coordsX += textFont.getStringWidth(xValue);
+        textFont.drawString(matrices, "x ", coordsX, y + offsetY + 1f, themeColor);
+        coordsX += textFont.getStringWidth("x ");
+        
+        textFont.drawString(matrices, yValue, coordsX, y + offsetY + 1f, whiteColor);
+        coordsX += textFont.getStringWidth(yValue);
+        textFont.drawString(matrices, "y ", coordsX, y + offsetY + 1f, themeColor);
+        coordsX += textFont.getStringWidth("y ");
+        
+        textFont.drawString(matrices, zValue, coordsX, y + offsetY + 1f, whiteColor);
+        coordsX += textFont.getStringWidth(zValue);
+        textFont.drawString(matrices, "z", coordsX, y + offsetY + 1f, themeColor);
+        
+        draggable.setWidth(width);
+        draggable.setHeight(totalHeight);
     }
 
     public void WaveStyle(EventRender.Default eventRender) {

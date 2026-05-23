@@ -55,13 +55,37 @@ public class ClickGuiRenderer {
 
     private Module renderCategoryPanel(DrawContext context, int mouseX, int mouseY, float panelX, Module.ModuleCategory category, int colorTheme, float alphaMul, int shadeColor) {
         float panelY = state.getY() + state.getRenderOffsetY();
-        RenderUtils.drawRoundedRect(context.getMatrices(), panelX, panelY, ClickGuiLayout.WIDTH, ClickGuiLayout.HEIGHT, 8, ColorUtils.darken(colorTheme, 0.07f));
-        RenderUtils.drawRoundedRect(context.getMatrices(), panelX, panelY + 23, ClickGuiLayout.WIDTH, 0.5F, 0, ColorUtils.rgb(19, 18, 24));
+        
+        // Новый стиль: стеклянный эффект с градиентом
+        // Внешнее свечение панели
+        RenderUtils.drawRoundedRect(context.getMatrices(), panelX - 1f, panelY - 1f, ClickGuiLayout.WIDTH + 2f, ClickGuiLayout.HEIGHT + 2f, 9f, ColorUtils.applyAlpha(colorTheme, 0.15f * alphaMul));
+        
+        // Основной фон панели с градиентом
+        RenderUtils.drawGradientRect(context.getMatrices(), panelX, panelY, ClickGuiLayout.WIDTH, ClickGuiLayout.HEIGHT, 8f,
+                ColorUtils.rgba(18, 18, 24, 245),
+                ColorUtils.rgba(12, 12, 16, 245), false);
+        
+        // Верхняя полоса с градиентом темы
+        RenderUtils.drawGradientRect(context.getMatrices(), panelX, panelY, ClickGuiLayout.WIDTH, 23f, 8f,
+                ColorUtils.applyAlpha(ColorUtils.darken(colorTheme, 0.25f), 0.4f),
+                ColorUtils.applyAlpha(ColorUtils.darken(colorTheme, 0.35f), 0.3f), false);
+        
+        // Разделительная линия с свечением
+        RenderUtils.drawRoundedRect(context.getMatrices(), panelX + 5, panelY + 23, ClickGuiLayout.WIDTH - 10, 1.5f, 0.75f, ColorUtils.applyAlpha(colorTheme, 0.6f));
+        
         if (((shadeColor >> 24) & 0xFF) > 0) {
             RenderUtils.drawRoundedRect(context.getMatrices(), panelX, panelY, ClickGuiLayout.WIDTH, ClickGuiLayout.HEIGHT, 8, shadeColor);
         }
 
-        icons(14).drawCenteredString(context.getMatrices(), category.getIcons(), panelX + 50 - (issue(15).getWidth(category.getName()) / 2F) - 4, panelY + 10, alpha(colorTheme, alphaMul));
+        // Иконка категории с свечением
+        float iconX = panelX + 48 - (issue(15).getWidth(category.getName()) / 2F) - 4; // Сдвинуто левее с 50 на 48
+        float iconY = panelY + 10;
+        int iconHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.3f);
+        icons(14).drawGradientStringHorizontal(context.getMatrices(), category.getIcons(), iconX, iconY, 
+                alpha(colorTheme, alphaMul), 
+                alpha(iconHighlight, alphaMul));
+        
+        // Название категории
         issue(15).drawCenteredString(context.getMatrices(), category.getName(), panelX + 52, panelY + 9, alpha(-1, alphaMul));
 
         float contentY = ClickGuiLayout.getContentY(panelY);
@@ -128,30 +152,86 @@ public class ClickGuiRenderer {
 
     private void renderModuleBackground(DrawContext context, float panelX, float moduleY, float moduleHeight, boolean enabled, int colorTheme, int shadeColor) {
         if (enabled) {
-            // Добавляем легкое внешнее свечение для включенных модулей
-            RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING - 0.5f, moduleY - 1f, ClickGuiLayout.MODULE_INNER_WIDTH + 1f, moduleHeight + 2f, 5.5f, ColorUtils.applyAlpha(colorTheme, 0.15f));
+            // Новый стиль для включенных модулей: яркое свечение + градиент
+            // Внешнее свечение (более яркое)
+            RenderUtils.drawRoundedRect(context.getMatrices(), 
+                    panelX + ClickGuiLayout.MODULE_PADDING - 1.5f, 
+                    moduleY - 1.5f, 
+                    ClickGuiLayout.MODULE_INNER_WIDTH + 3f, 
+                    moduleHeight + 3f, 
+                    6.5f, 
+                    ColorUtils.applyAlpha(colorTheme, 0.35f));
             
-            RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING, moduleY - 0.5f, ClickGuiLayout.MODULE_INNER_WIDTH, moduleHeight + 1, 5, ColorUtils.darken(colorTheme, 0.17f));
-            RenderUtils.drawGradientRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING + 0.5f, moduleY, ClickGuiLayout.MODULE_INNER_WIDTH - 1f, moduleHeight, 4, ColorUtils.darken(colorTheme, 0.15f), ColorUtils.darken(colorTheme, 0.1f), false);
+            // Средний слой свечения
+            RenderUtils.drawRoundedRect(context.getMatrices(), 
+                    panelX + ClickGuiLayout.MODULE_PADDING - 0.8f, 
+                    moduleY - 0.8f, 
+                    ClickGuiLayout.MODULE_INNER_WIDTH + 1.6f, 
+                    moduleHeight + 1.6f, 
+                    5.8f, 
+                    ColorUtils.applyAlpha(colorTheme, 0.25f));
+            
+            // Основной фон с градиентом
+            RenderUtils.drawGradientRect(context.getMatrices(), 
+                    panelX + ClickGuiLayout.MODULE_PADDING, 
+                    moduleY, 
+                    ClickGuiLayout.MODULE_INNER_WIDTH, 
+                    moduleHeight, 
+                    5f,
+                    ColorUtils.applyAlpha(ColorUtils.darken(colorTheme, 0.12f), 0.9f),
+                    ColorUtils.applyAlpha(ColorUtils.darken(colorTheme, 0.18f), 0.85f), 
+                    false);
+            
             if (((shadeColor >> 24) & 0xFF) > 0) {
-                RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING + 0.5f, moduleY, ClickGuiLayout.MODULE_INNER_WIDTH - 1f, moduleHeight, 4, shadeColor);
+                RenderUtils.drawRoundedRect(context.getMatrices(), 
+                        panelX + ClickGuiLayout.MODULE_PADDING, 
+                        moduleY, 
+                        ClickGuiLayout.MODULE_INNER_WIDTH, 
+                        moduleHeight, 
+                        5f, 
+                        shadeColor);
             }
             return;
         }
 
-        RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING, moduleY - 0.5f, ClickGuiLayout.MODULE_INNER_WIDTH, moduleHeight + 1, 5, ColorUtils.darken(colorTheme, 0.10f));
-        RenderUtils.drawGradientRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING + 0.5f, moduleY, ClickGuiLayout.MODULE_INNER_WIDTH - 1f, moduleHeight, 4, ColorUtils.darken(colorTheme, 0.09f), ColorUtils.darken(colorTheme, 0.08f), false);
+        // Новый стиль для выключенных модулей: тонкое свечение + градиент
+        // Легкое внешнее свечение
+        RenderUtils.drawRoundedRect(context.getMatrices(), 
+                panelX + ClickGuiLayout.MODULE_PADDING - 0.5f, 
+                moduleY - 0.5f, 
+                ClickGuiLayout.MODULE_INNER_WIDTH + 1f, 
+                moduleHeight + 1f, 
+                5.5f, 
+                ColorUtils.applyAlpha(colorTheme, 0.08f));
+        
+        // Основной фон с градиентом
+        RenderUtils.drawGradientRect(context.getMatrices(), 
+                panelX + ClickGuiLayout.MODULE_PADDING, 
+                moduleY, 
+                ClickGuiLayout.MODULE_INNER_WIDTH, 
+                moduleHeight, 
+                5f,
+                ColorUtils.rgba(28, 28, 35, 200),
+                ColorUtils.rgba(22, 22, 28, 200), 
+                false);
+        
         if (((shadeColor >> 24) & 0xFF) > 0) {
-            RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.MODULE_PADDING + 0.5f, moduleY, ClickGuiLayout.MODULE_INNER_WIDTH - 1f, moduleHeight, 4, shadeColor);
+            RenderUtils.drawRoundedRect(context.getMatrices(), 
+                    panelX + ClickGuiLayout.MODULE_PADDING, 
+                    moduleY, 
+                    ClickGuiLayout.MODULE_INNER_WIDTH, 
+                    moduleHeight, 
+                    5f, 
+                    shadeColor);
         }
     }
 
     private void renderModuleDots(DrawContext context, float panelX, float moduleY, Module module, boolean enabled, float alphaMul) {
-        int dotsColor = enabled ? alpha(ColorUtils.rgba(255, 255, 255, 220), alphaMul) : alpha(ColorUtils.rgba(255, 255, 255, 100), alphaMul);
-        float dotsX = panelX + 87.5f;
+        int dotsColor = enabled ? alpha(ColorUtils.rgba(255, 255, 255, 240), alphaMul) : alpha(ColorUtils.rgba(255, 255, 255, 120), alphaMul);
+        float dotsX = panelX + 84f; // Сдвинуто левее с 87.5f на 84f
         float baseY = moduleY + 10f;
         float spacing = 2f;
-        float radius = 2.1f;
+        float radius = 2.2f;
         float bottomXOffset = 2.1f;
         float angle = state.updateDotsRotation(module, module.isOpen() ? (float) (Math.PI / 2f) : 0f);
         float cos = (float) Math.cos(angle);
@@ -162,15 +242,19 @@ public class ClickGuiRenderer {
                 {bottomXOffset, spacing}
         };
 
-        // Добавляем легкое свечение для точек
+        // Новый стиль: яркое свечение для точек
         if (enabled) {
             for (float[] offset : offsets) {
                 float rx = offset[0] * cos - offset[1] * sin;
                 float ry = offset[0] * sin + offset[1] * cos;
-                RenderUtils.drawRoundCircle(context.getMatrices(), dotsX + rx, baseY + ry, radius + 0.8f, alpha(ColorUtils.applyAlpha(dotsColor, 0.3f), alphaMul));
+                // Внешнее свечение
+                RenderUtils.drawRoundCircle(context.getMatrices(), dotsX + rx, baseY + ry, radius + 1.5f, alpha(ColorUtils.applyAlpha(dotsColor, 0.25f), alphaMul));
+                // Среднее свечение
+                RenderUtils.drawRoundCircle(context.getMatrices(), dotsX + rx, baseY + ry, radius + 0.8f, alpha(ColorUtils.applyAlpha(dotsColor, 0.4f), alphaMul));
             }
         }
 
+        // Основные точки
         for (float[] offset : offsets) {
             float rx = offset[0] * cos - offset[1] * sin;
             float ry = offset[0] * sin + offset[1] * cos;
@@ -192,26 +276,46 @@ public class ClickGuiRenderer {
         float searchH = ClickGuiLayout.SEARCH_HEIGHT;
         float selectionPaddingLeft = 3.0f;
         float selectionPaddingRight = 1.5f;
-        int borderColor = ColorUtils.darken(colorTheme, 0.12f);
 
-        RenderUtils.drawRoundedRect(context.getMatrices(), searchX - 0.5f, searchY - 0.5f, searchW + 1f, searchH + 1f, 5.5f, borderColor);
-        RenderUtils.drawGradientRect(context.getMatrices(), searchX, searchY, searchW, searchH, 5f,
-                ColorUtils.darken(colorTheme, 0.12f),
-                ColorUtils.darken(colorTheme, 0.08f), false);
+        // Новый стиль: стеклянный эффект с градиентом и свечением
+        // Внешнее свечение
+        RenderUtils.drawRoundedRect(context.getMatrices(), searchX - 1f, searchY - 1f, searchW + 2f, searchH + 2f, 6.5f, 
+                ColorUtils.applyAlpha(colorTheme, 0.2f));
+        
+        // Основной фон с градиентом
+        RenderUtils.drawGradientRect(context.getMatrices(), searchX, searchY, searchW, searchH, 6f,
+                ColorUtils.rgba(25, 25, 32, 230),
+                ColorUtils.rgba(18, 18, 24, 230), false);
+        
+        // Верхняя подсветка
+        int searchHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.15f);
+        RenderUtils.drawGradientRect(context.getMatrices(), searchX + 1f, searchY + 1f, searchW - 2f, searchH * 0.4f, 5f,
+                ColorUtils.applyAlpha(searchHighlight, 0.1f),
+                ColorUtils.applyAlpha(colorTheme, 0.0f), false);
+        
+        // Граница с градиентом
+        RenderUtils.drawRoundedRect(context.getMatrices(), searchX - 0.5f, searchY - 0.5f, searchW + 1f, searchH + 1f, 6.5f, 
+                ColorUtils.applyAlpha(colorTheme, 0.3f));
+        
         if (((shadeColor >> 24) & 0xFF) > 0) {
-            RenderUtils.drawRoundedRect(context.getMatrices(), searchX, searchY, searchW, searchH, 5f, shadeColor);
+            RenderUtils.drawRoundedRect(context.getMatrices(), searchX, searchY, searchW, searchH, 6f, shadeColor);
         }
 
         String query = state.getSearchText();
         String text = query.isEmpty() ? "Search..." : query;
         int textColor = query.isEmpty()
-                ? alpha(ColorUtils.rgba(255, 255, 255, 110), alphaMul)
-                : alpha(ColorUtils.rgba(255, 255, 255, 230), alphaMul);
+                ? alpha(ColorUtils.rgba(255, 255, 255, 130), alphaMul)
+                : alpha(ColorUtils.rgba(255, 255, 255, 245), alphaMul);
 
         float iconX = searchX + ClickGuiLayout.SEARCH_ICON_X;
         float textX = searchX + ClickGuiLayout.SEARCH_TEXT_X;
         float textY = searchY + 6.2f;
-        iconsNew(18).drawGradientStringHorizontal(context.getMatrices(), "l", iconX + 2, searchY + 6.5f, alpha(colorTheme, alphaMul), alpha(colorTheme, alphaMul));
+        
+        // Иконка поиска с градиентом
+        int searchIconHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.3f);
+        iconsNew(18).drawGradientStringHorizontal(context.getMatrices(), "l", iconX + 2, searchY + 6.5f, 
+                alpha(colorTheme, alphaMul), 
+                alpha(searchIconHighlight, alphaMul));
 
         ScissorUtils.push();
         ScissorUtils.setFromComponentCoordinates(
@@ -220,29 +324,51 @@ public class ClickGuiRenderer {
                 searchW - ClickGuiLayout.SEARCH_TEXT_X - ClickGuiLayout.SEARCH_RIGHT_PADDING + selectionPaddingLeft,
                 searchH
         );
+        
+        // Выделение текста с новым стилем
         if (!query.isEmpty() && state.hasSearchSelection()) {
             int selectionStart = state.getSearchSelectionStart();
             int selectionEnd = state.getSearchSelectionEnd();
             float selectedX = textX + issue(14).getWidth(query.substring(0, selectionStart)) - selectionPaddingLeft;
             float selectedW = issue(14).getWidth(query.substring(selectionStart, selectionEnd)) + selectionPaddingLeft + selectionPaddingRight;
-            RenderUtils.drawRoundedRect(context.getMatrices(), selectedX, searchY + 3.8f, selectedW, 10.5f, 1.5f, alpha(ColorUtils.rgba(42, 115, 255, 155), alphaMul));
+            
+            // Свечение выделения
+            RenderUtils.drawRoundedRect(context.getMatrices(), selectedX - 0.5f, searchY + 3.3f, selectedW + 1f, 11.5f, 2f, 
+                    alpha(ColorUtils.applyAlpha(colorTheme, 0.2f), alphaMul));
+            // Основное выделение
+            RenderUtils.drawRoundedRect(context.getMatrices(), selectedX, searchY + 3.8f, selectedW, 10.5f, 1.5f, 
+                    alpha(ColorUtils.applyAlpha(colorTheme, 0.5f), alphaMul));
         }
 
         issue(14).draw(context.getMatrices(), text, textX, textY + 1, textColor);
+        
+        // Курсор с пульсацией
         if (state.isSearchActive() && (System.currentTimeMillis() / 500L) % 2L == 0L) {
             float cursorX = textX + issue(14).getWidth(query.substring(0, Math.min(state.getSearchCursor(), query.length())));
-            RenderUtils.drawRoundedRect(context.getMatrices(), cursorX + 1f, searchY + 4.5f, 0.8f, 9f, 0f, alpha(ColorUtils.applyAlpha(colorTheme, 0.9f), alphaMul));
+            // Свечение курсора
+            RenderUtils.drawRoundedRect(context.getMatrices(), cursorX + 0.5f, searchY + 4f, 1.3f, 9.5f, 0.5f, 
+                    alpha(ColorUtils.applyAlpha(colorTheme, 0.4f), alphaMul));
+            // Основной курсор
+            RenderUtils.drawRoundedRect(context.getMatrices(), cursorX + 1f, searchY + 4.5f, 0.8f, 9f, 0.4f, 
+                    alpha(colorTheme, alphaMul));
         }
         ScissorUtils.pop();
 
-        // Render search results counter
+        // Счетчик результатов с новым стилем
         if (!query.isEmpty()) {
             int totalResults = state.getTotalSearchResults();
             if (totalResults > 0) {
                 String counterText = totalResults + " found";
-                float counterX = searchX + searchW + 8f;
+                float counterX = searchX + searchW + 10f;
                 float counterY = searchY + 6.5f;
-                issue(12).draw(context.getMatrices(), counterText, counterX, counterY, alpha(ColorUtils.rgba(150, 255, 150, 200), alphaMul));
+                
+                // Фон для счетчика
+                float counterWidth = issue(12).getWidth(counterText) + 8f;
+                RenderUtils.drawRoundedRect(context.getMatrices(), counterX - 4f, searchY + 3f, counterWidth, searchH - 6f, 3f,
+                        alpha(ColorUtils.applyAlpha(ColorUtils.rgba(50, 200, 100, 200), 0.3f), alphaMul));
+                
+                issue(12).draw(context.getMatrices(), counterText, counterX, counterY, 
+                        alpha(ColorUtils.rgba(150, 255, 150, 255), alphaMul));
             }
         }
     }

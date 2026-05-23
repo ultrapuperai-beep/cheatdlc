@@ -102,34 +102,51 @@ public class ClickGuiSettingRenderer {
                 getSettingTextKey(booleanSetting)
         );
 
-        // Добавляем тень для переключателя
+        // Новый стиль: многослойное свечение для переключателя
+        // Внешнее свечение
         RenderUtils.drawRoundedRect(
                 context.getMatrices(),
-                panelX + 75,
-                settingY - 1.5f,
-                16,
-                9,
-                3.5f,
-                ColorUtils.rgba(0, 0, 0, (int)(alpha * 0.2f))
+                panelX + 74f,
+                settingY - 3f,
+                18f,
+                11f,
+                4.5f,
+                ColorUtils.rgba((interpolatedColor >> 16) & 255, (interpolatedColor >> 8) & 255, interpolatedColor & 255, (int)(alpha * 0.25f * backgroundProgress))
+        );
+        
+        // Среднее свечение
+        RenderUtils.drawRoundedRect(
+                context.getMatrices(),
+                panelX + 74.5f,
+                settingY - 2.5f,
+                17f,
+                10f,
+                4f,
+                ColorUtils.rgba((interpolatedColor >> 16) & 255, (interpolatedColor >> 8) & 255, interpolatedColor & 255, (int)(alpha * 0.35f * backgroundProgress))
         );
 
-        RenderUtils.drawRoundedRect(
+        // Основной фон с градиентом
+        RenderUtils.drawGradientRect(
                 context.getMatrices(),
                 panelX + 75,
                 settingY - 2,
                 16,
                 9,
                 3.5f,
-                ColorUtils.rgba((interpolatedColor >> 16) & 255, (interpolatedColor >> 8) & 255, interpolatedColor & 255, alpha)
+                ColorUtils.rgba((interpolatedColor >> 16) & 255, (interpolatedColor >> 8) & 255, interpolatedColor & 255, alpha),
+                ColorUtils.darken(ColorUtils.rgba((interpolatedColor >> 16) & 255, (interpolatedColor >> 8) & 255, interpolatedColor & 255, alpha), 0.15f),
+                false
         );
 
         float circleX = panelX + 79.5f + (circleProgress * 6.2f);
-        // Тень для круга
-        RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 3f, 7.5f, ColorUtils.rgba(0, 0, 0, (int)(alpha * 0.15f)));
-        // Внешнее свечение
-        RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 2.5f, 7.5f, ColorUtils.rgba(255, 255, 255, (int)(alpha * 0.3f * backgroundProgress)));
-        // Основной круг
+        // Внешнее свечение круга
+        RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 2.5f, 8.5f, ColorUtils.rgba(255, 255, 255, (int)(alpha * 0.2f * backgroundProgress)));
+        // Среднее свечение
+        RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 2.5f, 7.8f, ColorUtils.rgba(255, 255, 255, (int)(alpha * 0.35f * backgroundProgress)));
+        // Основной круг с градиентом
         RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 2.5f, 7, ColorUtils.rgba(255, 255, 255, alpha));
+        // Внутренняя подсветка
+        RenderUtils.drawRoundCircle(context.getMatrices(), circleX + 0.5f, settingY + 1.8f, 4f, ColorUtils.rgba(255, 255, 255, (int)(alpha * 0.4f)));
     }
 
     private void renderFloatSetting(DrawContext context, float panelX, float settingY, int alpha, int colorTheme, double mouseX, double mouseY, FloatSetting floatSetting, ClickGuiState state) {
@@ -161,18 +178,45 @@ public class ClickGuiSettingRenderer {
 
         issue(12).drawString(context.getMatrices(), valueString, valueX, settingY + 1, ColorUtils.setAlphaColor(colorTheme, alpha));
 
-        int sliderBackgroundColor = ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.2f), alpha);
-        RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.SETTING_LEFT, settingY + 9, ClickGuiLayout.SLIDER_WIDTH, 4.5f, 1.25f, sliderBackgroundColor);
-
-        int sliderFillColor = ColorUtils.setAlphaColor(colorTheme, alpha);
-        RenderUtils.drawRoundedRect(context.getMatrices(), panelX + ClickGuiLayout.SETTING_LEFT, settingY + 9, animatedPos * ClickGuiLayout.SLIDER_WIDTH, 4.5f, 1.25f, sliderFillColor);
+        // Новый стиль: трек слайдера с градиентом и свечением
+        float trackX = panelX + ClickGuiLayout.SETTING_LEFT;
+        float trackY = settingY + 9;
         
-        // Добавляем тень для ручки слайдера
-        float handleX = panelX + ClickGuiLayout.SETTING_LEFT + animatedPos * ClickGuiLayout.SLIDER_WIDTH;
+        // Фон трека с градиентом
+        RenderUtils.drawGradientRect(context.getMatrices(), trackX, trackY, ClickGuiLayout.SLIDER_WIDTH, 4.5f, 1.25f,
+                ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.25f), alpha),
+                ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.3f), alpha), true);
+
+        // Заполненная часть с градиентом и свечением
+        if (animatedPos > 0.01f) {
+            float fillWidth = animatedPos * ClickGuiLayout.SLIDER_WIDTH;
+            // Внешнее свечение заполнения
+            RenderUtils.drawRoundedRect(context.getMatrices(), trackX - 0.5f, trackY - 0.5f, fillWidth + 1f, 5.5f, 1.75f,
+                    ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.3f)));
+            // Основное заполнение с градиентом
+            int fillHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.15f);
+            RenderUtils.drawGradientRect(context.getMatrices(), trackX, trackY, fillWidth, 4.5f, 1.25f,
+                    ColorUtils.setAlphaColor(fillHighlight, alpha),
+                    ColorUtils.setAlphaColor(colorTheme, alpha), true);
+            // Верхняя подсветка
+            int topHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.3f);
+            RenderUtils.drawGradientRect(context.getMatrices(), trackX, trackY, fillWidth, 2f, 1.25f,
+                    ColorUtils.setAlphaColor(topHighlight, (int)(alpha * 0.4f)),
+                    ColorUtils.setAlphaColor(colorTheme, 0), false);
+        }
+        
+        // Ручка слайдера с многослойным свечением
+        float handleX = trackX + animatedPos * ClickGuiLayout.SLIDER_WIDTH;
         float handleY = settingY + 11.25f;
-        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 7.5f, ColorUtils.setAlphaColor(ColorUtils.rgba(0, 0, 0, 60), alpha));
-        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 6.5f, ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.3f)));
-        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 6, ColorUtils.setAlphaColor(-1, alpha));
+        
+        // Внешнее свечение
+        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 9f, ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.25f)));
+        // Среднее свечение
+        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 7.5f, ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.4f)));
+        // Основной круг с градиентом (имитация через два круга)
+        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY, 6.5f, ColorUtils.setAlphaColor(-1, alpha));
+        // Внутренняя подсветка
+        RenderUtils.drawRoundCircle(context.getMatrices(), handleX, handleY - 1f, 3.5f, ColorUtils.setAlphaColor(-1, (int)(alpha * 0.5f)));
     }
 
     private void renderTextSetting(DrawContext context, float panelX, float settingY, int alpha, int colorTheme, double mouseX, double mouseY, TextSetting textSetting, ClickGuiState state) {
@@ -197,10 +241,34 @@ public class ClickGuiSettingRenderer {
                 getSettingTextKey(textSetting)
         );
 
-        int background = ColorUtils.setAlphaColor(editing ? colorTheme : ColorUtils.darken(colorTheme, 0.15f), alpha);
-        int textColor = ColorUtils.setAlphaColor(-1, alpha);
         float boxY = settingY - 2.5f;
-        RenderUtils.drawRoundedRect(context.getMatrices(), boxX, boxY, boxWidth, 9f, 1.5f, background);
+        
+        // Новый стиль: стеклянный эффект для текстового поля
+        if (editing) {
+            // Внешнее свечение при редактировании
+            RenderUtils.drawRoundedRect(context.getMatrices(), boxX - 1f, boxY - 1f, boxWidth + 2f, 11f, 2.5f,
+                    ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.3f)));
+            // Среднее свечение
+            RenderUtils.drawRoundedRect(context.getMatrices(), boxX - 0.5f, boxY - 0.5f, boxWidth + 1f, 10f, 2f,
+                    ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.4f)));
+        }
+        
+        // Основной фон с градиентом
+        int bgColor1 = editing ? ColorUtils.darken(colorTheme, 0.1f) : ColorUtils.darken(colorTheme, 0.2f);
+        int bgColor2 = editing ? ColorUtils.darken(colorTheme, 0.15f) : ColorUtils.darken(colorTheme, 0.25f);
+        RenderUtils.drawGradientRect(context.getMatrices(), boxX, boxY, boxWidth, 9f, 1.5f,
+                ColorUtils.setAlphaColor(bgColor1, alpha),
+                ColorUtils.setAlphaColor(bgColor2, alpha), false);
+        
+        // Верхняя подсветка
+        if (editing) {
+            int textHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.2f);
+            RenderUtils.drawGradientRect(context.getMatrices(), boxX + 1f, boxY + 1f, boxWidth - 2f, 3f, 1f,
+                    ColorUtils.setAlphaColor(textHighlight, (int)(alpha * 0.2f)),
+                    ColorUtils.setAlphaColor(colorTheme, 0), false);
+        }
+        
+        int textColor = ColorUtils.setAlphaColor(-1, alpha);
         ScissorUtils.push();
         ScissorUtils.setFromComponentCoordinates(boxX + 2f, boxY + 1f, boxWidth - 4f, 7f);
         issue(12).drawString(context.getMatrices(), boxText, boxX + 3f, settingY + 1f, textColor);
@@ -229,13 +297,36 @@ public class ClickGuiSettingRenderer {
             animation.update(selected ? 1f : 0f);
             float progress = animation.getValue();
 
+            // Новый стиль: радио-кнопки с многослойным свечением
+            float radioX = panelX + 86;
+            float radioY = modeY + 2;
+            
+            if (selected) {
+                // Внешнее свечение для выбранного
+                RenderUtils.drawRoundCircle(context.getMatrices(), radioX, radioY, 10.5f, 
+                        ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.2f * progress)));
+                // Среднее свечение
+                RenderUtils.drawRoundCircle(context.getMatrices(), radioX, radioY, 9.8f, 
+                        ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.35f * progress)));
+            }
+            
+            // Внешний круг с градиентом
             int outerColor = ColorUtils.setAlphaColor(colorTheme, (int) (alpha * (0.3f + 0.7f * progress)));
-            int innerColor = selected ? ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.4f), alpha) : ColorUtils.rgba(255, 255, 255, alpha);
+            RenderUtils.drawRoundCircle(context.getMatrices(), radioX, radioY, 9f, outerColor);
+            
+            // Внутренний круг
+            int innerColor = selected ? ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.35f), alpha) : ColorUtils.rgba(255, 255, 255, alpha);
+            float innerRadius = (6f - (progress * 2f)) + 3f;
+            RenderUtils.drawRoundCircle(context.getMatrices(), radioX, radioY, innerRadius, innerColor);
+            
+            // Центральная точка для выбранного
+            if (selected && progress > 0.5f) {
+                int centerHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.2f);
+                RenderUtils.drawRoundCircle(context.getMatrices(), radioX, radioY, 3f * progress, 
+                        ColorUtils.setAlphaColor(centerHighlight, (int)(alpha * progress)));
+            }
 
             issue(13).draw(context.getMatrices(), mode, panelX + ClickGuiLayout.SETTING_LEFT, modeY, getSecondarySettingColor(alpha));
-            RenderUtils.drawRoundCircle(context.getMatrices(), panelX + 86, modeY + 2, 9f, outerColor);
-            RenderUtils.drawRoundCircle(context.getMatrices(), panelX + 86, modeY + 2, (6f - (progress * 2f)) + 3f, innerColor);
-
             modeY += 10f;
         }
     }
@@ -266,8 +357,34 @@ public class ClickGuiSettingRenderer {
             animation.update(selected ? 1f : 0f);
             float progress = animation.getValue();
 
+            // Новый стиль: чекбоксы с многослойным свечением
+            float checkX = panelX + 86;
+            float checkY = listY + 2;
+            
+            if (selected) {
+                // Внешнее свечение для выбранного
+                RenderUtils.drawRoundCircle(context.getMatrices(), checkX, checkY, 10.5f, 
+                        ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.2f * progress)));
+                // Среднее свечение
+                RenderUtils.drawRoundCircle(context.getMatrices(), checkX, checkY, 9.8f, 
+                        ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.35f * progress)));
+            }
+            
+            // Внешний круг с градиентом
             int outerColor = ColorUtils.setAlphaColor(colorTheme, (int) (alpha * (0.3f + 0.7f * progress)));
-            int innerColor = selected ? ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.4f), alpha) : ColorUtils.rgba(255, 255, 255, alpha);
+            RenderUtils.drawRoundCircle(context.getMatrices(), checkX, checkY, 9, outerColor);
+            
+            // Внутренний круг
+            int innerColor = selected ? ColorUtils.setAlphaColor(ColorUtils.darken(colorTheme, 0.35f), alpha) : ColorUtils.rgba(255, 255, 255, alpha);
+            float innerRadius = (6f - (progress * 2f)) + 3f;
+            RenderUtils.drawRoundCircle(context.getMatrices(), checkX, checkY, innerRadius, innerColor);
+            
+            // Галочка для выбранного
+            if (selected && progress > 0.6f) {
+                int checkHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.25f);
+                RenderUtils.drawRoundCircle(context.getMatrices(), checkX, checkY, 3.5f * progress, 
+                        ColorUtils.setAlphaColor(checkHighlight, (int)(alpha * progress)));
+            }
 
             drawStringWithHoverScroll(
                     issue(13),
@@ -282,8 +399,6 @@ public class ClickGuiSettingRenderer {
                     state,
                     getListKey(listSetting, entry) + "_text"
             );
-            RenderUtils.drawRoundCircle(context.getMatrices(), panelX + 86, listY + 2, 9, outerColor);
-            RenderUtils.drawRoundCircle(context.getMatrices(), panelX + 86, listY + 2, (6f - (progress * 2f)) + 3f, innerColor);
 
             listY += 10f;
         }
@@ -299,15 +414,36 @@ public class ClickGuiSettingRenderer {
         float bindTextWidth = issue(12).getWidth(bindString);
         float bindWidth = bindTextWidth + 6f;
         float bindX = panelX + ClickGuiLayout.SETTING_RIGHT - bindWidth;
+        float bindY = settingY - 2.5f;
 
-        int bindBackgroundColor = ColorUtils.setAlphaColor(
-                ColorUtils.interpolateColor(ColorUtils.darken(colorTheme, 0.15f), colorTheme, progress),
-                alpha
-        );
+        // Новый стиль: кнопка бинда с градиентом и свечением
+        int baseColor = ColorUtils.interpolateColor(ColorUtils.darken(colorTheme, 0.2f), colorTheme, progress);
+        
+        if (binding) {
+            // Внешнее свечение при привязке
+            RenderUtils.drawRoundedRect(context.getMatrices(), bindX - 1f, bindY - 1f, bindWidth + 2f, 11f, 2.5f,
+                    ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.3f * progress)));
+            // Среднее свечение
+            RenderUtils.drawRoundedRect(context.getMatrices(), bindX - 0.5f, bindY - 0.5f, bindWidth + 1f, 10f, 2f,
+                    ColorUtils.setAlphaColor(colorTheme, (int)(alpha * 0.4f * progress)));
+        }
+        
+        // Основной фон с градиентом
+        RenderUtils.drawGradientRect(context.getMatrices(), bindX, bindY, bindWidth, 9, 1.5f,
+                ColorUtils.setAlphaColor(baseColor, alpha),
+                ColorUtils.setAlphaColor(ColorUtils.darken(baseColor, 0.15f), alpha), false);
+        
+        // Верхняя подсветка
+        if (binding) {
+            int bindHighlight = ColorUtils.interpolateColor(colorTheme, ColorUtils.rgba(255, 255, 255, 255), 0.2f);
+            RenderUtils.drawGradientRect(context.getMatrices(), bindX + 1f, bindY + 1f, bindWidth - 2f, 3f, 1f,
+                    ColorUtils.setAlphaColor(bindHighlight, (int)(alpha * 0.3f * progress)),
+                    ColorUtils.setAlphaColor(colorTheme, 0), false);
+        }
+        
         int bindTextColor = ColorUtils.setAlphaColor(ColorUtils.interpolateColor(ColorUtils.rgb(140, 139, 145), -1, progress), alpha);
-
-        RenderUtils.drawRoundedRect(context.getMatrices(), bindX, settingY - 2.5f, bindWidth, 9, 1.5f, bindBackgroundColor);
         issue(12).drawString(context.getMatrices(), bindString, bindX + 3, settingY + 1, bindTextColor);
+        
         drawStringWithHoverScroll(
                 issue(12),
                 context.getMatrices(),

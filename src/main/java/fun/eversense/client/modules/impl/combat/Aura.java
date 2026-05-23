@@ -449,8 +449,8 @@ public class Aura extends Module {
                         Vec3d rotationVector = target.getRotationVector();
                         Vec3d relativePos = target.getPos().add(0, target.getHeight() * 0.6f, 0).subtract(mc.player.getEyePos());
                         Vec3d blendedDirection = interpolatedRotation.normalize().lerp(rotationVector, interpolatedRotation.length());
-                        if (mc.player.isGliding() && target.isGliding() && ModuleClass.elytraTarget.isEnable()) {
-                            relativePos = relativePos.add(blendedDirection.normalize().multiply(ModuleClass.elytraTarget.forward.getValue().floatValue()));
+                        if (mc.player.isGliding() && target.isGliding() && ModuleClass.forward.isEnable()) {
+                            relativePos = relativePos.add(blendedDirection.normalize().multiply(ModuleClass.forward.forward.getValue().floatValue()));
                         }
                         final float yaw = (float) wrapDegrees(Math.toDegrees(Math.atan2(relativePos.z, relativePos.x)) - 90);
                         float pitch = (float) (-Math.toDegrees(Math.atan2(relativePos.y, Math.hypot(relativePos.x, relativePos.z))));
@@ -709,8 +709,8 @@ public class Aura extends Module {
                 && target != null
                 && mc.player.isGliding()
                 && target.isGliding()
-                && ModuleClass.elytraTarget != null
-                && ModuleClass.elytraTarget.isEnable()) {
+                && ModuleClass.forward != null
+                && ModuleClass.forward.isEnable()) {
             return PredictUtils.bypasselytrahacking(target);
         }
         return point;
@@ -1053,8 +1053,8 @@ public class Aura extends Module {
         if (mc.player.isGliding() && target.isGliding()) {
             Vec3d targetPos = target.getPos().add(0, target.getHeight() / 2.0, 0);
             int predict = 0;
-            if (ModuleClass.elytraTarget != null && ModuleClass.elytraTarget.isEnable()) {
-                predict = ModuleClass.elytraTarget.forward.getValue().intValue();
+            if (ModuleClass.forward != null && ModuleClass.forward.isEnable()) {
+                predict = ModuleClass.forward.forward.getValue().intValue();
             }
             Vec3d predictedPos = PredictUtils.predict(target, targetPos, predict);
             if (mc.player.getEyePos().distanceTo(predictedPos) > 5) return false;

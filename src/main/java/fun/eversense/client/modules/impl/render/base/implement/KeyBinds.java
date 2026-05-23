@@ -70,95 +70,9 @@ public class KeyBinds extends InterfaceProcessing {
 
     @Override
     public void onRender(EventRender.Default eventRender) {
-        if (ModuleClass.interfaceModule.style.is("Обычный")) DefaultStyle(eventRender);
-        else if (ModuleClass.interfaceModule.style.is("New")) NewStyle(eventRender);
+        if (ModuleClass.interfaceModule.style.is("New")) NewStyle(eventRender);
         else WaveStyle(eventRender);
         super.onRender(eventRender);
-    }
-
-    public void DefaultStyle(EventRender.Default eventRender) {
-        float baseX = draggable.getX(), y = draggable.getY();
-        int colorTheme;
-        if (!eversense.INSTANCE.themeStorage.getThemes().getTheme().getName().equals("Rainbow")) {
-            colorTheme = eversense.INSTANCE.themeStorage.getThemes().getTheme().color[0];
-        } else {
-            colorTheme = ColorUtils.getThemeColor();
-        }
-        int staticAccentColor = getStaticThemeColor();
-
-        float targetWidth = 64;
-        float targetHeight = 16;
-        int visibleCount = 0;
-
-        for (Module module : ModuleClass.INSTANCE.getObject()) {
-            if (module.getKey() != -1) {
-                AnimationUtils anim = getAnimation(module);
-                anim.update(module.isEnable() ? 1 : 0);
-            }
-        }
-
-        for (Module module : ModuleClass.INSTANCE.getObject()) {
-            if (module.getKey() != -1) {
-                AnimationUtils anim = getAnimation(module);
-                float animValue = anim.getValue();
-
-                if (animValue > 0.01f) {
-                    visibleCount++;
-                    String keyName = toEnglish(KeyBoardUtils.getKeyName(module.getKey()));
-                    float keyWidth = issue(10).getWidth(keyName);
-                    float moduleWidth = issue(12).getWidth(module.getDisplayName()) + keyWidth + 25;
-                    if (moduleWidth > targetWidth) targetWidth = moduleWidth;
-                    targetHeight += 12 * animValue;
-                }
-            }
-        }
-
-        if (visibleCount > 0) targetHeight += 2;
-
-        widthAnimation.update(targetWidth);
-        float width = widthAnimation.getValue() + 7;
-        float height = targetHeight;
-        float rightEdge = baseX + 60;
-        float x = rightEdge - width;
-
-        RenderUtils.drawDefaultHudElementRects(eventRender.getContext().getMatrices(), x, y, width, height, colorTheme, isUnusualRectType());
-        issue(14).draw(eventRender.getContext().getMatrices(), "Binds", x + 5, y + 6f, -1);
-        icon(13).draw(eventRender.getContext().getMatrices(), "f", rightEdge - 13f, y + 7.5f, colorTheme);
-
-        float offsetY = 18;
-        for (Module module : ModuleClass.INSTANCE.getObject()) {
-            if (module.getKey() != -1) {
-                AnimationUtils anim = getAnimation(module);
-                float animValue = anim.getValue();
-
-                if (animValue > 0.01f) {
-                    ScissorUtils.push();
-                    ScissorUtils.setFromComponentCoordinates(x, y, width, height);
-                    String keyName = toEnglish(KeyBoardUtils.getBindName(module.getKey()));
-                    float keyBoxWidth = Math.max(issue(10).getWidth(keyName) + 4, 9f);
-
-                    int alpha = (int) (255 * animValue);
-                    int textColor = ColorUtils.rgba(255, 255, 255, alpha);
-                    int accentColor = ColorUtils.setAlphaColor(getStableThemeColor(), alpha);
-                    int grayColor = ColorUtils.rgba(55, 55, 55, alpha);
-                    int darkColor = ColorUtils.rgba(35, 35, 35, alpha);
-
-                    issue(12).draw(eventRender.getContext().getMatrices(), module.getDisplayName(), x + 12, y + 2 + offsetY, textColor);
-                    RenderUtils.drawRoundedRect(eventRender.getContext().getMatrices(), x + 5.2f, y + offsetY + 0.3f, 2.55f, 5.7f, 0.15f, accentColor);
-
-                    float keyBoxX = rightEdge - keyBoxWidth - 5;
-                    RenderUtils.drawDefaultHudInfoBox(eventRender.getContext().getMatrices(), keyBoxX, y + offsetY, keyBoxWidth, grayColor, darkColor);
-                    issue(10).drawCenteredString(eventRender.getContext().getMatrices(), keyName, keyBoxX + keyBoxWidth / 2, y + offsetY + 2.8f, textColor);
-
-                    offsetY += 12 * animValue;
-                    ScissorUtils.pop();
-                    ScissorUtils.unset();
-                }
-            }
-        }
-
-        draggable.setWidth(60);
-        draggable.setHeight(height);
     }
 
     public void NewStyle(EventRender.Default eventRender) {

@@ -1,7 +1,7 @@
 {
-	"passive_mobs": true,
-	"hostile_mobs": true,
-	"players": true,
+	"passive_mobs": false,
+	"hostile_mobs": false,
+	"players": false,
 	"self": false,
 	"blacklistOrWhitelist": true,
 	"list": [

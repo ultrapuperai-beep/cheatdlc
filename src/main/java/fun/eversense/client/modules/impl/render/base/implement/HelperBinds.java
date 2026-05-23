@@ -42,8 +42,8 @@ public class HelperBinds extends InterfaceProcessing {
             return;
         }
 
-        if (ModuleClass.interfaceModule.style.is("Обычный")) {
-            DefaultStyle(eventRender, binds);
+        if (ModuleClass.interfaceModule.style.is("New")) {
+            NewStyle(eventRender, binds);
         } else {
             WaveStyle(eventRender, binds);
         }
@@ -69,35 +69,49 @@ public class HelperBinds extends InterfaceProcessing {
         return binds;
     }
 
-    private void DefaultStyle(EventRender.Default eventRender, List<ServerHelper.HelperBind> binds) {
+    private void NewStyle(EventRender.Default eventRender, List<ServerHelper.HelperBind> binds) {
         MatrixStack matrices = eventRender.getContext().getMatrices();
         float x = draggable.getX();
         float y = draggable.getY();
-        int colorTheme = getThemeColor();
-
-        int fontSize = 13;
-        Font keyFont = issue(fontSize);
-        float height = 19.0f;
-        float itemSize = 9.8f;
-        float itemScale = 0.61f;
-        float fontGap = 2.8f;
-        float cellGap = 5.0f;
-        float sidePadding = 6.0f;
-        float width = getCompactWidth(binds, keyFont, itemSize, fontGap, cellGap, sidePadding, 60.0f);
+        
+        // Получаем цвет темы
+        int themeColor;
+        if (!eversense.INSTANCE.themeStorage.getThemes().getTheme().getName().equals("Rainbow")) {
+            themeColor = eversense.INSTANCE.themeStorage.getThemes().getTheme().color[0];
+        } else {
+            themeColor = ColorUtils.getThemeColor();
+        }
+        
+        int whiteColor = ColorUtils.rgba(255, 255, 255, 255);
+        int grayBgColor = ColorUtils.rgba(35, 37, 40, 100);
+        int blackBgColor = ColorUtils.rgba(0, 0, 0, 180);
+        
+        Font keyFont = issue(13);
+        float height = 20.0f;
+        float itemSize = 10.0f;
+        float itemScale = 0.63f;
+        float fontGap = 3.0f;
+        float cellGap = 5.5f;
+        float sidePadding = 7.0f;
+        float width = getCompactWidth(binds, keyFont, itemSize, fontGap, cellGap, sidePadding, 70.0f);
 
         widthAnimation.update(width);
         float animatedWidth = widthAnimation.getValue();
 
-        drawDefaultPanel(matrices, x, y, animatedWidth, height, colorTheme);
+        // Рисуем общий фон (черный) - с закруглениями
+        RenderUtils.drawRoundedRect(matrices, x, y, animatedWidth, height, 3f, blackBgColor);
+        
+        // Рисуем заголовок (серый фон) - с закруглениями сверху
+        RenderUtils.drawRoundedRect(matrices, x, y, animatedWidth, height, 3f, grayBgColor);
 
         if (binds.isEmpty()) {
-            issue(12).draw(matrices, "Helper", x + 5.0f, y + 6.0f, ColorUtils.rgba(255, 255, 255, 230));
+            issue(13).draw(matrices, "Helper", x + 6.0f, y + 7.0f, whiteColor);
             draggable.setWidth(animatedWidth);
             draggable.setHeight(height);
             return;
         }
 
-        drawCompactBinds(eventRender.getContext(), binds, keyFont, x, y, height, itemSize, itemScale, fontGap, cellGap, sidePadding, 8.2f);
+        drawCompactBinds(eventRender.getContext(), binds, keyFont, x, y, height, itemSize, itemScale, fontGap, cellGap, sidePadding, 7.5f);
 
         draggable.setWidth(animatedWidth);
         draggable.setHeight(height);
@@ -198,13 +212,6 @@ public class HelperBinds extends InterfaceProcessing {
         matrices.pop();
         RenderSystem.depthMask(false);
         RenderSystem.disableDepthTest();
-    }
-
-    private void drawDefaultPanel(MatrixStack matrices, float x, float y, float width, float height, int colorTheme) {
-        RenderUtils.drawDefaultHudThemedPanel(matrices, x, y, width, height, 3.0f, 3.5f, colorTheme);
-        if (isUnusualRectType()) {
-            RenderUtils.drawHudSquarePattern(matrices, x, y, width, height, colorTheme);
-        }
     }
 
     private int getThemeColor() {

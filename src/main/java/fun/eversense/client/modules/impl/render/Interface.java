@@ -68,7 +68,7 @@ public class Interface extends Module {
     private final AnimationUtils hudRectTypeSwitchAnimation = new AnimationUtils(1f, 7.0f, Easings.CUBIC_OUT);
     private static final String HUD_HINT_TEXT = "ПКМ - по элементу для открытия настроек";
 
-    public ModeSetting style = new ModeSetting("Стиль", "Wave", "Wave", "Обычный", "New");
+    public ModeSetting style = new ModeSetting("Стиль", "Wave", "Wave", "New");
 
     private final ListSetting hudModules = new ListSetting("Элементы",
             new BooleanSetting("Ватермарка", true),

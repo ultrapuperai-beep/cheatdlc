@@ -103,8 +103,8 @@ public class GazanRotation extends RotationsSystem implements QClient {
                 Vec3d relativePos = target.getPos().add(0, target.getHeight() * 0.6f, 0).subtract(mc.player.getEyePos());
                 Vec3d blendedDirection = interpolatedRotation.normalize().lerp(rotationVector, interpolatedRotation.length());
 
-                if (ModuleClass.elytraTarget != null && ModuleClass.elytraTarget.isEnable()) {
-                    relativePos = relativePos.add(blendedDirection.normalize().multiply(ModuleClass.elytraTarget.forward.getValue().floatValue()));
+                if (ModuleClass.forward != null && ModuleClass.forward.isEnable()) {
+                    relativePos = relativePos.add(blendedDirection.normalize().multiply(ModuleClass.forward.forward.getValue().floatValue()));
                 }
 
                 targetPoint = mc.player.getEyePos().add(relativePos);

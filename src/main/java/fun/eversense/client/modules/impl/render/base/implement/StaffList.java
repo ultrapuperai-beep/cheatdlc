@@ -113,9 +113,7 @@ public class StaffList extends InterfaceProcessing {
 
         updateAnimations();
 
-        if (ModuleClass.interfaceModule.style.is("Обычный")) {
-            renderDefaultStyle(eventRender);
-        } else if (ModuleClass.interfaceModule.style.is("New")) {
+        if (ModuleClass.interfaceModule.style.is("New")) {
             renderNewStyle(eventRender);
         } else {
             renderWaveStyle(eventRender);
@@ -354,92 +352,6 @@ public class StaffList extends InterfaceProcessing {
 
     private float getStatusBoxWidth(String status) {
         return 12f;
-    }
-
-    private void renderDefaultStyle(EventRender.Default eventRender) {
-        float x = draggable.getX();
-        float y = draggable.getY();
-        MatrixStack matrices = eventRender.getContext().getMatrices();
-
-        int colorTheme;
-        if (!eversense.INSTANCE.themeStorage.getThemes().getTheme().getName().equals("Rainbow")) {
-            colorTheme = eversense.INSTANCE.themeStorage.getThemes().getTheme().color[0];
-        } else {
-            colorTheme = ColorUtils.getThemeColor();
-        }
-
-        List<String> visiblePlayers = getVisiblePlayers();
-
-        float maxWidth = 60f;
-        float headerHeight = 16f;
-        float itemHeight = 12f;
-        float padding = 5f;
-        float statusPadding = 4f;
-
-        for (String playerName : visiblePlayers) {
-            StaffData data = staffDataCache.get(playerName);
-            if (data != null) {
-                float statusBoxW = getStatusBoxWidth(data.status);
-                float totalW = padding + data.prefixWidth12 + data.nameWidth12 + statusPadding + statusBoxW + padding;
-                if (totalW > maxWidth) {
-                    maxWidth = totalW;
-                }
-            }
-        }
-
-        widthAnimation.update(maxWidth);
-        float width = widthAnimation.getValue();
-
-        float contentHeight = 0f;
-        for (String playerName : visiblePlayers) {
-            contentHeight += itemHeight * staffAnimations.getOrDefault(playerName, 0f);
-        }
-
-        float targetHeight = visiblePlayers.isEmpty() ? headerHeight : headerHeight + contentHeight + 2;
-        staffAnimatedHeight += (targetHeight - staffAnimatedHeight) * 0.12f;
-        float height = staffAnimatedHeight;
-
-        RenderUtils.drawDefaultHudElementRects(matrices, x, y, width, height, colorTheme, isUnusualRectType());
-
-        font14.draw(matrices, "Staff", x + 5, y + 6f, -1);
-        iconFont.draw(matrices, "y", x + width - 13f, y + 7.5f, colorTheme);
-
-        float offsetY = 18;
-        ScissorUtils.push();
-        ScissorUtils.setFromComponentCoordinates(x, y, width, height);
-        for (String playerName : visiblePlayers) {
-            float anim = staffAnimations.getOrDefault(playerName, 0f);
-            if (anim <= 0.01f) continue;
-
-            StaffData data = staffDataCache.get(playerName);
-            if (data == null) continue;
-
-            int alpha = (int) (255 * anim);
-            float yOffset = -5 * (1 - anim);
-
-            float currentX = x + padding;
-            for (int i = 0; i < data.segments.size(); i++) {
-                PrefixSegment seg = data.segments.get(i);
-                int color = ColorUtils.setAlphaColor(seg.color, alpha);
-                font12.draw(matrices, seg.text, currentX, y + offsetY + 2 + yOffset, color);
-                currentX += seg.width12;
-            }
-
-            font12.draw(matrices, playerName, currentX, y + offsetY + 2 + yOffset, ColorUtils.rgba(255, 255, 255, alpha));
-
-            float statusBoxWidth = getStatusBoxWidth(data.status);
-            float statusBoxX = x + width - statusBoxWidth - padding;
-            float statusBoxY = y + offsetY + 1.0f + yOffset;
-            int statusRectColor = ColorUtils.setAlphaColor(getStatusColor(data.status), alpha);
-            RenderUtils.drawRoundedRect(matrices, statusBoxX + 4, statusBoxY + 1.5f, statusBoxWidth - 4.5f, 3.45f, 0.55f, statusRectColor);
-
-            offsetY += itemHeight * anim;
-        }
-        ScissorUtils.pop();
-        ScissorUtils.unset();
-
-        draggable.setWidth(width);
-        draggable.setHeight(height);
     }
 
     private void renderNewStyle(EventRender.Default eventRender) {

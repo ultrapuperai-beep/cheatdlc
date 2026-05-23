@@ -46,7 +46,7 @@ public interface ModuleRewords {
     ElytraBoost elytraBoost = ElytraBoost.INSTANCE;
     ElytraMotion elytraMotion = ElytraMotion.INSTANCE;
     ElytraSwap elytraSwap = ElytraSwap.INSTANCE;
-    ElytraTarget elytraTarget = ElytraTarget.INSTANCE;
+    Forward forward = Forward.INSTANCE;
     ElytraResolver elytraresolver = ElytraResolver.INSTANCE;
     EntityESP entityESP = EntityESP.INSTANCE;
     Flight flight = Flight.INSTANCE;

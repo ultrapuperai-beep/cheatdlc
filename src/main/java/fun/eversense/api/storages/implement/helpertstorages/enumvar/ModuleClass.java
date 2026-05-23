@@ -50,7 +50,7 @@ public class ModuleClass extends GlobalObject<Module> implements ModuleRewords {
                 elytraBoost,
                 elytraMotion,
                 elytraSwap,
-                elytraTarget,
+                forward,
                 elytraresolver,
                 entityESP,
                 fireworkESP,

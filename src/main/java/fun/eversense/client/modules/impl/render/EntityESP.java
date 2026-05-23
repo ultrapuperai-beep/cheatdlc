@@ -405,10 +405,14 @@ public class EntityESP extends Module {
 
     private void drawLivingTag(EventRender.Default event, LivingEntity entity, ScreenRect rect, Font font) {
         MatrixStack matrices = event.getContext().getMatrices();
-        String nameText = entity instanceof PlayerEntity player
-                ? getProtectedName(player.getDisplayName().getString())
-                : entity.getDisplayName().getString();
-        String hpText = Math.round(ScoreboardHP.getHealthWithAbsorption(entity)) + " hp";
+        String nameText;
+        if (entity instanceof PlayerEntity player) {
+            nameText = getProtectedName(player.getNameForScoreboard());
+        } else {
+            nameText = entity.getDisplayName().getString();
+        }
+        float hp = ScoreboardHP.getHealthWithAbsorption(entity);
+        String hpText = Math.round(hp) + " hp";
         float totalWidth = font.getStringWidth(nameText) + font.getStringWidth(" ") + font.getStringWidth(hpText);
         float boxHeight = TAG_FONT_SIZE + 1.0f;
         float x = rect.centerX() - totalWidth * 0.5f;

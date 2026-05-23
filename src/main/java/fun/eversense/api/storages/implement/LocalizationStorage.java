@@ -49,7 +49,7 @@ public class LocalizationStorage {
         add("NoVignette", "No Vignette", "Без віньєтки");
         add("Aura", "Aura", "Аура");
         add("ElytraBoost", "Elytra Boost", "Елітра буст");
-        add("ElytraTarget", "Elytra Target", "Таргет елітри");
+        add("Forward", "Forward", "Форвард");
         add("FullBright", "Full Bright", "Повна яскравість");
         add("ElytraSwap", "Elytra Swap", "Свап елітр");
         add("PlayerFakeLags", "Fake Lag", "Фейк лаг");
@@ -120,7 +120,6 @@ public class LocalizationStorage {
         add("Сессия", "Session", "Сесія");
         add("КейСтроки", "Key Strokes", "Кейстроки");
         add("Информация", "Information", "Інформація");
-        add("Обычный", "Default", "Звичайний");
         add("Красивый", "Fancy", "Гарний");
         add("Шейдер", "Shader", "Шейдер");
         add("Нитки", "Threads", "Нитки");

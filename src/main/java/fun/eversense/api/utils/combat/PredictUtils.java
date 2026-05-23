@@ -182,7 +182,7 @@ public class PredictUtils implements QClient {
         Vec3d rotationVector = target.getRotationVector();
         Vec3d relativePos = target.getPos().add(0, target.getHeight() * 0.6f, 0).subtract(mc.player.getEyePos());
         Vec3d blendedDirection = interpolatedRotation.normalize().lerp(rotationVector, interpolatedRotation.length());
-        return relativePos.add(blendedDirection.normalize().multiply(ModuleClass.elytraTarget.forward.getValue().floatValue()));
+        return relativePos.add(blendedDirection.normalize().multiply(ModuleClass.forward.forward.getValue().floatValue()));
     }
 
     public static void cleanup() {

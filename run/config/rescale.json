@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "preset": "R_16_9",
+  "preset": "R_16_10",
   "customRatio": 1.333,
   "viewModel": {
     "enabled": true,
