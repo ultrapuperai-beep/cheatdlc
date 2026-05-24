@@ -1,8 +1,6 @@
 package fun.eversense.client.modules.impl.movement;
 
 
-import fun.eversense.api.events.EventLink;
-import fun.eversense.api.events.implement.EventUpdate;
 import fun.eversense.client.modules.Module;
 import fun.eversense.client.modules.settings.implement.FloatSetting;
 
@@ -10,21 +8,10 @@ public class Timer extends Module {
 
     public static Timer INSTANCE = new Timer();
 
-    public FloatSetting speed = new FloatSetting("Скорость", 2.0f, 0.1f, 10.0f, 0.1f);
+    public FloatSetting speed = new FloatSetting("Скорость", 1.0f, 1.0f, 2.0f, 0.01f);
 
     public Timer() {
         super("Timer", "Ускоряет время в игре", ModuleCategory.MOVEMENT);
         addSettings(speed);
-    }
-
-    @EventLink
-    public void onUpdate(EventUpdate event) {
-        mc.player.speed = speed.getValue().floatValue();
-    }
-
-    @Override
-    public void onDisable() {
-        super.onDisable();
-        mc.player.speed = 1.0f;
     }
 }

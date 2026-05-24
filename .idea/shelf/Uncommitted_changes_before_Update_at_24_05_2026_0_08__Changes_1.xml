@@ -1,0 +1,864 @@
+<changelist name="Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1" date="1779570513999" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 24.05.2026 0:08 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/reeses-sodium-options-1.8.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/reeses-sodium-options-1.8.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/reeses-sodium-options-1.8.3+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/fabric-permissions-api-v0-0.3.3-82369eda3a4fc310.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/fabric-permissions-api-v0-0.3.3-82369eda3a4fc310.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fabric-permissions-api-v0-0.3.3-82369eda3a4fc310.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/fabric-language-kotlin-1.13.11+ktlin.2.3.21-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/fabric-language-kotlin-1.13.11+ktlin.2.3.21-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fabric-language-kotlin-1.13.11+ktlin.2.3.21-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/betterpingdisplay-1.1.1-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/betterpingdisplay-1.1.1-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/betterpingdisplay-1.1.1-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jctools_jctools-core-4.0.5-f7afd09107eaaa7c.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jctools_jctools-core-4.0.5-f7afd09107eaaa7c.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jctools_jctools-core-4.0.5-f7afd09107eaaa7c.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/owo-0.12.20+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/owo-0.12.20+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/owo-0.12.20+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunk-serializer-00.44+1.21.4-97c50fde8f553f6f.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunk-serializer-00.44+1.21.4-97c50fde8f553f6f.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-rewrites-chunk-serializer-00.44+1.21.4-97c50fde8f553f6f.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/debug-2.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/debug-2.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/debug-2.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/crosshairaddons-2.1.0-1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/crosshairaddons-2.1.0-1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/crosshairaddons-2.1.0-1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/cloth-config-17.0.144-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/cloth-config-17.0.144-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/cloth-config-17.0.144-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/debug-5.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/debug-5.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/debug-5.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-chunkio-0.3.2+alpha.0.44+1.21.4-6f7f61f0ce8b7b71.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-chunkio-0.3.2+alpha.0.44+1.21.4-6f7f61f0ce8b7b71.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-chunkio-0.3.2+alpha.0.44+1.21.4-6f7f61f0ce8b7b71.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/ukulib-1.6.0+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/ukulib-1.6.0+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/ukulib-1.6.0+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/geckolib-4.8.5-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/geckolib-4.8.5-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/geckolib-4.8.5-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/nodeathanimation-2.0.0-1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/nodeathanimation-2.0.0-1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/nodeathanimation-2.0.0-1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/ferritecore-7.1.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/ferritecore-7.1.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/ferritecore-7.1.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/viafabricplus-4.0.5-BACKPORT-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/viafabricplus-4.0.5-BACKPORT-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/viafabricplus-4.0.5-BACKPORT-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_common_common-lang-3.12.0-6be701ca605fcfc7.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.3.21-22d5ce7042f68dc0.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk7-2.3.21-22d5ce7042f68dc0.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlin_kotlin-stdljdk7-2.3.21-22d5ce7042f68dc0.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.-1.0.bcr" />
+    <option name="AFTER_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.-1.0.bcr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/r.-1.0.bcr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_wispforest_endec_netty-0.1.5-d297cd5f750cb5d5.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_wispforest_endec_netty-0.1.5-d297cd5f750cb5d5.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_wispforest_endec_netty-0.1.5-d297cd5f750cb5d5.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.0.0.bcr" />
+    <option name="AFTER_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.0.0.bcr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/r.0.0.bcr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-server-utils-0.3.2+alpha.0.44+1.21.4-e3a2bf695a22d6bd.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-server-utils-0.3.2+alpha.0.44+1.21.4-e3a2bf695a22d6bd.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-server-utils-0.3.2+alpha.0.44+1.21.4-e3a2bf695a22d6bd.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/tmp/compileJava/previous-compilation-data.bin" />
+    <option name="AFTER_PATH" value="build/tmp/compileJava/previous-compilation-data.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/previous-compilation-data.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/fabric-api-0.119.4+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/fabric-api-0.119.4+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fabric-api-0.119.4+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_raphimc_vialegacy-3.0.10-20226.140714-8-1cefa5eed309712e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_raphimc_vialegacy-3.0.10-20226.140714-8-1cefa5eed309712e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_raphimc_vialegacy-3.0.10-20226.140714-8-1cefa5eed309712e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_wispforest_endec-0.1.9-fd5452b4437ae3cc.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_wispforest_endec-0.1.9-fd5452b4437ae3cc.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_wispforest_endec-0.1.9-fd5452b4437ae3cc.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.8-24e07474fe6d000e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_reactivex_rxjava3_rxjava-3.1.8-24e07474fe6d000e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_reactivex_rxjava3_rxjava-3.1.8-24e07474fe6d000e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/team_unnamed_mocha-3.0.1-51f694f92fdbd0ee.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/team_unnamed_mocha-3.0.1-51f694f92fdbd0ee.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/team_unnamed_mocha-3.0.1-51f694f92fdbd0ee.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/effecttimerplus-2.2.7+1.21.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/effecttimerplus-2.2.7+1.21.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/effecttimerplus-2.2.7+1.21.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-api-0.12.6-7cbeb7e7f206e1e5.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-api-0.12.6-7cbeb7e7f206e1e5.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_jsonwebtoken_jjwt-api-0.12.6-7cbeb7e7f206e1e5.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/fileHashes/resourceHashesCache.bin" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/fileHashes/resourceHashesCache.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/resourceHashesCache.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/buildOutputCleanup.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/puzzleslib-21.4.14-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/puzzleslib-21.4.14-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/puzzleslib-21.4.14-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_teamresourceful_bytecodecs-1.1.2-aa18922675b692bb.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_teamresourceful_bytecodecs-1.1.2-aa18922675b692bb.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_teamresourceful_bytecodecs-1.1.2-aa18922675b692bb.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/healthindicators-21.2.2-beta-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/healthindicators-21.2.2-beta-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/healthindicators-21.2.2-beta-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.-1.-1.bcr" />
+    <option name="AFTER_PATH" value="run/baritone/mc.wellmine.su/minecraft/overworld_384/cache/r.-1.-1.bcr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/r.-1.-1.bcr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/architectury-15.0.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/architectury-15.0.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/architectury-15.0.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunk-system-0.3.20.44+1.21.4-bb455876f81ba66e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunk-system-0.3.20.44+1.21.4-bb455876f81ba66e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-rewrites-chunk-system-0.3.20.44+1.21.4-bb455876f81ba66e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/mixinsquared-0.2.0-928210a9dd2fedd4.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/mixinsquared-0.2.0-928210a9dd2fedd4.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/mixinsquared-0.2.0-928210a9dd2fedd4.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-impl-0.12.6-861e996fe25b1918.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-impl-0.12.6-861e996fe25b1918.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_jsonwebtoken_jjwt-impl-0.12.6-861e996fe25b1918.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/vmp-0.2.0+beta.7.192+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/vmp-0.2.0+beta.7.192+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/vmp-0.2.0+beta.7.192+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/betterhurtcam-1.10.0+mc1.21.2-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/betterhurtcam-1.10.0+mc1.21.2-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/betterhurtcam-1.10.0+mc1.21.2-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.32.1-5343c4f6a84ba732.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_atomicfu-jvm-0.32.1-5343c4f6a84ba732.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_atomicfu-jvm-0.32.1-5343c4f6a84ba732.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-scheduling-0.3.2+alpha0.44+1.21.4-91d7e5e112717709.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-scheduling-0.3.2+alpha0.44+1.21.4-91d7e5e112717709.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-scheduling-0.3.2+alpha0.44+1.21.4-91d7e5e112717709.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/viafabricplus-visuals-4.0.5-BACKPORT-bc32cc8fc8cdf077.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/viafabricplus-visuals-4.0.5-BACKPORT-bc32cc8fc8cdf077.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/viafabricplus-visuals-4.0.5-BACKPORT-bc32cc8fc8cdf077.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/enhancedblockentities-0.11.3+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/enhancedblockentities-0.11.3+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/enhancedblockentities-0.11.3+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-natives-math-0.3.2+alpa.0.44+1.21.4-e50735e56502ca.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-natives-math-0.3.2+alpa.0.44+1.21.4-e50735e56502ca.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-natives-math-0.3.2+alpa.0.44+1.21.4-e50735e56502ca.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_cloudburstmc_netty_netty-traR3-SNAPSHOT-ab281775cc67a3ae.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_cloudburstmc_netty_netty-traR3-SNAPSHOT-ab281775cc67a3ae.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_cloudburstmc_netty_netty-traR3-SNAPSHOT-ab281775cc67a3ae.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/blue_endless_jankson-1.2.3-4c9914c700baf40e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/crosshair-health-indicator-1.1.0-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/crosshair-health-indicator-1.1.0-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/crosshair-health-indicator-1.1.0-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_akuleshov7_ktoml-core-jvm-0.7.1-6270194b594dd61f.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/shulkerboxtooltip-5.2.6+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/shulkerboxtooltip-5.2.6+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/shulkerboxtooltip-5.2.6+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-gson-0.12.6-da1d4e48073cfcae.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_jsonwebtoken_jjwt-gson-0.12.6-da1d4e48073cfcae.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_jsonwebtoken_jjwt-gson-0.12.6-da1d4e48073cfcae.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/supermartijn642corelib-1.1.21-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/supermartijn642corelib-1.1.21-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/supermartijn642corelib-1.1.21-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/viafabricplus-api-legacy-4.0.5-BACKPORT-de08d51a8e82deee.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/viafabricplus-api-legacy-4.0.5-BACKPORT-de08d51a8e82deee.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/viafabricplus-api-legacy-4.0.5-BACKPORT-de08d51a8e82deee.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_antlr_antlr4-runtime-4.13.1-b805d86546810326.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_lenni0451_commons_httpclient-1.6.0-68a938e124be9cfd.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_lenni0451_commons_httpclient-1.6.0-68a938e124be9cfd.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_lenni0451_commons_httpclient-1.6.0-68a938e124be9cfd.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-fixes-general-threading-iss0.44+1.21.4-95ab5f38cc805c98.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-fixes-general-threading-iss0.44+1.21.4-95ab5f38cc805c98.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-fixes-general-threading-iss0.44+1.21.4-95ab5f38cc805c98.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_electronwill_night-config_toml-3.8.1-9c3587d5ffcffe46.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_electronwill_night-config_toml-3.8.1-9c3587d5ffcffe46.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_electronwill_night-config_toml-3.8.1-9c3587d5ffcffe46.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/sodium-0.6.13+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/sodium-0.6.13+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/sodium-0.6.13+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-d7ffe353d5ab8d56.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-worldgen-general-0.3.20.44+1.21.4-16f4e0412e2c492e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-worldgen-general-0.3.20.44+1.21.4-16f4e0412e2c492e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-worldgen-general-0.3.20.44+1.21.4-16f4e0412e2c492e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/lithium-0.15.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/lithium-0.15.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/lithium-0.15.3+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/walksylib-0.9.96+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/walksylib-0.9.96+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/walksylib-0.9.96+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-fixes-worldgen-vanilla-bugs.0.44+1.21.4-a908362378cbdc1.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-fixes-worldgen-vanilla-bugs.0.44+1.21.4-a908362378cbdc1.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-fixes-worldgen-vanilla-bugs.0.44+1.21.4-a908362378cbdc1.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/baritone/mc.wellmine.su/minecraft/spawn_256/cache/r.0.-1.bcr" />
+    <option name="AFTER_PATH" value="run/baritone/mc.wellmine.su/minecraft/spawn_256/cache/r.0.-1.bcr" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/r.0.-1.bcr" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_lenni0451_mcstructs-bedrock_text-2.0.0-edb4135a812a6894.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_lenni0451_mcstructs-bedrock_text-2.0.0-edb4135a812a6894.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_lenni0451_mcstructs-bedrock_text-2.0.0-edb4135a812a6894.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-math-0.3.2+alpha.0.44+1.21.4-49d0d5397af167cc.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-math-0.3.2+alpha.0.44+1.21.4-49d0d5397af167cc.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-math-0.3.2+alpha.0.44+1.21.4-49d0d5397af167cc.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/conditional-mixin-0.6.3-371dd4ded000e1fe.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/conditional-mixin-0.6.3-371dd4ded000e1fe.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/conditional-mixin-0.6.3-371dd4ded000e1fe.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_lenni0451_reflect-1.6.1+curseforge-3264ac7e1b17deda.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_lenni0451_reflect-1.6.1+curseforge-3264ac7e1b17deda.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_lenni0451_reflect-1.6.1+curseforge-3264ac7e1b17deda.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-acfe7d9f290164e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_reactivestreams_reactive-streams-1.0.4-acfe7d9f290164e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_reactivestreams_reactive-streams-1.0.4-acfe7d9f290164e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.0-cf1d42afe7996083.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.0-cf1d42afe7996083.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-ioe-jvm-0.9.0-cf1d42afe7996083.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/badoptimizations-2.4.1-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/badoptimizations-2.4.1-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/badoptimizations-2.4.1-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/voicechat-1.21.4-2.6.17-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/voicechat-1.21.4-2.6.17-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/voicechat-1.21.4-2.6.17-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_wispforest_endec_gson-0.1.6-f293f0408d7ec3c7.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_wispforest_endec_gson-0.1.6-f293f0408d7ec3c7.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_wispforest_endec_gson-0.1.6-f293f0408d7ec3c7.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/servers.dat" />
+    <option name="AFTER_PATH" value="run/servers.dat" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/servers.dat" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/fzzy_config-0.7.6+1.21.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/fzzy_config-0.7.6+1.21.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fzzy_config-0.7.6+1.21.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/mousetweaks-2.27-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/mousetweaks-2.27-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/mousetweaks-2.27-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/resourcefullib-3.4.5-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/resourcefullib-3.4.5-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/resourcefullib-3.4.5-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-threading-lighting-0.3.2+al0.44+1.21.4-f8a48fe926b829a2.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-threading-lighting-0.3.2+al0.44+1.21.4-f8a48fe926b829a2.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-threading-lighting-0.3.2+al0.44+1.21.4-f8a48fe926b829a2.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/2026-05-23-2.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/2026-05-23-2.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/2026-05-23-2.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-fixes-chunkio-threading-iss0.44+1.21.4-a07a301f2932f418.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-fixes-chunkio-threading-iss0.44+1.21.4-a07a301f2932f418.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-fixes-chunkio-threading-iss0.44+1.21.4-a07a301f2932f418.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_objecthunter_exp4j-0.4.8-a5046cf87055f5b0.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_objecthunter_exp4j-0.4.8-a5046cf87055f5b0.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_objecthunter_exp4j-0.4.8-a5046cf87055f5b0.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_viaversion_viaaprilfools-com6.140810-22-b8655cfda909dcba.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_viaversion_viaaprilfools-com6.140810-22-b8655cfda909dcba.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_viaversion_viaaprilfools-com6.140810-22-b8655cfda909dcba.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.3.21-b4da3d816dd89bf6.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdlib-2.3.21-b4da3d816dd89bf6.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlin_kotlin-stdlib-2.3.21-b4da3d816dd89bf6.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-base-0.3.2+alpha.0.44+1.21.4-cc82aa0b759f2239.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-base-0.3.2+alpha.0.44+1.21.4-cc82aa0b759f2239.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-base-0.3.2+alpha.0.44+1.21.4-cc82aa0b759f2239.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/modmenu-13.0.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/modmenu-13.0.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/modmenu-13.0.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_common_common-mage-3.12.0-deb3b1501a6070e5.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-client-uncapvd-0.3.2+alpha.0.44+1.21.4-d1e85ab5e1697d17.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-client-uncapvd-0.3.2+alpha.0.44+1.21.4-d1e85ab5e1697d17.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-client-uncapvd-0.3.2+alpha.0.44+1.21.4-d1e85ab5e1697d17.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-fixes-worldgen-threading-is.0.44+1.21.4-77bb1de87c26ec2.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-fixes-worldgen-threading-is.0.44+1.21.4-77bb1de87c26ec2.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-fixes-worldgen-threading-is.0.44+1.21.4-77bb1de87c26ec2.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_github_oryxel_cubeconverter-916cadb12a-f629b476c87aad21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_github_oryxel_cubeconverter-916cadb12a-f629b476c87aad21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_github_oryxel_cubeconverter-916cadb12a-f629b476c87aad21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/totemcounter-1.7.0+mc1.21.2-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/totemcounter-1.7.0+mc1.21.2-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/totemcounter-1.7.0+mc1.21.2-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-52108abbd787b7f9.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_imageio_imageicore-3.12.0-3b260d8299c9b513.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_viaversion_vialoader-4.0.3-226.141011-6-2a72d56d68a1a327.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/zoomify-2.15.2+1.21.5-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/zoomify-2.15.2+1.21.5-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/zoomify-2.15.2+1.21.5-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/entityculling-1.10.1-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/entityculling-1.10.1-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/entityculling-1.10.1-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_raphimc_minecraftauth-4.1.1-a3f419a697a52fc2.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_raphimc_minecraftauth-4.1.1-a3f419a697a52fc2.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_raphimc_minecraftauth-4.1.1-a3f419a697a52fc2.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-worldgen-vanilla-0.3.20.44+1.21.4-494667f71adf86a1.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-worldgen-vanilla-0.3.20.44+1.21.4-494667f71adf86a1.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-worldgen-vanilla-0.3.20.44+1.21.4-494667f71adf86a1.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/freelook-1.2.5-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/freelook-1.2.5-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/freelook-1.2.5-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_google_code_findbugs_jsr305-3.0.2-a2f025c66ff47217.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_google_code_findbugs_jsr305-3.0.2-a2f025c66ff47217.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_google_code_findbugs_jsr305-3.0.2-a2f025c66ff47217.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/executionHistory/executionHistory.bin" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/executionHistory/executionHistory.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/executionHistory.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_viaversion_viaversion-common26.143637-8-ddb067ee3cce9f3e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/yet_another_config_lib_v3-3.8.2+21.4-fabric-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/yet_another_config_lib_v3-3.8.2+21.4-fabric-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/yet_another_config_lib_v3-3.8.2+21.4-fabric-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_anarres_jcpp-1.4.14-ae60d2cfc52c368e.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-se-jvm-1.11.0-8b8e43b961e1ce7f.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/trender-1.0.12-2b542515a354bc18.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/trender-1.0.12-2b542515a354bc18.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/trender-1.0.12-2b542515a354bc18.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.7.1-5cc8fbc762d530db.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.7.1-5cc8fbc762d530db.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-dae-jvm-0.7.1-5cc8fbc762d530db.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/executionHistory/executionHistory.lock" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/executionHistory/executionHistory.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/executionHistory.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-dfc-0.3.2+alpha.0.44+1.21.4-910022e4a7449871.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-dfc-0.3.2+alpha.0.44+1.21.4-910022e4a7449871.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-dfc-0.3.2+alpha.0.44+1.21.4-910022e4a7449871.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_common_common-io-3.12.0-86b1ac244fa6455c.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/moreculling-1.2.10-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/moreculling-1.2.10-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/moreculling-1.2.10-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/sodium-extra-0.6.1+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/sodium-extra-0.6.1+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/sodium-extra-0.6.1+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/rescale-1.0.2-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/rescale-1.0.2-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/rescale-1.0.2-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/debug-3.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/debug-3.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/debug-3.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/iris-1.8.8+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/iris-1.8.8+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/iris-1.8.8+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_lenni0451_mcstructs-bedrock_forms-2.0.0-459f4bdbfa4c9927.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_lenni0451_mcstructs-bedrock_forms-2.0.0-459f4bdbfa4c9927.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_lenni0451_mcstructs-bedrock_forms-2.0.0-459f4bdbfa4c9927.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/transition-1.0.17-caa47c3c847d0812.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/transition-1.0.17-caa47c3c847d0812.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/transition-1.0.17-caa47c3c847d0812.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-0.3.2+alpha.0.44+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-0.3.2+alpha.0.44+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-0.3.2+alpha.0.44+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/appleskin-3.0.6+mc1.21.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/appleskin-3.0.6+mc1.21.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/appleskin-3.0.6+mc1.21.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.10.2-8ee2d40032486432.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-cojdk8-1.10.2-8ee2d40032486432.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-cojdk8-1.10.2-8ee2d40032486432.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/immediatelyfast-1.8.6+1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/immediatelyfast-1.8.6+1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/immediatelyfast-1.8.6+1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-59635e6fe1dc6df.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_github_douira_glsl-transformer-2.0.1-59635e6fe1dc6df.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_github_douira_glsl-transformer-2.0.1-59635e6fe1dc6df.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/ias-9.0.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/ias-9.0.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/ias-9.0.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.3.21-26b73518de09310a.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-reflect-2.3.21-26b73518de09310a.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlin_kotlin-reflect-2.3.21-26b73518de09310a.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/fullbrightnesstoggle-4.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/fullbrightnesstoggle-4.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fullbrightnesstoggle-4.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_electronwill_night-config_core-3.8.1-642c51c78def4c08.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_electronwill_night-config_core-3.8.1-642c51c78def4c08.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_electronwill_night-config_core-3.8.1-642c51c78def4c08.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/de_florianmichael_classic4j-2.1.1-SNAPSHOT-ac16f6927cf7876d.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/de_florianmichael_classic4j-2.1.1-SNAPSHOT-ac16f6927cf7876d.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/de_florianmichael_classic4j-2.1.1-SNAPSHOT-ac16f6927cf7876d.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_netty_netty-codec-http-4.2.0-821a3a37674db796.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_netty_netty-codec-http-4.2.0-821a3a37674db796.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_netty_netty-codec-http-4.2.0-821a3a37674db796.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/debug-1.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/debug-1.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/debug-1.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_imageio_imageiadata-3.12.0-d4e6b5ecedfe42c.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunkio-0.3.2+alph0.44+1.21.4-443ccca0ba56d92a.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-rewrites-chunkio-0.3.2+alph0.44+1.21.4-443ccca0ba56d92a.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-rewrites-chunkio-0.3.2+alph0.44+1.21.4-443ccca0ba56d92a.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.0-17ad2f282fb0c67b.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.0-17ad2f282fb0c67b.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-iog-jvm-0.9.0-17ad2f282fb0c67b.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/fileHashes/fileHashes.bin" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/fileHashes/fileHashes.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fileHashes.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_teamresourceful_yabn-1.0.3-e740ac8063bfc082.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_teamresourceful_yabn-1.0.3-e740ac8063bfc082.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_teamresourceful_yabn-1.0.3-e740ac8063bfc082.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_vdurmont_semver4j-3.1.0-1332a5597c628970.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_vdurmont_semver4j-3.1.0-1332a5597c628970.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_vdurmont_semver4j-3.1.0-1332a5597c628970.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_jodah_expiringmap-0.5.10-1f0b09a7db5df451.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_jodah_expiringmap-0.5.10-1f0b09a7db5df451.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_jodah_expiringmap-0.5.10-1f0b09a7db5df451.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_lz4_lz4-pure-java-1.8.0-2a0a65a2920c5c22.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_lz4_lz4-pure-java-1.8.0-2a0a65a2920c5c22.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_lz4_lz4-pure-java-1.8.0-2a0a65a2920c5c22.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_quiltmc_parsers_gson-0.2.1-dca73e94c7c97f1f.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_ibm_async_asyncutil-0.1.0-3c7b6af4bbee1c0.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_ibm_async_asyncutil-0.1.0-3c7b6af4bbee1c0.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_ibm_async_asyncutil-0.1.0-3c7b6af4bbee1c0.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/placeholder-api-2.5.2+1.21.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/placeholder-api-2.5.2+1.21.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/placeholder-api-2.5.2+1.21.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/2026-05-23-1.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/2026-05-23-1.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/2026-05-23-1.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/io_wispforest_endec_jankson-0.1.6-670b207b4cdab099.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/io_wispforest_endec_jankson-0.1.6-670b207b4cdab099.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/io_wispforest_endec_jankson-0.1.6-670b207b4cdab099.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/nochatreports-1.21.4-v2.11.0-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/nochatreports-1.21.4-v2.11.0-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/nochatreports-1.21.4-v2.11.0-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/collective-8.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/collective-8.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/collective-8.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_peanuuutz_tomlkt_tomlkt-jvm-0.3.7-e0012c4c6b89a256.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/chat_heads-0.15.1-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/chat_heads-0.15.1-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/chat_heads-0.15.1-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_quiltmc_parsers_json-0.2.1-f4450bb516755a53.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/modernfix-5.20.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/modernfix-5.20.3+mc1.21.4-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/modernfix-5.20.3+mc1.21.4-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/konkrete-1.9.9-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/konkrete-1.9.9-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/konkrete-1.9.9-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/logs/debug-4.log.gz" />
+    <option name="AFTER_PATH" value="run/logs/debug-4.log.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/debug-4.log.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/modelfix-1.21.3-1.10-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/modelfix-1.21.3-1.10-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/modelfix-1.21.3-1.10-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_viaversion_viabackwards-comm26.185209-1-5759456b926d5fa9.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_viaversion_viabackwards-comm26.185209-1-5759456b926d5fa9.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_viaversion_viabackwards-comm26.185209-1-5759456b926d5fa9.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.10.2-dc3d13b93361afd1.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlinx_kotlinx-co-jvm-1.10.2-dc3d13b93361afd1.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlinx_kotlinx-co-jvm-1.10.2-dc3d13b93361afd1.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/outputFiles.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/.hidden/accounts_v1.do_not_send_to_anyone" />
+    <option name="AFTER_PATH" value="run/_IAS_ACCOUNTS_DO_NOT_SEND_TO_ANYONE/.hidden/accounts_v1.do_not_send_to_anyone" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/accounts_v1.do_not_send_to_anyone" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.3.21-87df53ea24d79714.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/org_jetbrains_kotlin_kotlin-stdljdk8-2.3.21-87df53ea24d79714.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/org_jetbrains_kotlin_kotlin-stdljdk8-2.3.21-87df53ea24d79714.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/skinlayers3d-1.11.1-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/skinlayers3d-1.11.1-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/skinlayers3d-1.11.1-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-notickvd-0.3.2+alpha.0.44+1.21.4-fe4aff6d5a02d3ff.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-notickvd-0.3.2+alpha.0.44+1.21.4-fe4aff6d5a02d3ff.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-notickvd-0.3.2+alpha.0.44+1.21.4-fe4aff6d5a02d3ff.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/voicechat_api-2.6.13-99f067a213dea88d.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/voicechat_api-2.6.13-99f067a213dea88d.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/voicechat_api-2.6.13-99f067a213dea88d.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/net_raphimc_viabedrock-0.0.16-2004.165607-5-27eb0096788ed06c.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/net_raphimc_viabedrock-0.0.16-2004.165607-5-27eb0096788ed06c.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/net_raphimc_viabedrock-0.0.16-2004.165607-5-27eb0096788ed06c.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_twelvemonkeys_imageio_imageiwebp-3.12.0-16e1ec7310cf986c.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/forgeconfigapiport-21.4.3-64b5720b4b825f21.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/forgeconfigapiport-21.4.3-64b5720b4b825f21.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/forgeconfigapiport-21.4.3-64b5720b4b825f21.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/file-system.probe" />
+    <option name="AFTER_PATH" value=".gradle/file-system.probe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/file-system.probe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/com_moandjiezana_toml_toml4j-0.7.2-286690d19a795f09.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/com_moandjiezana_toml_toml4j-0.7.2-286690d19a795f09.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/com_moandjiezana_toml_toml4j-0.7.2-286690d19a795f09.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/servers.dat_old" />
+    <option name="AFTER_PATH" value="run/servers.dat_old" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/servers.dat_old" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/checksums/checksums.lock" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/checksums/checksums.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/checksums.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/c2me-opts-allocs-0.3.2+alpha.0.44+1.21.4-a3e05868435e48a2.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/c2me-opts-allocs-0.3.2+alpha.0.44+1.21.4-a3e05868435e48a2.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/c2me-opts-allocs-0.3.2+alpha.0.44+1.21.4-a3e05868435e48a2.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="run/.fabric/processedMods/viafabricplus-api-4.0.5-BACKPORT-7ea7d77a8d37ce3b.jar" />
+    <option name="AFTER_PATH" value="run/.fabric/processedMods/viafabricplus-api-4.0.5-BACKPORT-7ea7d77a8d37ce3b.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/viafabricplus-api-4.0.5-BACKPORT-7ea7d77a8d37ce3b.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/9.3.0/fileHashes/fileHashes.lock" />
+    <option name="AFTER_PATH" value=".gradle/9.3.0/fileHashes/fileHashes.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2026_0_08_[Changes]1/fileHashes.lock" />
+  </binary>
+</changelist>

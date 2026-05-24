@@ -66,6 +66,7 @@ import fun.eversense.client.modules.impl.combat.components.rotations.SlothRotati
 import fun.eversense.client.modules.impl.combat.components.rotations.TestRotation;
 import fun.eversense.client.modules.impl.combat.components.rotations.WellMineRotation;
 import fun.eversense.client.modules.impl.combat.components.rotations.WhiteRiseRotation;
+import fun.eversense.client.modules.impl.combat.components.rotations.AimAssistRotation;
 import fun.eversense.client.modules.impl.movement.Sprint;
 import fun.eversense.client.modules.impl.player.AutoEat;
 import fun.eversense.client.modules.settings.implement.BooleanSetting;
@@ -84,7 +85,7 @@ public class Aura extends Module {
     public static Aura INSTANCE = new Aura();
 
     public final ModeSetting rotationType = new ModeSetting("Ротация", "Smooth",
-            "Smooth", "Snap", "Data", "Sloth", "Gazan", "FunTime", "NoRotate");
+            "Smooth", "Snap", "Data", "Sloth", "Gazan", "FunTime", "AimAssist", "NoRotate");
 
     private final ListSetting targets = new ListSetting("Таргеты",
             new BooleanSetting("Игроки", true),
@@ -127,6 +128,7 @@ public class Aura extends Module {
     private final WhiteRiseRotation whiteRiseRotation = new WhiteRiseRotation(this);
     private final GazanRotation gazanRotation = new GazanRotation();
     private final FunTimeRotation funTimeRotation = new FunTimeRotation();
+    private final AimAssistRotation aimAssistRotation = new AimAssistRotation();
 
     private final TimerUtils backTimer = new TimerUtils();
 
@@ -156,6 +158,15 @@ public class Aura extends Module {
         super("AttackAura", "Автоматически наводиться и бьёт таргета", ModuleCategory.COMBAT);
         addSettings(rotationType, targets, range, aimRange, elytraAimRange, smartCrit, sprintReset,
                 attackOnEating, throughWalls, rwWallBypass, rwWallLookDown, raycast, unpressShield, breakShield, clientLook, elytraBodyRotation, moveFix, priority);
+
+
+        aimAssistRotation.smoothness.visible(() -> rotationType.is("AimAssist"));
+        aimAssistRotation.acceleration.visible(() -> rotationType.is("AimAssist"));
+        aimAssistRotation.yawSpeed.visible(() -> rotationType.is("AimAssist"));
+        aimAssistRotation.pitchSpeed.visible(() -> rotationType.is("AimAssist"));
+        
+        addSettings(aimAssistRotation.smoothness, aimAssistRotation.acceleration, 
+                    aimAssistRotation.yawSpeed, aimAssistRotation.pitchSpeed);
     }
 
 
@@ -371,6 +382,7 @@ public class Aura extends Module {
             whiteRiseRotation.reset();
             gazanRotation.reset();
             funTimeRotation.reset();
+            aimAssistRotation.reset();
             dataSystem.resetState();
             lastDataTarget = null;
             sprintResetDone = false;
@@ -384,19 +396,15 @@ public class Aura extends Module {
         rotate();
     }
 
-    // Определяет нужно ли применять ротацию к камере (от первого лица)
     private boolean shouldApplyClientRotation() {
-        // Если включен clientLook - всегда применяем к камере
         if (clientLook.isState()) {
             return true;
         }
-        
-        // Если игрок на элитре и включен разворот на элитре - НЕ применяем к камере (только тело)
+
         if (mc.player != null && mc.player.isGliding() && elytraBodyRotation.isState()) {
             return false;
         }
-        
-        // В остальных случаях не применяем
+
         return false;
     }
 
@@ -437,13 +445,24 @@ public class Aura extends Module {
 
         if (rotationType.is("Smooth")) {
             system = new RotationsSystem() {
+                private float lastYaw = mc.player.getYaw();
+                private float lastPitch = mc.player.getPitch();
+                private static final float LERP_FACTOR = 0.35f;
+                
                 @Override
                 public void updateRotations(LivingEntity target) {
                     if (!mc.player.isGliding()) {
                         Vec3d relativePos = target.getPos().add(0, target.getHeight() * 0.6f, 0).subtract(mc.player.getEyePos());
-                        final float yaw = (float) wrapDegrees(Math.toDegrees(Math.atan2(relativePos.z, relativePos.x)) - 90);
-                        float pitch = (float) (-Math.toDegrees(Math.atan2(relativePos.y, Math.hypot(relativePos.x, relativePos.z))));
-                        RotationStorage.update(new Rotation(yaw, pitch), 360, 360, 360, 360, 1, 1, shouldApplyClientRotation());
+                        final float targetYaw = (float) wrapDegrees(Math.toDegrees(Math.atan2(relativePos.z, relativePos.x)) - 90);
+                        float targetPitch = (float) (-Math.toDegrees(Math.atan2(relativePos.y, Math.hypot(relativePos.x, relativePos.z))));
+
+                        float smoothYaw = lerpRotation(lastYaw, targetYaw, LERP_FACTOR);
+                        float smoothPitch = lerpRotation(lastPitch, targetPitch, LERP_FACTOR);
+                        
+                        lastYaw = smoothYaw;
+                        lastPitch = smoothPitch;
+                        
+                        RotationStorage.update(new Rotation(smoothYaw, smoothPitch), 180, 180, 120, 120, 1, 1, shouldApplyClientRotation());
                     } else {
                         Vec3d interpolatedRotation = Vec3d.fromPolar(target.getLerpTargetPitch(), target.getLerpTargetYaw());
                         Vec3d rotationVector = target.getRotationVector();
@@ -452,10 +471,22 @@ public class Aura extends Module {
                         if (mc.player.isGliding() && target.isGliding() && ModuleClass.forward.isEnable()) {
                             relativePos = relativePos.add(blendedDirection.normalize().multiply(ModuleClass.forward.forward.getValue().floatValue()));
                         }
-                        final float yaw = (float) wrapDegrees(Math.toDegrees(Math.atan2(relativePos.z, relativePos.x)) - 90);
-                        float pitch = (float) (-Math.toDegrees(Math.atan2(relativePos.y, Math.hypot(relativePos.x, relativePos.z))));
-                        RotationStorage.update(new Rotation(yaw, pitch), 360, 360, 360, 360, 1, 1, shouldApplyClientRotation());
+                        final float targetYaw = (float) wrapDegrees(Math.toDegrees(Math.atan2(relativePos.z, relativePos.x)) - 90);
+                        float targetPitch = (float) (-Math.toDegrees(Math.atan2(relativePos.y, Math.hypot(relativePos.x, relativePos.z))));
+
+                        float smoothYaw = lerpRotation(lastYaw, targetYaw, LERP_FACTOR * 0.8f);
+                        float smoothPitch = lerpRotation(lastPitch, targetPitch, LERP_FACTOR * 0.8f);
+                        
+                        lastYaw = smoothYaw;
+                        lastPitch = smoothPitch;
+                        
+                        RotationStorage.update(new Rotation(smoothYaw, smoothPitch), 200, 200, 150, 150, 1, 1, shouldApplyClientRotation());
                     }
+                }
+                
+                private float lerpRotation(float current, float target, float factor) {
+                    float delta = wrapDegrees(target - current);
+                    return current + delta * factor;
                 }
             };
         } else if (rotationType.is("WellMine")) {
@@ -468,6 +499,8 @@ public class Aura extends Module {
             system = gazanRotation;
         } else if (rotationType.is("FunTime")) {
             system = funTimeRotation;
+        } else if (rotationType.is("AimAssist")) {
+            system = aimAssistRotation;
         } else if (rotationType.is("NoRotate")) {
             system = new RotationsSystem() {
                 @Override
@@ -837,6 +870,7 @@ public class Aura extends Module {
         if (rotationType.is("Sloth")) whiteRiseRotation.onAttack();
         if (rotationType.is("Gazan")) gazanRotation.onAttack();
         if (rotationType.is("FunTime")) funTimeRotation.onAttack();
+        if (rotationType.is("AimAssist")) aimAssistRotation.onAttack();
 
         long cooldown = 467L;
 
@@ -1111,6 +1145,7 @@ public class Aura extends Module {
         whiteRiseRotation.reset();
         gazanRotation.reset();
         funTimeRotation.reset();
+        aimAssistRotation.reset();
         dataSystem.resetState();
         lastDataTarget = null;
         needSprintReset = false;

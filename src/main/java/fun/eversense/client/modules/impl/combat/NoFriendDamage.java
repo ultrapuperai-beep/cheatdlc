@@ -20,17 +20,13 @@ public class NoFriendDamage extends Module {
             return;
         }
 
-        // Проверяем, что цель - игрок
         if (!(event.getTarget() instanceof PlayerEntity targetPlayer)) {
             return;
         }
 
-        // Получаем имя игрока
         String playerName = targetPlayer.getName().getString();
 
-        // Проверяем, является ли игрок другом
         if (eversense.INSTANCE.friendStorage != null && eversense.INSTANCE.friendStorage.isFriend(playerName)) {
-            // Отменяем атаку
             event.cancel();
         }
     }
