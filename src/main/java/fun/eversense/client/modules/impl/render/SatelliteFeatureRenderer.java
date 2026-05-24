@@ -8,9 +8,11 @@ import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;
 import net.minecraft.client.render.entity.model.AllayEntityModel;
 import net.minecraft.client.render.entity.model.EntityModelLayers;
+import net.minecraft.client.render.entity.model.PigEntityModel;
 import net.minecraft.client.render.entity.model.PlayerEntityModel;
 import net.minecraft.client.render.entity.state.AllayEntityRenderState;
 import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
+import net.minecraft.client.render.entity.state.PigEntityRenderState;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
@@ -20,9 +22,12 @@ import fun.eversense.api.storages.implement.helpertstorages.enumvar.ModuleClass;
 public class SatelliteFeatureRenderer extends FeatureRenderer<PlayerEntityRenderState, PlayerEntityModel> {
 
     private static final Identifier ALLAY_TEXTURE = Identifier.ofVanilla("textures/entity/allay/allay.png");
+    private static final Identifier PIG_TEXTURE = Identifier.ofVanilla("textures/entity/pig/pig.png");
 
     private final AllayEntityModel model;
+    private final PigEntityModel pigModel;
     private final AllayEntityRenderState allayState = new AllayEntityRenderState();
+    private final PigEntityRenderState pigState = new PigEntityRenderState();
 
     public SatelliteFeatureRenderer(
             FeatureRendererContext<PlayerEntityRenderState, PlayerEntityModel> context,
@@ -30,6 +35,7 @@ public class SatelliteFeatureRenderer extends FeatureRenderer<PlayerEntityRender
     ) {
         super(context);
         this.model = new AllayEntityModel(rendererContext.getPart(EntityModelLayers.ALLAY));
+        this.pigModel = new PigEntityModel(rendererContext.getPart(EntityModelLayers.PIG));
     }
 
     @Override
@@ -80,31 +86,56 @@ public class SatelliteFeatureRenderer extends FeatureRenderer<PlayerEntityRender
         matrices.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(sattelite.rotateY.get() + idleYaw));
         matrices.multiply(RotationAxis.POSITIVE_Z.rotationDegrees(sattelite.rotateZ.get() + idleRoll));
 
-        allayState.age = animationAge;
-        allayState.limbFrequency = playerState.limbFrequency;
-        allayState.limbAmplitudeMultiplier = playerState.limbAmplitudeMultiplier;
-        allayState.yawDegrees = yawDegrees;
-        allayState.pitch = pitch;
-        allayState.invisible = playerState.invisible;
-        allayState.invisibleToPlayer = playerState.invisibleToPlayer;
-        allayState.hasOutline = playerState.hasOutline;
-        allayState.shaking = playerState.shaking;
-        allayState.baby = false;
-        allayState.touchingWater = playerState.touchingWater;
-        allayState.bodyYaw = playerState.bodyYaw;
-        allayState.baseScale = 1.0f;
-        allayState.ageScale = 1.0f;
-        allayState.pose = playerState.pose;
-        allayState.deathTime = 0.0f;
-        allayState.hurt = playerState.hurt;
-        allayState.dancing = false;
-        allayState.spinning = false;
-        allayState.spinningAnimationTicks = 0.0f;
-        allayState.itemHoldAnimationTicks = 0.0f;
+        if (sattelite.petType.is("Pig")) {
+            pigState.age = animationAge;
+            pigState.limbFrequency = playerState.limbFrequency;
+            pigState.limbAmplitudeMultiplier = playerState.limbAmplitudeMultiplier;
+            pigState.yawDegrees = yawDegrees;
+            pigState.pitch = pitch;
+            pigState.invisible = playerState.invisible;
+            pigState.invisibleToPlayer = playerState.invisibleToPlayer;
+            pigState.hasOutline = playerState.hasOutline;
+            pigState.shaking = playerState.shaking;
+            pigState.baby = true; // Маленькая свинка
+            pigState.touchingWater = playerState.touchingWater;
+            pigState.bodyYaw = playerState.bodyYaw;
+            pigState.baseScale = 0.5f; // Уменьшаем размер
+            pigState.ageScale = 0.5f;
+            pigState.pose = playerState.pose;
+            pigState.deathTime = 0.0f;
+            pigState.hurt = playerState.hurt;
+            pigState.saddled = false;
 
-        model.setAngles(allayState);
-        VertexConsumer vertexConsumer = vertexConsumers.getBuffer(model.getLayer(ALLAY_TEXTURE));
-        model.render(matrices, vertexConsumer, light, OverlayTexture.DEFAULT_UV);
+            pigModel.setAngles(pigState);
+            VertexConsumer vertexConsumer = vertexConsumers.getBuffer(pigModel.getLayer(PIG_TEXTURE));
+            pigModel.render(matrices, vertexConsumer, light, OverlayTexture.DEFAULT_UV);
+        } else {
+            allayState.age = animationAge;
+            allayState.limbFrequency = playerState.limbFrequency;
+            allayState.limbAmplitudeMultiplier = playerState.limbAmplitudeMultiplier;
+            allayState.yawDegrees = yawDegrees;
+            allayState.pitch = pitch;
+            allayState.invisible = playerState.invisible;
+            allayState.invisibleToPlayer = playerState.invisibleToPlayer;
+            allayState.hasOutline = playerState.hasOutline;
+            allayState.shaking = playerState.shaking;
+            allayState.baby = false;
+            allayState.touchingWater = playerState.touchingWater;
+            allayState.bodyYaw = playerState.bodyYaw;
+            allayState.baseScale = 1.0f;
+            allayState.ageScale = 1.0f;
+            allayState.pose = playerState.pose;
+            allayState.deathTime = 0.0f;
+            allayState.hurt = playerState.hurt;
+            allayState.dancing = false;
+            allayState.spinning = false;
+            allayState.spinningAnimationTicks = 0.0f;
+            allayState.itemHoldAnimationTicks = 0.0f;
+
+            model.setAngles(allayState);
+            VertexConsumer vertexConsumer = vertexConsumers.getBuffer(model.getLayer(ALLAY_TEXTURE));
+            model.render(matrices, vertexConsumer, light, OverlayTexture.DEFAULT_UV);
+        }
 
         matrices.pop();
     }

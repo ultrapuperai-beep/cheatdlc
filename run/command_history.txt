@@ -1,50 +1,50 @@
-/craft
+/code vipe
 /shop
-/trade
+/pbp
+/rtp near
+/rtp
+/code vipe
 /shop
-/craft
-/ec
+/reg Mango22 Mango22
+/code vipe
 /shop
-/trade
-/shop
-/tpa EternalOwner
-/shop
-/ec
-/fly
 /hub
-/warp bix
+/warp loxPEPES
+/r tp
+/warp pvp
+/warp loxPEPES
+/code vipe
+/warp loxPEPES
+/reg Mango22
+/codes
+/rtp
+/rtp near
+/near
+/fly
+/near
+/rtp near
+/pvp
+/rtp near
+/near
+/kit
+/fix all
+/fly
+/reg Mango22
+/codes
+/rtp
+/fly
+/near
 /reg Mango22 Mango22
 /warp pvp
-/l Mango22
-/reg Mango22
-/reg Mango22 Mang o22
-/reg Mango22 Mango22
-/kit
-/shar
-/pvp
-/home a
-/kit
-/tpa EternalOwner
-/msg Kigumka ты лох\
-/shop
-/trade
-/shop
-/trade
-/shop
-/warp afk
-/freee
-/free
-/warp case
-/free
-/rtp
-/tpaccept
-/ac Vanilla
+/kit pvp
+/kit free
+/give diamond_sword
+/give netherite_sword
+/enchant wind_burst 3
+/give end_crystal 12312
+/give obsidian
+/give obsidian 133
+/give totem_of_undying 12313
 /give elytra
-/give firework_rocket 1231
-/god
-/give elytra
-/give firework_rocket
-/give firework_rocket132
-/give firework_rocket 12313
-/ac Vanilla
-/tp EternalOwner
+/give chainmail_chestplate
+/give firework_rocket 111

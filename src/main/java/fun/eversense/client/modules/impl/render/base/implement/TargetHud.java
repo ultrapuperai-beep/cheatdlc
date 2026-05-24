@@ -265,8 +265,13 @@ public class TargetHud extends InterfaceProcessing {
 
     @Override
     public void onRender(EventRender.Default eventRender) {
-        if (!ModuleClass.interfaceModule.style.is("Wave")) DefaultStyle(eventRender);
-        else WaveStyle(eventRender);
+        if (ModuleClass.interfaceModule.style.is("Wave")) {
+            WaveStyle(eventRender);
+        } else if (ModuleClass.interfaceModule.style.is("Nursultan")) {
+            NursultanStyle(eventRender);
+        } else {
+            DefaultStyle(eventRender);
+        }
         super.onRender(eventRender);
     }
 
@@ -722,6 +727,181 @@ public class TargetHud extends InterfaceProcessing {
 
         matrices.pop();
 
+        draggable.setWidth(width);
+        draggable.setHeight(height);
+    }
+
+    public void NursultanStyle(EventRender.Default eventRender) {
+        if (mc.player == null) {
+            draggable.setWidth(0);
+            draggable.setHeight(0);
+            return;
+        }
+
+        Aura aura = ModuleClass.INSTANCE.aura;
+        boolean chatOpen = mc.currentScreen instanceof ChatScreen;
+        LivingEntity auraTarget = aura != null ? aura.getTarget() : null;
+        boolean showTargetHud = chatOpen || auraTarget != null;
+
+        alphaAnimation.setSpeed(showTargetHud ? 9.0f : 5.0f);
+        alphaAnimation.update(showTargetHud ? 1.0f : 0.0f);
+        float alpha = MathHelper.clamp(alphaAnimation.getValue(), 0.0f, 1.0f);
+
+        if (showTargetHud) {
+            lastTarget = chatOpen ? mc.player : auraTarget;
+        }
+
+        LivingEntity target = showTargetHud ? (chatOpen ? mc.player : auraTarget) : lastTarget;
+        if (target == null || alpha <= 0.05f) {
+            draggable.setWidth(0);
+            draggable.setHeight(0);
+            return;
+        }
+
+        float x = draggable.getX();
+        float y = draggable.getY();
+        float width = 99.0f;
+        float height = 36.0f;
+        
+        int alphaInt = (int)(255.0f * alpha);
+        
+        int colorTheme;
+        if (!eversense.INSTANCE.themeStorage.getThemes().getTheme().getName().equals("Rainbow")) {
+            colorTheme = eversense.INSTANCE.themeStorage.getThemes().getTheme().color[0];
+        } else {
+            colorTheme = ColorUtils.getThemeColor();
+        }
+
+        MatrixStack matrices = eventRender.getContext().getMatrices();
+        
+        // Рисуем фон
+        RenderUtils.drawRoundedRect(matrices, x, y, width, height, 6.0f, 
+            ColorUtils.applyAlpha(ColorUtils.rgba(25, 25, 25, 255), alpha * 0.5f));
+        
+        // Голова
+        float headSize = 31.5f;
+        float headX = x + 2.0f;
+        float headY = y + (height - headSize) / 2.0f;
+        
+        float hurtPercent = (float)target.hurtTime / 10.0f;
+        int headColor = ColorUtils.rgba(255, (int)(255.0f * (1.0f - hurtPercent)), 
+            (int)(255.0f * (1.0f - hurtPercent)), alphaInt);
+        
+        if (target instanceof PlayerEntity playerEntity) {
+            RenderUtils.drawPlayerHead(matrices, playerEntity.getUuid(), headX, headY, headSize, 5.0f, alpha, 0.0f);
+        } else {
+            RenderUtils.drawRoundedRect(matrices, headX, headY, headSize, headSize, 5.0f, 
+                ColorUtils.applyAlpha(ColorUtils.rgba(40, 40, 40, 255), alpha));
+            issue(23).drawCenteredString(matrices, "?", headX + headSize / 2.0f, headY + headSize / 2.0f - 8.0f,
+                ColorUtils.rgba(255, 255, 255, alphaInt));
+        }
+        
+        // Текст
+        float textX = x + 35.0f;
+        String name = target.getName().getString();
+        int textColor = ColorUtils.rgba(255, 255, 255, alphaInt);
+        
+        issue(8).draw(matrices, name, textX + 1.0f, y + 5.0f, textColor);
+        
+        float currentHp = ScoreboardHP.getHealth(target);
+        if (Float.isNaN(currentHp) || currentHp < 0.0f) {
+            currentHp = 0.0f;
+        }
+        
+        String hpText = String.format("HP: %.1f", currentHp);
+        issue(7).draw(matrices, hpText, textX + 1.0f, y + 15.5f, textColor);
+        
+        float absorption = target.getAbsorptionAmount();
+        if (absorption > 0.0f) {
+            String absText = String.format("(+ %.1f)", absorption);
+            float offset = issue(7).getWidth(hpText) + 3.0f;
+            issue(7).draw(matrices, absText, textX + offset + 3.0f, y + 15.5f, 
+                ColorUtils.rgba(255, 215, 0, alphaInt));
+        }
+        
+        // Полоса здоровья
+        float barX = x + 34.2f;
+        float barY = y + 25.0f;
+        float barWidth = width - 40.0f;
+        float barHeight = 8.5f;
+        float maxHp = target.getMaxHealth();
+        float hpPercent = MathHelper.clamp(currentHp / maxHp, 0.0f, 1.0f);
+        
+        hpAnimation.update(hpPercent);
+        float hpProgressAnimated = MathHelper.clamp(hpAnimation.getValue(), 0.0f, 1.0f);
+        
+        if (hpProgressAnimated > hpTrailAnimation.getValue()) {
+            hpTrailAnimation.setValue(hpProgressAnimated);
+        } else {
+            hpTrailAnimation.update(hpProgressAnimated);
+        }
+        float hpTrailProgressAnimated = MathHelper.clamp(hpTrailAnimation.getValue(), 0.0f, 1.0f);
+        
+        // Цвета полосы здоровья
+        int hpLeftFull = ColorUtils.applyAlpha(ColorUtils.rgba(0, 120, 30, 255), alpha);
+        int hpRightFull = ColorUtils.applyAlpha(ColorUtils.rgba(0, 200, 60, 255), alpha);
+        int hpLeftGhost = ColorUtils.applyAlpha(ColorUtils.rgba(0, 200, 60, 255), alpha * 0.43f);
+        int hpRightGhost = ColorUtils.applyAlpha(ColorUtils.rgba(0, 120, 30, 255), alpha * 0.43f);
+        
+        // Фон полосы
+        RenderUtils.drawRoundedRect(matrices, barX, barY, barWidth, barHeight, 3.0f, 
+            ColorUtils.applyAlpha(ColorUtils.rgba(10, 30, 15, 255), alpha * 0.47f));
+        
+        // Trail (след урона)
+        float hpWOld = barWidth * hpTrailProgressAnimated;
+        if (hpWOld > 0.5f) {
+            RenderUtils.drawGradientRect(matrices, barX, barY, hpWOld, barHeight, 3.0f, 
+                hpLeftGhost, hpRightGhost, true);
+        }
+        
+        // Текущее HP
+        float hpWNow = barWidth * hpProgressAnimated;
+        if (hpWNow > 0.5f) {
+            RenderUtils.drawGradientRect(matrices, barX, barY, hpWNow, barHeight, 3.0f, 
+                hpLeftFull, hpRightFull, true);
+        }
+        
+        // Абсорбция (золотые сердца)
+        float absPercent = MathHelper.clamp(absorption / maxHp, 0.0f, 1.0f);
+        goldenHpAnimation.update(absPercent);
+        float abWNow = barWidth * MathHelper.clamp(goldenHpAnimation.getValue(), 0.0f, 1.0f);
+        if (abWNow > 0.5f) {
+            int goldenLeft = ColorUtils.applyAlpha(ColorUtils.rgba(140, 120, 0, 255), alpha * 0.78f);
+            int goldenRight = ColorUtils.applyAlpha(ColorUtils.rgba(255, 215, 0, 255), alpha);
+            RenderUtils.drawGradientRect(matrices, barX, barY, abWNow, barHeight, 3.0f, 
+                goldenLeft, goldenRight, true);
+        }
+        
+        // Броня и предметы
+        hpValueAnimation.update(currentHp);
+        float armorAlpha = alpha;
+        if (armorAlpha > 0.05f) {
+            int totalSlots = collectDisplayItems(target);
+            float itemScale = 0.65f;
+            float slotSize = 16.0f * itemScale;
+            float itemX = x + width - slotSize * totalSlots - 5.0f;
+            float itemY = y - slotSize - 2.0f;
+            
+            matrices.push();
+            matrices.translate(0.0f, 0.0f, 100.0f);
+            
+            for (int itemIndex = 0; itemIndex < totalSlots; itemIndex++) {
+                ItemStack stack = displayItems[itemIndex];
+                if (!stack.isEmpty()) {
+                    matrices.push();
+                    matrices.translate(itemX, itemY, 0.0f);
+                    matrices.scale(armorAlpha * itemScale, armorAlpha * itemScale, 1.0f);
+                    eventRender.getContext().drawItem(stack, 0, 0);
+                    eventRender.getContext().drawStackOverlay(mc.textRenderer, stack, 0, 0);
+                    matrices.pop();
+                }
+                itemX += slotSize;
+                displayItems[itemIndex] = ItemStack.EMPTY;
+            }
+            
+            matrices.pop();
+        }
+        
         draggable.setWidth(width);
         draggable.setHeight(height);
     }

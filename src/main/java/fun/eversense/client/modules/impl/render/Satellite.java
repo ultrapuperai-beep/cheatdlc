@@ -6,8 +6,10 @@ import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.model.AllayEntityModel;
 import net.minecraft.client.render.entity.model.EntityModelLayers;
+import net.minecraft.client.render.entity.model.PigEntityModel;
 import net.minecraft.client.render.entity.state.AllayEntityRenderState;
 import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
+import net.minecraft.client.render.entity.state.PigEntityRenderState;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityPose;
@@ -30,11 +32,13 @@ import fun.eversense.client.modules.settings.implement.ModeSetting;
 public class Satellite extends Module {
 
     private static final Identifier ALLAY_TEXTURE = Identifier.ofVanilla("textures/entity/allay/allay.png");
+    private static final Identifier PIG_TEXTURE = Identifier.ofVanilla("textures/entity/pig/pig.png");
     private static final long ATTACK_FOLLOW_TIMEOUT_MS = 3600L;
     private static final long ATTACK_LAUNCH_DURATION_MS = 560L;
     private static final long ATTACK_RETURN_DURATION_MS = 920L;
     public static Satellite INSTANCE = new Satellite();
 
+    public final ModeSetting petType = new ModeSetting("Тип питомца", "Allay", "Allay", "Pig");
     public final ModeSetting shoulder = new ModeSetting("Плечо", "Правое", "Правое", "Левое");
     public final FloatSetting scale = new FloatSetting("Размер", 0.38f, 0.15f, 1.25f, 0.01f);
     public final FloatSetting offsetX = new FloatSetting("Смещение X", 0.0f, -1.0f, 1.0f, 0.01f);
@@ -54,7 +58,9 @@ public class Satellite extends Module {
             .visible(() -> idleAnimation.isState());
 
     private final AllayEntityRenderState attackState = new AllayEntityRenderState();
+    private final PigEntityRenderState pigAttackState = new PigEntityRenderState();
     private AllayEntityModel attackModel;
+    private PigEntityModel pigAttackModel;
     private int attackTargetId = Integer.MIN_VALUE;
     private long attackStartedAt;
     private long lastAttackAt;
@@ -74,8 +80,9 @@ public class Satellite extends Module {
     private boolean attackLookInitialized;
 
     public Satellite() {
-        super("Satellite", "Питомец-аллей на плече", ModuleCategory.RENDER);
+        super("Satellite", "Питомец на плече", ModuleCategory.RENDER);
         addSettings(
+                petType,
                 shoulder,
                 scale,
                 offsetX,
@@ -146,7 +153,10 @@ public class Satellite extends Module {
         }
 
         ensureAttackModel();
-        if (attackModel == null) {
+        if (petType.is("Allay") && attackModel == null) {
+            return;
+        }
+        if (petType.is("Pig") && pigAttackModel == null) {
             return;
         }
 
@@ -181,32 +191,59 @@ public class Satellite extends Module {
         matrices.scale(-1.0f, -1.0f, 1.0f);
         matrices.translate(0.0f, -1.501f, 0.0f);
 
-        attackState.age = mc.player.age + tickDelta + elapsed * 20.0f;
-        attackState.limbFrequency = elapsed * 6.4f;
-        attackState.limbAmplitudeMultiplier = 0.72f + MathHelper.sin(elapsed * 7.0f + attackBobSeed) * 0.12f;
-        attackState.yawDegrees = headYaw;
-        attackState.pitch = attackLookPitch;
-        attackState.invisible = false;
-        attackState.invisibleToPlayer = false;
-        attackState.hasOutline = false;
-        attackState.shaking = false;
-        attackState.baby = false;
-        attackState.touchingWater = target.isTouchingWater();
-        attackState.bodyYaw = attackLookYaw;
-        attackState.baseScale = 1.0f;
-        attackState.ageScale = 1.0f;
-        attackState.pose = target instanceof LivingEntity living ? living.getPose() : EntityPose.STANDING;
-        attackState.deathTime = 0.0f;
-        attackState.hurt = false;
-        attackState.dancing = false;
-        attackState.spinning = false;
-        attackState.spinningAnimationTicks = 0.0f;
-        attackState.itemHoldAnimationTicks = 0.65f;
-
-        attackModel.setAngles(attackState);
         VertexConsumerProvider.Immediate immediate = mc.getBufferBuilders().getEntityVertexConsumers();
-        VertexConsumer vertexConsumer = immediate.getBuffer(attackModel.getLayer(ALLAY_TEXTURE));
-        attackModel.render(matrices, vertexConsumer, LightmapTextureManager.MAX_LIGHT_COORDINATE, OverlayTexture.DEFAULT_UV);
+
+        if (petType.is("Pig")) {
+            pigAttackState.age = mc.player.age + tickDelta + elapsed * 20.0f;
+            pigAttackState.limbFrequency = elapsed * 6.4f;
+            pigAttackState.limbAmplitudeMultiplier = 0.72f + MathHelper.sin(elapsed * 7.0f + attackBobSeed) * 0.12f;
+            pigAttackState.yawDegrees = headYaw;
+            pigAttackState.pitch = attackLookPitch;
+            pigAttackState.invisible = false;
+            pigAttackState.invisibleToPlayer = false;
+            pigAttackState.hasOutline = false;
+            pigAttackState.shaking = false;
+            pigAttackState.baby = true; // Маленькая свинка
+            pigAttackState.touchingWater = target.isTouchingWater();
+            pigAttackState.bodyYaw = attackLookYaw;
+            pigAttackState.baseScale = 0.5f; // Уменьшаем размер свинки
+            pigAttackState.ageScale = 0.5f;
+            pigAttackState.pose = target instanceof LivingEntity living ? living.getPose() : EntityPose.STANDING;
+            pigAttackState.deathTime = 0.0f;
+            pigAttackState.hurt = false;
+            pigAttackState.saddled = false;
+
+            pigAttackModel.setAngles(pigAttackState);
+            VertexConsumer vertexConsumer = immediate.getBuffer(pigAttackModel.getLayer(PIG_TEXTURE));
+            pigAttackModel.render(matrices, vertexConsumer, LightmapTextureManager.MAX_LIGHT_COORDINATE, OverlayTexture.DEFAULT_UV);
+        } else {
+            attackState.age = mc.player.age + tickDelta + elapsed * 20.0f;
+            attackState.limbFrequency = elapsed * 6.4f;
+            attackState.limbAmplitudeMultiplier = 0.72f + MathHelper.sin(elapsed * 7.0f + attackBobSeed) * 0.12f;
+            attackState.yawDegrees = headYaw;
+            attackState.pitch = attackLookPitch;
+            attackState.invisible = false;
+            attackState.invisibleToPlayer = false;
+            attackState.hasOutline = false;
+            attackState.shaking = false;
+            attackState.baby = false;
+            attackState.touchingWater = target.isTouchingWater();
+            attackState.bodyYaw = attackLookYaw;
+            attackState.baseScale = 1.0f;
+            attackState.ageScale = 1.0f;
+            attackState.pose = target instanceof LivingEntity living ? living.getPose() : EntityPose.STANDING;
+            attackState.deathTime = 0.0f;
+            attackState.hurt = false;
+            attackState.dancing = false;
+            attackState.spinning = false;
+            attackState.spinningAnimationTicks = 0.0f;
+            attackState.itemHoldAnimationTicks = 0.65f;
+
+            attackModel.setAngles(attackState);
+            VertexConsumer vertexConsumer = immediate.getBuffer(attackModel.getLayer(ALLAY_TEXTURE));
+            attackModel.render(matrices, vertexConsumer, LightmapTextureManager.MAX_LIGHT_COORDINATE, OverlayTexture.DEFAULT_UV);
+        }
+
         immediate.draw();
         matrices.pop();
     }
@@ -406,11 +443,17 @@ public class Satellite extends Module {
     }
 
     private void ensureAttackModel() {
-        if (attackModel != null || mc == null) {
+        if (mc == null) {
             return;
         }
 
-        attackModel = new AllayEntityModel(mc.getLoadedEntityModels().getModelPart(EntityModelLayers.ALLAY));
+        if (petType.is("Allay") && attackModel == null) {
+            attackModel = new AllayEntityModel(mc.getLoadedEntityModels().getModelPart(EntityModelLayers.ALLAY));
+        }
+
+        if (petType.is("Pig") && pigAttackModel == null) {
+            pigAttackModel = new PigEntityModel(mc.getLoadedEntityModels().getModelPart(EntityModelLayers.PIG));
+        }
     }
 
     private void randomizeAttackPath(long now) {

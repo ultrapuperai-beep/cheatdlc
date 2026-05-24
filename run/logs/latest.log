@@ -1,124 +1,1374 @@
-[00:00:03] [Render thread/INFO] (Minecraft) [CHAT] <Player898> d
-[00:00:09] [Render thread/INFO] (Minecraft) [CHAT] fishark123da left the game
-[00:00:10] [Render thread/INFO] (Minecraft) [CHAT] fishark123da joined the game
-[00:00:11] [Render thread/INFO] (Minecraft) [CHAT] chehelok joined the game
-[00:00:12] [Render thread/INFO] (Minecraft) [CHAT] kolodeev joined the game
-[00:00:15] [Render thread/INFO] (Minecraft) [CHAT] chehelok left the game
-[00:00:23] [Render thread/INFO] (Minecraft) [CHAT] chehelok joined the game
-[00:00:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed AntiKB (x5) o: 0.95961
-[00:00:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed AntiKB (x10) o: 0.91061
-[00:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » chehelok failed PacketOrderO* (x6) type=PONG
-[00:00:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed AntiKB (x15) o: 0.50615
-[00:00:50] [Render thread/INFO] (Minecraft) [CHAT] loglogezz joined the game
-[00:00:50] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSwingBreak* (x3) 
-[00:00:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed AntiKB (x20) o: 0.36543
-[00:00:54] [Render thread/INFO] (Minecraft) [CHAT] Player898 left the game
-[00:00:58] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me joined the game
-[00:01:05] [Render thread/INFO] (Minecraft) [CHAT] 0x0x0x04 left the game
-[00:01:12] [Render thread/INFO] (Minecraft) [CHAT] Grim » chehelok failed PacketOrderO* (x16) type=ENTITY_ACTION
-[00:01:14] [Render thread/INFO] (Minecraft) [CHAT] xaititopenderEK left the game
-[00:01:32] [Render thread/INFO] (Minecraft) [CHAT] xaititopenderEK joined the game
-[00:01:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Reach (x1) 3.29956 blocks, type=player
-[00:01:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x6) type=player
-[00:01:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x10) 
-[00:01:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x15) 
-[00:01:40] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me left the game
-[00:01:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x20) 
-[00:01:42] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: Saving region 1,0 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-2/INFO] (Minecraft) [STDOUT]: Saving region 0,-1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-4/INFO] (Minecraft) [STDOUT]: Saving region -1,0 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-6/INFO] (Minecraft) [STDOUT]: Saving region -2,-1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-7/INFO] (Minecraft) [STDOUT]: Saving region 0,1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-3/INFO] (Minecraft) [STDOUT]: Saving region -2,0 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-5/INFO] (Minecraft) [STDOUT]: Saving region -1,-1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-8/INFO] (Minecraft) [STDOUT]: Saving region 0,0 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x25) 
-[00:01:42] [ForkJoinPool.commonPool-worker-6/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-6/INFO] (Minecraft) [STDOUT]: Saving region 1,-1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
-[00:01:42] [ForkJoinPool.commonPool-worker-3/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-7/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-6/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-5/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-4/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-2/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [ForkJoinPool.commonPool-worker-8/INFO] (Minecraft) [STDOUT]: Saved region successfully
-[00:01:42] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: World save took 159ms
-[00:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x30) 
-[00:01:42] [Render thread/INFO] (Minecraft) [CHAT] chehelok left the game
-[00:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x35) 
-[00:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x40) 
-[00:01:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x45) 
-[00:01:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x50) 
-[00:01:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x55) 
-[00:01:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x60) 
-[00:01:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x65) 
-[00:01:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x70) 
-[00:01:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x75) 
-[00:01:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x80) 
-[00:01:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x85) 
-[00:01:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x90) 
-[00:01:50] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x95) 
-[00:01:50] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x100) 
-[00:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x105) 
-[00:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x110) 
-[00:01:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x115) 
-[00:01:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x120) 
-[00:01:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x125) 
-[00:01:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x130) 
-[00:01:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x135) 
-[00:01:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x140) 
-[00:01:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x145) 
-[00:01:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x150) 
-[00:01:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x155) 
-[00:01:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x160) 
-[00:01:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x165) 
-[00:01:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed NoSlow (x170) 
-[00:01:58] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x9) type=player
-[00:02:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » vnyk123123 failed ElytraB (x10) no jump
-[00:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » vnyk123123 failed ElytraB (x15) no release
-[00:02:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x12) type=player
-[00:02:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » vnyk123123 failed ElytraB (x20) no jump
-[00:02:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x15) type=player
-[00:02:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x18) type=player
-[00:02:31] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me joined the game
-[00:02:32] [Render thread/INFO] (Minecraft) [CHAT] newpushka_top joined the game
-[00:02:34] [Render thread/INFO] (Minecraft) [CHAT] newpushka_top left the game
-[00:02:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » vnyk123123 failed ElytraB (x25) no jump
-[00:02:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 60 seconds
-[00:02:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x21) type=player
-[00:02:59] [Render thread/INFO] (Minecraft) [CHAT] <pvp.mioclient.me> 34
-[00:03:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Reach (x2) 3.65012 blocks, type=player
-[00:03:06] [Render thread/INFO] (Minecraft) [CHAT] HZeed left the game
-[00:03:13] [Render thread/INFO] (Minecraft) [CHAT] Player999 joined the game
-[00:03:16] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 30 seconds
-[00:03:17] [Render thread/INFO] (Minecraft) [CHAT] rt.pornhub.com joined the game
-[00:03:21] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me fell from a high place
-[00:03:25] [Render thread/INFO] (Minecraft) [CHAT] <rt.pornhub.com> хелоу бич
-[00:03:29] [Render thread/INFO] (Minecraft) [CHAT] fishark123da left the game
-[00:03:36] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 10 seconds
-[00:03:42] [Render thread/INFO] (Minecraft) [CHAT] Player440 joined the game
-[00:03:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area has been cleared
-[00:03:49] [Render thread/INFO] (Minecraft) [CHAT] pasterzaika2014 joined the game
-[00:03:49] [Render thread/INFO] (Minecraft) [CHAT] SkyWatcher9_ joined the game
-[00:03:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed PacketOrderB (x2) post-attack
-[00:03:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Reach (x3) 3.14231 blocks, type=player
-[00:04:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x24) type=player
-[00:04:08] [Render thread/INFO] (Minecraft) [CHAT] fishark123da joined the game
-[00:04:13] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x27) type=player
-[00:04:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x30) type=player
-[00:04:16] [Render thread/INFO] (Minecraft) [CHAT] rt.pornhub.com left the game
-[00:04:28] [Render thread/INFO] (Minecraft) [CHAT] Press_W_FUN joined the game
-[00:04:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed Hitboxes (x33) type=player
-[00:04:36] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me left the game
-[00:04:40] [Render thread/INFO] (Minecraft) [CHAT] pvp.mioclient.me joined the game
-[00:04:46] [Render thread/INFO] (Minecraft) [CHAT] HZeed joined the game
-[00:05:06] [Render thread/INFO] (Minecraft) [CHAT] pasterzaika2014 left the game
-[00:05:26] [Render thread/INFO] (Minecraft) [CHAT] Press_W_FUN left the game
-[00:05:28] [Render thread/INFO] (Minecraft) [CHAT] Press_W_FUN joined the game
-[00:05:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » xaititopenderEK failed PacketOrderF* (x7) action=interact, sprinting=true, sneaking=false
-[00:05:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » loglogezz failed PacketOrderE* (x15) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
-[00:05:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Press_W_FUN failed PacketOrderF* (x7) action=interact, sprinting=true, sneaking=false
-[00:06:08] [Render thread/INFO] (Minecraft) [CHAT] Grim » pvp.mioclient.me failed Reach (x1) 3.01995 blocks, type=sheep
-[00:06:17] [Render thread/INFO] (Minecraft) [CHAT] loglogezz left the game
-[00:06:32] [Render thread/INFO] (Minecraft) [CHAT] Press_W_FUN left the game
+[10:56:13] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.18.4
+[10:56:13] [ForkJoinPool-1-worker-2/WARN] (FabricLoader/Metadata) Mod com_github_oryxel_cubeconverter uses the version 916cadb12a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '916cadb12a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:56:13] [ForkJoinPool-1-worker-7/WARN] (FabricLoader/Metadata) Mod org_cloudburstmc_netty_netty-transport-raknet uses the version 1.0.0.CR3-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'CR3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[10:56:13] [main/INFO] (FabricLoader) Loading 203 mods:
+	- appleskin 3.0.6+mc1.21.3
+	- architectury 15.0.3
+	- badoptimizations 2.4.1
+	- baritone 1.13.1
+	- betterhurtcam 1.10.0+mc1.21.2
+	- betterpingdisplay 1.1.1
+	- c2me 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-base 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-client-uncapvd 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-fixes-general-threading-issues 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-notickvd 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-allocs 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-chunkio 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-dfc 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-math 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-natives-math 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-scheduling 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-worldgen-general 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-opts-worldgen-vanilla 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-rewrites-chunk-serializer 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-rewrites-chunk-system 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-rewrites-chunkio 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-server-utils 0.3.2+alpha.0.44+1.21.4
+	   |-- c2me-threading-lighting 0.3.2+alpha.0.44+1.21.4
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chat_heads 0.15.1
+	- cloth-config 17.0.144
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.3
+	- crosshair-health-indicator 1.1.0
+	- crosshairaddons 2.1.0-1.21.4
+	- effecttimerplus 2.2.7+1.21.3
+	- enhancedblockentities 0.11.3+1.21.4
+	- entityculling 1.10.1
+	   |-- transition 1.0.17
+	   \-- trender 1.0.12
+	- eversense 1.0.0
+	- fabric-api 0.119.4+1.21.4
+	- fabric-api-base 0.4.54+b47eab6b04
+	- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	- fabric-biome-api-v1 15.0.6+b1c29d8e04
+	- fabric-block-api-v1 1.0.31+7feeb73304
+	- fabric-block-view-api-v2 1.0.20+9c49cc8c04
+	- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	- fabric-client-gametest-api-v1 4.1.1+6816ccd404
+	- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	- fabric-command-api-v1 1.2.62+f71b366f04
+	- fabric-command-api-v2 2.2.41+e496eb1504
+	- fabric-commands-v0 0.2.79+df3654b304
+	- fabric-content-registries-v0 9.1.19+25d1a67604
+	- fabric-convention-tags-v1 2.1.20+7f945d5b04
+	- fabric-convention-tags-v2 2.14.1+aebda09404
+	- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	- fabric-data-attachment-api-v1 1.6.2+e99da0f704
+	- fabric-data-generation-api-v1 22.3.1+0f4e5f5504
+	- fabric-dimensions-v1 4.0.10+7feeb73304
+	- fabric-entity-events-v1 2.0.15+62245bef04
+	- fabric-events-interaction-v0 4.0.4+a4eebcf004
+	- fabric-game-rule-api-v1 1.0.63+7d48d43904
+	- fabric-gametest-api-v1 2.0.26+7feeb73304
+	- fabric-item-api-v1 11.4.0+189dd6fe04
+	- fabric-item-group-api-v1 4.2.2+fcb9601404
+	- fabric-key-binding-api-v1 1.0.57+7d48d43904
+	- fabric-keybindings-v0 0.2.55+df3654b304
+	- fabric-language-kotlin 1.13.11+kotlin.2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	- fabric-loot-api-v2 3.0.38+3f89f5a504
+	- fabric-loot-api-v3 1.0.26+203e6b2304
+	- fabric-message-api-v1 6.0.26+238a33c004
+	- fabric-model-loading-api-v1 4.3.0+ae23723504
+	- fabric-networking-api-v1 4.4.0+db5e668204
+	- fabric-object-builder-api-v1 18.0.14+38b0d59804
+	- fabric-particles-v1 4.0.14+7feeb73304
+	- fabric-recipe-api-v1 8.1.1+640e77ae04
+	- fabric-registry-sync-v0 6.1.11+4a9c1ece04
+	- fabric-renderer-api-v1 5.0.3+50f0feb204
+	- fabric-renderer-indigo 2.0.3+50f0feb204
+	- fabric-rendering-data-attachment-v1 0.3.58+73761d2e04
+	- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	- fabric-rendering-v1 10.2.1+0d31b09f04
+	- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	- fabric-resource-loader-v0 3.1.1+360374ac04
+	- fabric-screen-api-v1 2.0.38+7feeb73304
+	- fabric-screen-handler-api-v1 1.3.118+7feeb73304
+	- fabric-sound-api-v1 1.0.32+7feeb73304
+	- fabric-tag-api-v1 1.0.7+7d48d43904
+	- fabric-transfer-api-v1 5.4.9+efa825c904
+	- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.18.4
+	- ferritecore 7.1.3
+	- forgeconfigapiport 21.4.3
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- freelook 1.2.5
+	- fullbrightnesstoggle 4.3
+	- fzzy_config 0.7.6+1.21.3
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.3
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.8.5
+	- healthindicators 21.2.2-beta
+	- ias 9.0.4
+	- immediatelyfast 1.8.6+1.21.4
+	   \-- net_lenni0451_reflect 1.6.1+curseforge
+	- iris 1.8.8+mc1.21.4
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 22
+	- konkrete 1.9.9
+	- lithium 0.15.3+mc1.21.4
+	- minecraft 1.21.4
+	- mixinextras 0.5.0
+	- modelfix 1.21.3-1.10
+	- modernfix 5.20.3+mc1.21.4
+	- modmenu 13.0.4
+	- moreculling 1.2.10
+	   |-- conditional-mixin 0.6.3
+	   \-- mixinsquared 0.2.0
+	- mousetweaks 2.27
+	- nochatreports 1.21.4-v2.11.0
+	- nodeathanimation 2.0.0-1.21.4
+	- owo 0.12.20+1.21.4
+	   |-- io_wispforest_endec 0.1.9
+	   |-- io_wispforest_endec_gson 0.1.6
+	   |-- io_wispforest_endec_jankson 0.1.6
+	   \-- io_wispforest_endec_netty 0.1.5
+	- placeholder-api 2.5.2+1.21.3
+	- puzzleslib 21.4.14
+	- reeses-sodium-options 1.8.3+mc1.21.4
+	- rescale 1.0.2
+	- resourcefullib 3.4.5
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- shulkerboxtooltip 5.2.6+1.21.4
+	- skinlayers3d 1.11.1
+	   |-- transition 1.0.17
+	   \-- trender 1.0.12
+	- sodium 0.6.13+mc1.21.4
+	- sodium-extra 0.6.1+mc1.21.4
+	- supermartijn642corelib 1.1.21
+	- totemcounter 1.7.0+mc1.21.2
+	- ukulib 1.6.0+1.21.4
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- viafabricplus 4.0.5-BACKPORT
+	   |-- com_github_oryxel_cubeconverter 916cadb12a
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_vdurmont_semver4j 3.1.0
+	   |-- com_viaversion_viaaprilfools-common 4.0.2-20250426.140810-22
+	   |-- com_viaversion_viabackwards-common 5.3.3-20250426.185209-1
+	   |-- com_viaversion_vialoader 4.0.3-20250426.141011-6
+	   |-- com_viaversion_viaversion-common 5.3.3-20250426.143637-8
+	   |-- de_florianmichael_classic4j 2.1.1-SNAPSHOT
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-http 4.2.0
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_lenni0451_mcstructs-bedrock_forms 2.0.0
+	   |-- net_lenni0451_mcstructs-bedrock_text 2.0.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- net_raphimc_viabedrock 0.0.16-20250404.165607-5
+	   |-- net_raphimc_vialegacy 3.0.10-20250426.140714-8
+	   |-- org_cloudburstmc_netty_netty-transport-raknet 1.0.0.CR3-SNAPSHOT
+	   |-- org_lz4_lz4-pure-java 1.8.0
+	   |-- team_unnamed_mocha 3.0.1
+	   |-- viafabricplus-api 4.0.5-BACKPORT
+	   |-- viafabricplus-api-legacy 4.0.5-BACKPORT
+	   \-- viafabricplus-visuals 4.0.5-BACKPORT
+	- vmp 0.2.0+beta.7.192+1.21.4
+	   \-- com_ibm_async_asyncutil 0.1.0
+	- voicechat 1.21.4-2.6.17
+	   \-- voicechat_api 2.6.13
+	- walksylib 0.9.96+1.21.4
+	- yet_another_config_lib_v3 3.8.2+1.21.4-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- zoomify 2.15.2+1.21.5
+	   \-- com_akuleshov7_ktoml-core-jvm 0.7.1
+[10:56:15] [main/WARN] (FabricLoader/ModRemap) Cannot remap modelBakery because it does not exists in any of the targets [net/minecraft/class_1088$class_7778] or their parents.
+[10:56:15] [pool-2-thread-1/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addCloudsPass$6 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:15] [pool-2-thread-8/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addSkyPass$12 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:15] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap renderParticles because it does not exists in any of the targets [net/minecraft/class_702]
+[10:56:16] [pool-2-thread-2/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addSkyPass$12 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap lambda$getTickets$5 because it does not exists in any of the targets [net/minecraft/class_3204]
+[10:56:16] [pool-2-thread-7/WARN] (FabricLoader/ModRemap) Cannot remap renderOffsetShadow because it does not exists in any of the targets [net/minecraft/class_898]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$tick$3 because it does not exists in any of the targets [net/minecraft/class_4897]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$static$26 because it does not exists in any of the targets [net/minecraft/class_1921]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$createWeather$35 because it does not exists in any of the targets [net/minecraft/class_1921]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap darkenWorldAmount because it does not exists in any of the targets [] or their parents.
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-7/WARN] (FabricLoader/ModRemap) Cannot remap lambda$updateBlockEntityTicker$7 because it does not exists in any of the targets [net/minecraft/class_2818]
+[10:56:16] [pool-2-thread-7/WARN] (FabricLoader/ModRemap) Cannot remap lambda$updateBlockEntityTicker$7 because it does not exists in any of the targets [net/minecraft/class_2818]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap push because it does not exists in any of the targets [net/minecraft/class_287]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap getHeldItem because it does not exists in any of the targets [net/minecraft/class_3727]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap lambda$create$5 because it does not exists in any of the targets [net/minecraft/class_4246]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap lambda$create$8 because it does not exists in any of the targets [net/minecraft/class_4246]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addSkyPass$12 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addSkyPass$12 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addCloudsPass$6 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addCloudsPass$6 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addWeatherPass$7 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addWeatherPass$7 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addWeatherPass$7 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-4/WARN] (FabricLoader/ModRemap) Cannot remap lambda$addMainPass$2 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-7/WARN] (FabricLoader/ModRemap) Cannot remap lambda$reload$2 because it does not exists in any of the targets [net/minecraft/class_1060]
+[10:56:16] [pool-2-thread-5/WARN] (FabricLoader/ModRemap) Cannot remap iterateVisibleBlockEntities because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-8/WARN] (FabricLoader/ModRemap) Cannot remap method_62213 because it does not exists in any of the targets [net/minecraft/class_761]
+[10:56:16] [pool-2-thread-8/WARN] (FabricLoader/ModRemap) Cannot remap lambda$init$2 because it does not exists in any of the targets [net/minecraft/class_429]
+[10:56:16] [pool-2-thread-1/WARN] (FabricLoader/ModRemap) Cannot remap getRenderLayers because it does not exists in any of the targets [net/minecraft/class_4696]
+[10:56:16] [pool-2-thread-7/WARN] (FabricLoader/ModRemap) Cannot remap sodium$setActive because it does not exists in any of the targets [net/minecraft/class_7764]
+[10:56:16] [pool-2-thread-6/WARN] (FabricLoader/ModRemap) Cannot remap waterVisionTime because it does not exists in any of the targets [] or their parents.
+[10:56:22] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ddany/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/cf31463202f72d03b0ef1e1e38e8ee71b7faaab6/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[10:56:22] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[10:56:22] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:56:22] [main/INFO] (C2ME Config System) Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@15.0.3 (*) (defined in c2me)
+[10:56:22] [main/INFO] (C2ME Modules Manager) Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:56:22] [main/INFO] (BadOptimizations) Config version: 6
+[10:56:22] [main/INFO] (BadOptimizations) BadOptimizations config dump:
+[10:56:22] [main/INFO] (BadOptimizations) enable_toast_optimizations: true
+[10:56:22] [main/INFO] (BadOptimizations) ignore_mod_incompatibilities: false
+[10:56:22] [main/INFO] (BadOptimizations) lightmap_time_change_needed_for_update: 80
+[10:56:22] [main/INFO] (BadOptimizations) enable_lightmap_caching: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_particle_manager_optimization: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_entity_renderer_caching: true
+[10:56:22] [main/INFO] (BadOptimizations) log_config: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_remove_redundant_fov_calculations: true
+[10:56:22] [main/INFO] (BadOptimizations) config_version: 6
+[10:56:22] [main/INFO] (BadOptimizations) enable_sky_angle_caching_in_worldrenderer: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_block_entity_renderer_caching: true
+[10:56:22] [main/INFO] (BadOptimizations) skycolor_time_change_needed_for_update: 3
+[10:56:22] [main/INFO] (BadOptimizations) enable_entity_flag_caching: true
+[10:56:22] [main/INFO] (BadOptimizations) ignore_mod_cache_hooks: false
+[10:56:22] [main/INFO] (BadOptimizations) enable_debug_renderer_disable_if_not_needed: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_sky_color_caching: true
+[10:56:22] [main/INFO] (BadOptimizations) enable_remove_tutorial_if_not_demo: true
+[10:56:22] [main/INFO] (BadOptimizations) show_f3_text: true
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.chunkio.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.math.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.dfc.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.client.uncapvd.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.allocs.mixin
+[10:56:22] [main/INFO] (Lithium) Loaded configuration file for Lithium: 158 options available, 0 override(s) found.
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.threading.lighting.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.scheduling.mixin
+[10:56:22] [main/INFO] (Sodium) Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[10:56:22] [main/WARN] (ModernFixConfig) We are in a non-Mojmap dev environment. Disabling blockstate cache patch
+[10:56:22] [main/INFO] (ModernFix) Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 55 options available, 4 override(s) found
+[10:56:22] [main/WARN] (ModernFix) Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[10:56:22] [main/WARN] (ModernFix) Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[10:56:22] [main/WARN] (ModernFix) Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[10:56:22] [main/WARN] (ModernFix) Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[10:56:22] [main/INFO] (ModernFix) Applying Nashorn fix
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[10:56:22] [main/INFO] (AsyncAppenderBootstrap) Successfully started async appender with [SysOut, ServerGuiConsole, LatestFile, DebugFile]
+[10:56:22] [main/INFO] (Sodium Extra Config) Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.server.utils.mixin
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/WARN] (FabricLoader/Mixin) Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:56:22] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.notickvd.mixin
+[10:56:22] [main/INFO] (C2ME Config System) Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:56:23] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[10:56:23] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.base.mixin
+[10:56:23] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[10:56:23] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.opts.natives_math.mixin
+[10:56:23] [main/INFO] (NativeLoader) Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[10:56:23] [main/INFO] (NativeLoader) Detected maximum supported ISA target: AVX2
+[10:56:23] [main/INFO] (C2ME Modules Manager) Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net/vulkanmod/config/option/Options)
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[10:56:23] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:56:23] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:56:23] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: traben/entity_model_features/models/parts/EMFModelPart (java.lang.ClassNotFoundException: traben/entity_model_features/models/parts/EMFModelPart)
+[10:56:23] [main/WARN] (FabricLoader/Mixin) Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[10:56:23] [main/INFO] (Sodium-GraphicsAdapterProbe) Searching for graphics cards...
+[10:56:23] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon(TM) Graphics', adapterType=0x00002323, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0416800.inf_amd64_4b13f234da7bec05\B416663\atig6pxx.dll', openglIcdVersion=32.0.13066.12}
+[10:56:23] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5070', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_b7cca8360c0d57e9\nvoglv64.dll', openglIcdVersion=32.0.15.9649}
+[10:56:23] [main/WARN] (Sodium-Workarounds) Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[10:56:23] [main/WARN] (Sodium-Workarounds) This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[10:56:23] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10:56:24] [Datafixer Bootstrap/INFO] (Minecraft) 243 Datafixer optimizations took 250 milliseconds
+[10:56:25] [main/WARN] (FabricLoader/Mixin) Method overwrite conflict for getTemperature in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[10:56:26] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.ClassNotFoundException: net/minecraft/client/player/LocalPlayer)
+[10:56:26] [main/WARN] (FabricLoader/Mixin) @Redirect conflict. Skipping eversense.mixins.json:ClientPlayerEntityMixin from mod eversense->@Redirect::onSprintKeyPressed(Lnet/minecraft/client/option/KeyBinding;)Z with priority 1000, already redirected by mixins.baritone.json:MixinClientPlayerEntity from mod baritone->@Redirect::isKeyDown(Lnet/minecraft/client/option/KeyBinding;)Z with priority 1000
+[10:56:26] [main/WARN] (FabricLoader/Mixin) Error loading class: org/quiltmc/loader/impl/game/minecraft/Hooks (java.lang.ClassNotFoundException: org/quiltmc/loader/impl/game/minecraft/Hooks)
+[10:56:28] [main/INFO] (Minecraft) Vanilla bootstrap took 3405 milliseconds
+[10:56:28] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:56:28] [Render thread/INFO] (Collective) Failed to verify authentication
+[10:56:28] [Render thread/INFO] (Minecraft) Setting user: Player942
+[10:56:28] [Via-Mappingloader-0/INFO] (ViaVersion) Loading block connection mappings ...
+[10:56:29] [Via-Mappingloader-0/INFO] (ViaVersion) Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:56:29] [Download-1/ERROR] (Minecraft) Got an error with a html body connecting to https://sessionserver.mojang.com/session/minecraft/profile/0e2a864340df3a07bffeaa9fb0809920?unsigned=false: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+
+[10:56:29] [Download-1/WARN] (Minecraft) Couldn't look up profile properties for 0e2a8643-40df-3a07-bffe-aa9fb0809920
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 403
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.57.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.method_53464(MinecraftClient.java:453) ~[minecraft-merged-a28ef33499-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[10:56:29] [ForkJoinPool.commonPool-worker-1/INFO] (ViaBackwards) Loading translations...
+[10:56:29] [ForkJoinPool.commonPool-worker-1/INFO] (ViaBackwards) Registering protocols...
+[10:56:29] [Render thread/INFO] (ShulkerBoxTooltip) [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[10:56:29] [Render thread/INFO] (Collective) Loading Collective version 8.3.
+[10:56:29] [Render thread/INFO] (owo) Did you know that Air is made of 78 percent nitrogen and 21 percent oxygen?
+[10:56:29] [Render thread/INFO] (Konkrete) [KONKRETE] Loading v1.9.9 in client-side mode on FABRIC!
+[10:56:29] [Render thread/INFO] (Konkrete) ---------------------------
+[10:56:29] [Render thread/INFO] (Konkrete) KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[10:56:29] [Render thread/INFO] (Konkrete)  
+[10:56:29] [Render thread/INFO] (Konkrete) Open Imaging Copyright © 2014 Dhyan Blum.
+[10:56:29] [Render thread/INFO] (Konkrete) Open Imaging is licensed under Apache-2.0.
+[10:56:29] [Render thread/INFO] (Konkrete)  
+[10:56:29] [Render thread/INFO] (Konkrete) JsonPath Copyright © 2017 Jayway.
+[10:56:29] [Render thread/INFO] (Konkrete) JsonPath is licensed under Apache-2.0.
+[10:56:29] [Render thread/INFO] (Konkrete)  
+[10:56:29] [Render thread/INFO] (Konkrete) Json-smart Copyright © netplex.
+[10:56:29] [Render thread/INFO] (Konkrete) Json-smart is licensed under Apache-2.0.
+[10:56:29] [Render thread/INFO] (Konkrete)  
+[10:56:29] [Render thread/INFO] (Konkrete) Exp4j Copyright © Frank Asseg.
+[10:56:29] [Render thread/INFO] (Konkrete) Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[10:56:29] [Render thread/INFO] (Konkrete) ---------------------------
+[10:56:29] [Render thread/INFO] (Konkrete) [KONKRETE] Server-side modules initialized and ready to use!
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load sf_regular: Failed to read resource: eversense:fonts/msdf/sf_regular/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load wave: Failed to read resource: eversense:fonts/msdf/wave/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load icon: Failed to read resource: eversense:fonts/msdf/icon/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load icon1: Failed to read resource: eversense:fonts/msdf/icon1/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load iconnew: Failed to read resource: eversense:fonts/msdf/iconnew/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load suisse: Failed to read resource: eversense:fonts/msdf/suisse/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load museosanscyrl: Failed to read resource: eversense:fonts/msdf/museosanscyrl/font.json
+[10:56:29] [Render thread/INFO] (Minecraft) [STDERR]: [Fonts] Failed to load sf_regular: Failed to read resource: eversense:fonts/msdf/sf_regular/font.json
+[10:56:29] [Render thread/INFO] (betterpingdisplay) BetterPingDisplay mod loaded
+[10:56:29] [Render thread/WARN] (voicechat) [voicechat/Voicechat] Running in debug mode - Don't leave this enabled in production!
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/Voicechat] Compatibility version 20
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/PluginManager] Loading plugins
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/PluginManager] Loaded 0 plugin(s)
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/PluginManager] Initializing plugins
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/PluginManager] Initialized 0 plugin(s)
+[10:56:29] [Render thread/INFO] (voicechat) [voicechat/ViaVersionCompatibility] Successfully registered ViaVersion mappings
+[10:56:29] [Render thread/INFO] (Puzzles Lib) Constructing common components for puzzleslib:main
+[10:56:29] [Render thread/INFO] (Model Fix) Loaded config modelfix-client.json
+[10:56:30] [ForkJoinPool.commonPool-worker-1/INFO] (ViaBedrock) Started resource pack HTTP server on http://127.0.0.1:52599/
+[10:56:30] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[10:56:30] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:spawn_entity_packet
+[10:56:30] [ForkJoinPool.commonPool-worker-1/INFO] (ViaVersion) ViaVersion detected lowest supported version by the proxy: c0.0.15a-1 (0)
+[10:56:30] [ForkJoinPool.commonPool-worker-1/INFO] (ViaVersion) Highest supported version by the proxy: 1.21.5 (770)
+[10:56:30] [ForkJoinPool.commonPool-worker-1/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:56:30] [Render thread/INFO] (fzzy_config) Loaded config fzzy_config:keybinds in 333ms
+[10:56:30] [Render thread/INFO] (IAS/IASMinecraft) IAS: Booting up... (version: 9.0.4, loader: Fabric, loader version: 0.18.4, game version: 1.21.4)
+[10:56:30] [Render thread/INFO] (IAS) IAS: Initializing IAS...
+[10:56:30] [ModMenu/Update Checker/Fabric Loader/INFO] (Mod Menu/Update Checker) Update available for 'fabricloader@0.18.4'
+[10:56:30] [Render thread/INFO] (IAS) IAS: IAS has been loaded.
+[10:56:30] [Render thread/INFO] (Minecraft) [STDOUT]: [LibGui] Initializing Client...
+[10:56:30] [Render thread/INFO] (YetAnotherConfigLib) Deserializing ModConfig from 'C:\cheatdlc\run\config\health_indicators_config.json'
+[10:56:30] [Render thread/INFO] (healthindicators) Never be heartless!
+[10:56:31] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[10:56:31] [Render thread/INFO] (YetAnotherConfigLib) Deserializing YACLConfig from 'C:\cheatdlc\run\config\yacl.json5'
+[10:56:31] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Update available for 'ias@9.0.4', (-> 9.0.6+1.21.4-fabric)
+[10:56:31] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Update available for 'entityculling@1.10.1', (-> 1.10.2)
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Initializing Opus
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Successfully initialized Opus
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Initializing RNNoise
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Successfully initialized RNNoise
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Initializing Speex
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Successfully initialized Speex
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Initializing LAME
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/NativeValidator] Successfully initialized LAME
+[10:56:31] [Render thread/INFO] (voicechat) [voicechat/ClothConfig] Using Cloth Config GUI
+[10:56:31] [Render thread/INFO] (Puzzles Lib) Constructing client components for puzzleslib:main
+[10:56:31] [Render thread/INFO] (Minecraft) [STDOUT]: [Mouse Tweaks] Main.initialize()
+[10:56:31] [Render thread/INFO] (Minecraft) [STDOUT]: [Mouse Tweaks] Initialized.
+[10:56:31] [Render thread/INFO] (owo) Services frozen by 'net.minecraft.client.MinecraftClient'
+[10:56:31] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
+[10:56:31] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[10:56:31] [Render thread/INFO] (Sodium-NvidiaWorkarounds) Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[10:56:31] [ForkJoinPool.commonPool-worker-1/WARN] (Iris) [Iris Update Check] This version doesn't have an update index, skipping.
+[10:56:31] [Render thread/INFO] (Minecraft) OpenGL Vendor: NVIDIA Corporation
+[10:56:31] [Render thread/INFO] (Minecraft) OpenGL Renderer: NVIDIA GeForce RTX 5070/PCIe/SSE2
+[10:56:31] [Render thread/INFO] (Minecraft) OpenGL Version: 3.2.0 NVIDIA 596.49
+[10:56:31] [Render thread/INFO] (Sodium-NvidiaWorkarounds) Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[10:56:31] [Render thread/INFO] (Sodium-NvidiaWorkarounds) Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
+[10:56:31] [Render thread/INFO] (ImmediatelyFast) Initializing ImmediatelyFast 1.8.6+1.21.4 on NVIDIA GeForce RTX 5070/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 596.49
+[10:56:31] [Render thread/INFO] (ImmediatelyFast) Found Iris 1.8.8+mc1.21.4. Enabling compatibility.
+[10:56:31] [Render thread/INFO] (Iris) Debug functionality is disabled.
+[10:56:31] [Render thread/INFO] (Iris) ARB_direct_state_access detected, enabling DSA.
+[10:56:31] [Render thread/INFO] (Iris) Shaders are disabled because no valid shaderpack is selected
+[10:56:32] [Render thread/INFO] (Minecraft) Found non-pack entry 'C:\cheatdlc\run\resourcepacks\Тгк @Ske3dRpp', ignoring
+[10:56:32] [Render thread/INFO] (Iris) Hardware information:
+[10:56:32] [Render thread/INFO] (Iris) CPU: 8x AMD Ryzen 9 9950X3D 16-Core Processor 
+[10:56:32] [Render thread/INFO] (Iris) GPU: NVIDIA GeForce RTX 5070/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 596.49)
+[10:56:32] [Render thread/INFO] (Iris) OS: Windows 11 (10.0)
+[10:56:32] [Render thread/INFO] (ModernFix) Invalidating pack caches
+[10:56:32] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, appleskin, badoptimizations, betterhurtcam, betterpingdisplay, c2me, chat_heads, cloth-config, com_viaversion_viaaprilfools-common, com_viaversion_viabackwards-common, com_viaversion_viaversion-common, conditional-mixin, crosshair-health-indicator, crosshairaddons, effecttimerplus, enhancedblockentities, entityculling, eversense, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-gametest-api-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, freelook, fullbrightnesstoggle, fzzy_config, healthindicators, ias, immediatelyfast, iris, konkrete, lithium, modernfix, modmenu, moreculling, net_raphimc_viabedrock, net_raphimc_vialegacy, nochatreports, nodeathanimation, owo, placeholder-api, reeses-sodium-options, rescale, shulkerboxtooltip, skinlayers3d, sodium, sodium-extra, supermartijn642corelib, totemcounter, trender, ukulib, viafabricplus, viafabricplus-visuals, vmp, voicechat, walksylib, yet_another_config_lib_v3, zoomify, file/! Vanilla+ Custom By Dumpling
+[10:56:32] [Worker-ResourceReload-2/INFO] (Minecraft) Found unifont_all_no_pua-16.0.01.hex, loading
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Второй.wav, ignoring
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Первый.wav, ignoring
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Пятый.wav, ignoring
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Третий.wav, ignoring
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Четвертый.wav, ignoring
+[10:56:32] [Worker-ResourceReload-6/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack eversense: eversense:sounds/Шестой.wav, ignoring
+[10:56:32] [Render thread/INFO] (moreculling) Cached all modded block culling states
+[10:56:32] [Render thread/INFO] (Minecraft) [CHAT] [Baritone] Baritone settings file not found, resetting.
+[10:56:32] [Worker-ResourceReload-2/INFO] (Minecraft) Found unifont_jp_patch-16.0.01.hex, loading
+[10:56:33] [Render thread/INFO] (Minecraft) [STDOUT]: [nether-pathfinder] Created temp file at C:\Users\ddany\AppData\Local\Temp\nether_pathfinder-x86_642259141633473684691.dll
+[10:56:33] [Render thread/INFO] (Minecraft) [STDERR]: [nether-pathfinder] Failed to delete temp file
+[10:56:33] [Render thread/INFO] (Minecraft) [STDOUT]: [nether-pathfinder] Loaded shared library
+[10:56:33] [Render thread/INFO] (Konkrete) [KONKRETE] Client-side modules initialized and ready to use!
+[10:56:33] [Worker-ResourceReload-5/WARN] (Minecraft) Missing block model: 'minecraft:builtin/entity'
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing textures in model minecraft:hopper#enabled=true,facing=south:
+    minecraft:textures/atlas/blocks.png:minecraft:break/hopper
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing textures in model minecraft:hopper#enabled=true,facing=west:
+    minecraft:textures/atlas/blocks.png:minecraft:break/hopper
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing textures in model minecraft:hopper#enabled=true,facing=down:
+    minecraft:textures/atlas/blocks.png:minecraft:break/hopper
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing textures in model minecraft:hopper#enabled=false,facing=north:
+    minecraft:textures/atlas/blocks.png:minecraft:break/hopper
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing textures in model minecraft:hopper#enabled=false,facing=east:
+    minecraft:textures/atlas/blocks.png:minecraft:break/hopper
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing texture references in model minecraft:decorated_pot#cracked=false,facing=west,waterlogged=true:
+    particle
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing texture references in model minecraft:decorated_pot#cracked=false,facing=north,waterlogged=false:
+    particle
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing texture references in model minecraft:decorated_pot#cracked=true,facing=east,waterlogged=false:
+    particle
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing texture references in model minecraft:decorated_pot#cracked=true,facing=south,waterlogged=true:
+    particle
+[10:56:33] [Worker-ResourceReload-6/WARN] (Minecraft) Missing texture references in model minecraft:end_crystal#inventory:
+    particle
+[10:56:33] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (PRO X 2)
+[10:56:33] [Render thread/INFO] (Minecraft) Sound engine started
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[10:56:33] [Render thread/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer (java.lang.ClassNotFoundException: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer)
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:56:33] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[10:56:34] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[10:56:36] [Render thread/WARN] (ModernFix) Game took 23.878 seconds to start
+[10:56:39] [Render thread/INFO] (Minecraft) Connecting to pvp.mioclient.me, 25565
+[10:56:40] [Render thread/INFO] (CheckedThreadLocalRandom) Enforcing safe world random access
+[10:56:40] [Render thread/INFO] (Iris) Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[10:56:40] [Render thread/INFO] (Iris) Destroying pipeline minecraft:overworld
+[10:56:40] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[10:56:40] [Render thread/INFO] (ChunkBuilder) Started 2 worker threads
+[10:56:40] [Render thread/INFO] (Minecraft) [STDOUT]: World seems to be a replay. Not loading Baritone cache.
+[10:56:40] [Render thread/INFO] (voicechat) [voicechat/ClientManager] Sending secret request to the server
+[10:56:40] [Render thread/INFO] (Minecraft) [CHAT] Player942 joined the game
+[10:56:40] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[10:56:40] [Render thread/INFO] (ShulkerBoxTooltip Plugins) [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[10:56:40] [Render thread/INFO] (ShulkerBoxTooltip Plugins) [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[10:56:40] [Render thread/INFO] (ShulkerBoxTooltip Plugins) [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[10:56:40] [Render thread/INFO] (Minecraft) [STDOUT]: Retrying to load Baritone cache
+[10:56:40] [Render thread/INFO] (Minecraft) [STDOUT]: Baritone world data dir: C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384
+[10:56:40] [Render thread/INFO] (Minecraft) [STDOUT]: Cached world directory: C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:56:40] [Render thread/INFO] (Minecraft) [STDOUT]: Would save waypoints to C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\waypoints
+[10:56:41] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loading region 0,0 from disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:56:41] [Render thread/WARN] (ModernFix) Time from main menu to in-game was 1.5006837 seconds
+[10:56:41] [Render thread/WARN] (ModernFix) Total time to load game and open world was 25.378683 seconds
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » Alerts enabled
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » Verbose enabled
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Открылся новый пиратский тест сервер! Переходи туда: pvp.thunderhack.pw
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x105) .022995 /gl 218
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x106) .020925 /gl 219
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x107) .019042 /gl 220
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x108) .010397 /gl 221
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x109) .009461 /gl 222
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x110) .008610 /gl 223
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x111) .007835 /gl 224
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x112) .007130 /gl 225
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x113) .006488 /gl 226
+[10:56:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x114) .005904 /gl 227
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x115) .005373 /gl 228
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x96) entityId=462462998
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x116) .004889 /gl 229
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x117) .004449 /gl 230
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x118) .004049 /gl 231
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x119) .003684 /gl 232
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x120) .001682 /gl 233
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x121) .001531 /gl 234
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x122) .001393 /gl 235
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x123) .001268 /gl 236
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x124) .001154 /gl 237
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x125) .001050 /gl 238
+[10:56:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x97) entityId=462462998
+[10:56:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x98) entityId=462462998
+[10:56:43] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loaded region successfully in 2685ms
+[10:56:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x99) entityId=462462998
+[10:56:44] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loading region 0,-1 from disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:56:44] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loaded region successfully in 124ms
+[10:56:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x100) entityId=462462998
+[10:56:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x101) entityId=462462998
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 60 seconds
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x102) entityId=462462998
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x103) entityId=462462998
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x126) .036994 /gl 239
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x127) .033665 /gl 240
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x128) .030635 /gl 241
+[10:56:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x129) .027878 /gl 242
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x130) .025369 /gl 243
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x131) .013851 /gl 244
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x132) .012605 /gl 245
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x133) .011470 /gl 246
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x134) .010438 /gl 247
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x135) .009499 /gl 248
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x136) .008644 /gl 249
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x137) .007866 /gl 250
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x138) .004181 /gl 251
+[10:56:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x104) entityId=462462998
+[10:56:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x105) entityId=462462998
+[10:56:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Timer (x2) 
+[10:56:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x106) entityId=462462998
+[10:56:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x107) entityId=462462998
+[10:56:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed TimerLimit (x1) 
+[10:56:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x108) entityId=462462998
+[10:56:50] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x109) entityId=462462998
+[10:56:50] [Render thread/INFO] (Minecraft) [CHAT] darkl1te left the game
+[10:56:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x110) entityId=462462998
+[10:56:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x111) entityId=462462998
+[10:56:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x112) entityId=462462998
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x113) entityId=462462998
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x139) .044271 /gl 252
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x140) .037517 /gl 253
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x141) .034140 /gl 254
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x142) .031068 /gl 255
+[10:56:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x143) .016963 /gl 256
+[10:56:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x114) entityId=462462998
+[10:56:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x115) entityId=462462998
+[10:56:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x116) entityId=462462998
+[10:56:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x117) entityId=462462998
+[10:56:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x118) entityId=462462998
+[10:56:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x119) entityId=462462998
+[10:56:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x120) entityId=462462998
+[10:56:58] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x121) entityId=462462998
+[10:56:59] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x122) entityId=462462998
+[10:56:59] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x123) entityId=462462998
+[10:57:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x124) entityId=462462998
+[10:57:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x125) entityId=462462998
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Simulation (x2) .088416 /gl 1
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Simulation (x3) .007644 /gl 2
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x126) entityId=462462998
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Simulation (x4) .003677 /gl 3
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Simulation (x5) .002008 /gl 4
+[10:57:01] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Simulation (x6) .001096 /gl 5
+[10:57:02] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x127) entityId=462462998
+[10:57:02] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x128) entityId=462462998
+[10:57:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x129) entityId=462462998
+[10:57:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x130) entityId=462462998
+[10:57:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x131) entityId=462462998
+[10:57:05] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x132) entityId=462462998
+[10:57:05] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x133) entityId=462462998
+[10:57:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x134) entityId=462462998
+[10:57:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x135) entityId=462462998
+[10:57:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x136) entityId=462462998
+[10:57:08] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x137) entityId=462462998
+[10:57:10] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: Saving region 0,-1 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:57:10] [ForkJoinPool.commonPool-worker-2/INFO] (Minecraft) [STDOUT]: Saving region 0,0 to disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:57:10] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: Saved region successfully
+[10:57:10] [ForkJoinPool.commonPool-worker-2/INFO] (Minecraft) [STDOUT]: Saved region successfully
+[10:57:10] [pool-9-thread-2/INFO] (Minecraft) [STDOUT]: World save took 141ms
+[10:57:12] [Render thread/INFO] (Minecraft) [CHAT] Baflllik_ left the game
+[10:57:16] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 30 seconds
+[10:57:27] [Render thread/INFO] (Minecraft) [CHAT] SteelGamer_8 fell from a high place
+[10:57:27] [Render thread/INFO] (Minecraft) [CHAT] darkl1te joined the game
+[10:57:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x144) .070483 /gl 6
+[10:57:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x145) .109402 /gl 7
+[10:57:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x146) .131449 /gl 8
+[10:57:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x147) .143051 /gl 9
+[10:57:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x148) .071280 /gl 10
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x149) .110199 /gl 11
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x150) .131449 /gl 12
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x151) .071280 /gl 13
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x152) .110199 /gl 14
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x153) .131449 /gl 15
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x154) .071280 /gl 16
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x155) .110199 /gl 17
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x156) .131449 /gl 18
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x157) .071280 /gl 19
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x158) .110199 /gl 20
+[10:57:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x159) .131449 /gl 21
+[10:57:36] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 10 seconds
+[10:57:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x160) .071280 /gl 22
+[10:57:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x161) .135857 /gl 23
+[10:57:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x162) .024018 /gl 24
+[10:57:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed NoSlow (x1) 
+[10:57:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed Post (x1) player digging v1.16.4
+[10:57:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area has been cleared
+[10:57:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x163) .071280 /gl 25
+[10:57:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x164) .110001 /gl 26
+[10:57:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed Post (x2) player digging v1.16.4
+[10:57:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x165) .171185 /gl 27
+[10:57:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x166) .071280 /gl 28
+[10:57:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x167) .055806 /gl 29
+[10:57:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x168) .042028 /gl 30
+[10:57:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed NoSlow (x2) 
+[10:57:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed DuplicateRotPlace* (x1) x=0.0 xdots=0.0 y=19.093096
+[10:57:58] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x169) .013680 /gl 31
+[10:58:02] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Reach (x1) 3.08131 blocks, type=player
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsC (x1) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsD (x1) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderE* (x1) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsC (x2) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsD (x2) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsC (x3) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsD (x3) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderE* (x2) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsC (x4) sprinting, input
+[10:58:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsD (x4) sprinting, input
+[10:58:05] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsZ* (x1) 
+[10:58:05] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsZ* (x2) 
+[10:58:05] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsX* (x1) 
+[10:58:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderE* (x3) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
+[10:58:09] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderE* (x4) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
+[10:58:13] [Render thread/INFO] (Minecraft) [CHAT] gewqasqw joined the game
+[10:58:16] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed Post (x1) held item change v1.16.4
+[10:58:16] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderE* (x1) attacking=false, rightClicking=true, openingInventory=false, releasing=false, sneaking=false, sprinting=false, bed=false, sprinting=false, gliding=false, mountJumping=false
+[10:58:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsH* (x1) expected=9, id=0
+[10:58:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed FastBreak (x1) diff=2997.0ms, balance=2997.0ms, type=oak_log
+[10:58:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsH* (x2) expected=1, id=0
+[10:58:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderI* (x1) type=attack, rightClicking=false, picking=false, releasing=false, digging=true
+[10:58:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsF* (x1) entity
+[10:58:20] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loading region -1,0 from disk C:\cheatdlc\run\baritone\pvp.mioclient.me\minecraft\overworld_384\cache
+[10:58:20] [pool-9-thread-1/INFO] (Minecraft) [STDOUT]: Loaded region successfully in 92ms
+[10:58:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x170) .013680 /gl 32
+[10:58:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x171) .021144 /gl 33
+[10:58:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x172) .032921 /gl 34
+[10:58:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsH* (x3) expected=1, id=0
+[10:58:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed FastBreak (x2) diff=14998.0ms, balance=15998.0ms, type=oak_slab
+[10:58:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsH* (x4) expected=1, id=0
+[10:58:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed PacketOrderI* (x2) type=attack, rightClicking=false, picking=false, releasing=false, digging=true
+[10:58:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed MultiActionsF* (x2) entity
+[10:58:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x173) .025519 /gl 35
+[10:58:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x174) .005173 /gl 36
+[10:58:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x175) .010214 /gl 37
+[10:58:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x176) .015078 /gl 38
+[10:58:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x177) .004969 /gl 39
+[10:58:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x178) .013680 /gl 40
+[10:58:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x179) .026123 /gl 41
+[10:58:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x180) .037428 /gl 42
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x181) .013680 /gl 43
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x182) .026123 /gl 44
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x183) .037428 /gl 45
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x184) .013680 /gl 46
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x185) .026124 /gl 47
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x186) .037433 /gl 48
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x187) .013680 /gl 49
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x188) .026125 /gl 50
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x189) .037437 /gl 51
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x190) .013680 /gl 52
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x191) .026126 /gl 53
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x192) .037439 /gl 54
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x193) .013680 /gl 55
+[10:58:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x194) .026126 /gl 56
+[10:58:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x195) .037441 /gl 57
+[10:58:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x196) .013680 /gl 58
+[10:58:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x197) .026126 /gl 59
+[10:58:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x198) .037444 /gl 60
+[10:58:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed NegativeTimer* (x1) -4502
+[10:58:37] [Render thread/INFO] (Minecraft) [CHAT] Applied enchantment minecraft:wind_burst III to Player942's item
+[10:58:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed NoSlow (x3) 
+[10:58:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x199) .013680 /gl 61
+[10:58:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x200) .021149 /gl 62
+[10:58:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x201) .025228 /gl 63
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x202) .013680 /gl 64
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x203) .013680 /gl 65
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x204) .026129 /gl 66
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x205) .079919 /gl 67
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x206) .152641 /gl 68
+[10:58:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x207) .157913 /gl 69
+[10:58:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x208) .079766 /gl 70
+[10:58:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x209) .072006 /gl 71
+[10:58:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x210) .004342 /gl 72
+[10:58:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x211) .079920 /gl 73
+[10:58:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x212) .151332 /gl 74
+[10:58:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x213) .115050 /gl 75
+[10:58:50] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed NoSlow (x4) 
+[10:58:52] [Render thread/INFO] (Minecraft) [CHAT] sjdgjdsgdskj joined the game
+[10:58:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » sjdgjdsgdskj failed Simulation (x1) 274.699147 /gl 76
+[10:58:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » sjdgjdsgdskj failed Simulation (x2) .026246 /gl 77
+[10:58:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x214) .007951 /gl 78
+[10:58:55] [Render thread/INFO] (Minecraft) [CHAT] Baflllik_ joined the game
+[10:58:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x1) 
+[10:58:56] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x2) 
+[10:59:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed PacketOrderB (x1) post-attack
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x1) .070000 /gl 79
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x2) .063700 /gl 80
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x3) .057967 /gl 81
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x4) .052750 /gl 82
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x5) .048002 /gl 83
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x6) .043682 /gl 84
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x7) .039751 /gl 85
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x8) .036173 /gl 86
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x9) .032918 /gl 87
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x10) .029955 /gl 88
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x11) .027259 /gl 89
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x12) .024806 /gl 90
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x13) .022573 /gl 91
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x14) .020542 /gl 92
+[10:59:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed PacketOrderB (x2) post-attack
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x15) .018693 /gl 93
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x16) .010206 /gl 94
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x17) .009288 /gl 95
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x18) .008452 /gl 96
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x19) .007691 /gl 97
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x20) .006999 /gl 98
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x21) .006369 /gl 99
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x22) .005796 /gl 100
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x23) .005274 /gl 101
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x24) .004800 /gl 102
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x215) .079920 /gl 103
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x25) .004368 /gl 104
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed AntiKB (x1) o: 0.09083
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x216) .090830 /gl 105
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x26) .003975 /gl 106
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x27) .003617 /gl 107
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x217) .089013 /gl 108
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x28) .003291 /gl 109
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x29) .002995 /gl 110
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x30) .002726 /gl 111
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x31) .002480 /gl 112
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x32) .002257 /gl 113
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x33) .001232 /gl 114
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x34) .001121 /gl 115
+[10:59:07] [Render thread/INFO] (Minecraft) [CHAT] sjdgjdsgdskj left the game
+[10:59:08] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x35) .001020 /gl 116
+[10:59:13] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed AimModulo360 (x1) 
+[10:59:18] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x218) .057940 /gl 117
+[10:59:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed AimModulo360 (x2) 
+[10:59:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x1) type=INTERACT_ENTITY
+[10:59:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x2) type=ANIMATION
+[10:59:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Hitboxes (x1) type=player
+[10:59:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x36) .070000 /gl 118
+[10:59:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x37) .108220 /gl 119
+[10:59:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x38) .059088 /gl 120
+[10:59:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x1) interact entity v1.21.4
+[10:59:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Hitboxes (x2) type=player
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x39) .069373 /gl 121
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x40) .037256 /gl 122
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x41) .020342 /gl 123
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x42) .011107 /gl 124
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x43) .006064 /gl 125
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x44) .003311 /gl 126
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x45) .001808 /gl 127
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x219) .030642 /gl 128
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x3) type=INTERACT_ENTITY
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x4) type=ANIMATION
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x46) .003061 /gl 129
+[10:59:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x2) interact entity v1.21.4
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x1) .015683 /gl 130
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x5) type=INTERACT_ENTITY
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x6) type=ANIMATION
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x3) interact entity v1.21.4
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x7) type=INTERACT_ENTITY
+[10:59:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x8) type=ANIMATION
+[10:59:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x4) interact entity v1.21.4
+[10:59:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x9) type=INTERACT_ENTITY
+[10:59:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x10) type=ANIMATION
+[10:59:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x5) interact entity v1.21.4
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x11) type=INTERACT_ENTITY
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x12) type=ANIMATION
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x6) interact entity v1.21.4
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x13) type=INTERACT_ENTITY
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x14) type=ANIMATION
+[10:59:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x7) interact entity v1.21.4
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x15) type=INTERACT_ENTITY
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x16) type=ANIMATION
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Hitboxes (x3) type=player
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x8) interact entity v1.21.4
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x17) type=INTERACT_ENTITY
+[10:59:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x18) type=ANIMATION
+[10:59:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x9) interact entity v1.21.4
+[10:59:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x19) type=INTERACT_ENTITY
+[10:59:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x20) type=ANIMATION
+[10:59:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x10) interact entity v1.21.4
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x21) type=INTERACT_ENTITY
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x22) type=ANIMATION
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x11) interact entity v1.21.4
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x23) type=INTERACT_ENTITY
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x24) type=ANIMATION
+[10:59:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x12) interact entity v1.21.4
+[10:59:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x25) type=INTERACT_ENTITY
+[10:59:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x26) type=ANIMATION
+[10:59:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x13) interact entity v1.21.4
+[10:59:29] [Render thread/INFO] (Minecraft) Loaded 23 advancements
+[10:59:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x27) type=INTERACT_ENTITY
+[10:59:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x28) type=ANIMATION
+[10:59:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x14) interact entity v1.21.4
+[10:59:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x29) type=INTERACT_ENTITY
+[10:59:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x30) type=ANIMATION
+[10:59:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x15) interact entity v1.21.4
+[10:59:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x31) type=INTERACT_ENTITY
+[10:59:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x32) type=ANIMATION
+[10:59:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x33) type=INTERACT_ENTITY
+[10:59:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x34) type=ANIMATION
+[10:59:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x16) interact entity v1.21.4
+[10:59:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x35) type=INTERACT_ENTITY
+[10:59:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x36) type=ANIMATION
+[10:59:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x17) interact entity v1.21.4
+[10:59:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x37) type=INTERACT_ENTITY
+[10:59:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x38) type=ANIMATION
+[10:59:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x39) type=INTERACT_ENTITY
+[10:59:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x40) type=ANIMATION
+[10:59:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x18) interact entity v1.21.4
+[10:59:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsH* (x5) expected=1, id=9
+[10:59:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Hitboxes (x4) type=player
+[10:59:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x41) type=INTERACT_ENTITY
+[10:59:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x42) type=ANIMATION
+[10:59:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x19) interact entity v1.21.4
+[10:59:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x2) .010936 /gl 131
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x43) type=INTERACT_ENTITY
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x44) type=ANIMATION
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x20) interact entity v1.21.4
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x3) .015401 /gl 132
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x4) .020710 /gl 133
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x5) .009816 /gl 134
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x45) type=INTERACT_ENTITY
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x46) type=ANIMATION
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x21) interact entity v1.21.4
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x6) .005792 /gl 135
+[10:59:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x7) .006317 /gl 136
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x47) type=INTERACT_ENTITY
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x48) type=ANIMATION
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x22) interact entity v1.21.4
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x8) .003220 /gl 137
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x49) type=INTERACT_ENTITY
+[10:59:41] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x49) type=ANIMATION
+[10:59:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x9) .002301 /gl 138
+[10:59:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x10) .003244 /gl 139
+[10:59:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Simulation (x11) .001624 /gl 140
+[10:59:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x50) type=INTERACT_ENTITY
+[10:59:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x51) type=ANIMATION
+[10:59:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x52) type=INTERACT_ENTITY
+[10:59:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x53) type=ANIMATION
+[10:59:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x54) type=INTERACT_ENTITY
+[10:59:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x55) type=ANIMATION
+[10:59:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x23) interact entity v1.21.4
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x56) type=INTERACT_ENTITY
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x57) type=ANIMATION
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x24) interact entity v1.21.4
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed GroundSpoof (x1) claimed false
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x47) .003000 /gl 141
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x1) type=flying, packets=1
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed GroundSpoof (x2) claimed false
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x1) type=INTERACT_ENTITY
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x2) type=ANIMATION
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x2) type=end, packets=2
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x58) type=INTERACT_ENTITY
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x59) type=ANIMATION
+[10:59:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x25) interact entity v1.21.4
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x1) interact entity v1.21.11
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x60) type=INTERACT_ENTITY
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x61) type=ANIMATION
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x26) interact entity v1.21.4
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x48) .094860 /gl 142
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x3) type=flying, packets=1
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x49) .165423 /gl 143
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x3) type=INTERACT_ENTITY
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x4) type=ANIMATION
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x5) type=PLAYER_INPUT
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x6) type=ENTITY_ACTION
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x4) type=flying, packets=2
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x50) .082994 /gl 144
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x5) type=end, packets=3
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x51) .081334 /gl 145
+[10:59:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x52) .079708 /gl 146
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x53) .026533 /gl 147
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x6) type=flying, packets=1
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x54) .072444 /gl 148
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x7) type=INTERACT_ENTITY
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x8) type=ANIMATION
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x8) type=PLAYER_INPUT
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x9) type=ENTITY_ACTION
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x3) 
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x6) type=flying, packets=2
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x7) type=end, packets=3
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x2) interact entity v1.21.11
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x55) .095620 /gl 149
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x56) .008125 /gl 150
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x57) .140259 /gl 151
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x3) 
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x8) type=flying, packets=1
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x10) type=INTERACT_ENTITY
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x11) type=ANIMATION
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x12) type=PLAYER_INPUT
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x13) type=ENTITY_ACTION
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x4) 
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x9) type=flying, packets=2
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x10) type=end, packets=3
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x3) interact entity v1.21.11
+[10:59:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x58) .127242 /gl 152
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed GroundSpoof (x3) claimed false
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x59) .019073 /gl 153
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x5) 
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x11) type=flying, packets=1
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x14) type=INTERACT_ENTITY
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x15) type=ANIMATION
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x16) type=PLAYER_INPUT
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x6) 
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x12) type=flying, packets=2
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x13) type=end, packets=3
+[10:59:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x4) interact entity v1.21.11
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x60) .086795 /gl 154
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x7) 
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x14) type=flying, packets=1
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x17) type=INTERACT_ENTITY
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x18) type=ANIMATION
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x8) 
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x15) type=flying, packets=2
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x16) type=end, packets=3
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x5) interact entity v1.21.11
+[10:59:49] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x61) .018419 /gl 155
+[11:00:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x220) .002871 /gl 156
+[11:00:04] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x221) .001242 /gl 157
+[11:00:08] [Render thread/INFO] (Minecraft) [CHAT] Gave 576 [End Crystal] to Player942
+[11:00:08] [Render thread/INFO] (Minecraft) Loaded 24 advancements
+[11:00:13] [Render thread/INFO] (Minecraft) [CHAT] Gave 1 [Obsidian] to Player942
+[11:00:13] [Render thread/INFO] (Minecraft) Loaded 35 advancements
+[11:00:15] [Render thread/INFO] (Minecraft) [CHAT] Gave 133 [Obsidian] to Player942
+[11:00:19] [Render thread/INFO] (Minecraft) [CHAT] Gave 576 [Totem of Undying] to Player942
+[11:00:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed ChatC* (x1) sprinting
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x1) 
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x2) 
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x3) 
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x4) 
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x5) 
+[11:00:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x6) 
+[11:00:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x7) 
+[11:00:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x8) 
+[11:00:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x9) 
+[11:00:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x10) 
+[11:00:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed PacketOrderB (x3) post-attack
+[11:00:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed TimerLimit (x11) 
+[11:00:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x1) expected=26, id=0
+[11:00:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x1) slot=5
+[11:00:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x2) slot=0
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x2) expected=1, id=26
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x3) expected=27, id=0
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x3) slot=5
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x4) slot=0
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x4) expected=1, id=27
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x5) expected=28, id=0
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x5) slot=5
+[11:00:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x6) slot=0
+[11:00:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x6) expected=1, id=28
+[11:00:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x7) expected=30, id=0
+[11:00:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x7) slot=5
+[11:00:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x8) slot=0
+[11:00:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x8) expected=1, id=30
+[11:00:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x9) expected=32, id=0
+[11:00:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x9) slot=5
+[11:00:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x10) slot=0
+[11:00:29] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x10) expected=1, id=32
+[11:00:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x11) expected=36, id=0
+[11:00:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x11) slot=5
+[11:00:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x12) slot=0
+[11:00:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x12) expected=1, id=36
+[11:00:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x13) expected=38, id=0
+[11:00:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x13) slot=5
+[11:00:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsA (x14) slot=0
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x1) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x2) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x3) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x14) expected=1, id=0
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x4) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x5) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x6) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsD (x1) sprinting, input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x7) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x8) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x9) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x15) expected=1, id=0
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x10) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x11) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x12) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsD (x2) input
+[11:00:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x16) expected=1, id=0
+[11:00:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x17) expected=1, id=0
+[11:00:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x18) expected=1, id=42
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x13) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x14) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x15) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x19) expected=48, id=0
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x16) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x17) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x18) input
+[11:00:35] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsD (x3) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x19) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x20) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x21) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x20) expected=1, id=0
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x22) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x23) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsC (x24) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed MultiActionsD (x4) input
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x21) expected=1, id=0
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x22) expected=1, id=0
+[11:00:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x23) expected=1, id=0
+[11:00:37] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x24) expected=1, id=53
+[11:00:40] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x25) expected=62, id=0
+[11:00:42] [Render thread/INFO] (Minecraft) [CHAT] imaahomerunner died
+[11:00:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsH* (x26) expected=1, id=63
+[11:00:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x222) .001755 /gl 158
+[11:00:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x223) .001147 /gl 159
+[11:01:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderB (x1) post-attack
+[11:01:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x62) type=INTERACT_ENTITY
+[11:01:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x63) type=ANIMATION
+[11:01:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x1) .008695 /gl 160
+[11:01:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x64) type=INTERACT_ENTITY
+[11:01:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x65) type=ANIMATION
+[11:01:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x66) type=INTERACT_ENTITY
+[11:01:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x67) type=ANIMATION
+[11:01:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x68) type=INTERACT_ENTITY
+[11:01:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x69) type=ANIMATION
+[11:01:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x70) type=INTERACT_ENTITY
+[11:01:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x71) type=ANIMATION
+[11:01:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x72) type=INTERACT_ENTITY
+[11:01:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x73) type=ANIMATION
+[11:01:38] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderI* (x1) type=attack, rightClicking=true, picking=false, releasing=false, digging=false
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x74) type=INTERACT_ENTITY
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x75) type=ANIMATION
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderI* (x2) type=attack, rightClicking=true, picking=false, releasing=false, digging=false
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderI* (x3) type=attack, rightClicking=true, picking=false, releasing=false, digging=false
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed Post (x2) interact entity v1.16.4
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed Post (x3) interact entity v1.16.4
+[11:01:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed PacketOrderI* (x4) type=attack, rightClicking=true, picking=false, releasing=false, digging=false
+[11:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x76) type=INTERACT_ENTITY
+[11:01:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x77) type=ANIMATION
+[11:01:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x1) sprinting
+[11:01:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x2) sprinting
+[11:01:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x3) sprinting
+[11:01:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x4) sprinting
+[11:01:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x5) sprinting
+[11:01:44] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed MultiActionsC (x6) sprinting
+[11:01:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x78) type=INTERACT_ENTITY
+[11:01:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x79) type=ANIMATION
+[11:01:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed Hitboxes (x1) type=end_crystal
+[11:01:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed Hitboxes (x2) type=end_crystal
+[11:01:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x80) type=INTERACT_ENTITY
+[11:01:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x81) type=ANIMATION
+[11:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x82) type=INTERACT_ENTITY
+[11:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x83) type=ANIMATION
+[11:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x1) x=0.0 xdots=0.0 y=19.113583
+[11:01:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x2) x=0.0 xdots=0.0 y=19.113583
+[11:01:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x3) x=0.0 xdots=0.0 y=19.113583
+[11:01:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x4) x=0.0 xdots=0.0 y=19.113583
+[11:01:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x5) x=0.0 xdots=0.0 y=19.113583
+[11:01:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x6) x=0.0 xdots=0.0 y=19.113583
+[11:01:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x84) type=INTERACT_ENTITY
+[11:01:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x85) type=ANIMATION
+[11:01:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player549 failed DuplicateRotPlace* (x7) x=0.0 xdots=0.0 y=19.113583
+[11:01:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x86) type=INTERACT_ENTITY
+[11:01:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x87) type=ANIMATION
+[11:01:59] [Render thread/INFO] (Minecraft) [CHAT] SteelGamer_8 left the game
+[11:02:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x88) type=INTERACT_ENTITY
+[11:02:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x89) type=ANIMATION
+[11:02:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x90) type=INTERACT_ENTITY
+[11:02:03] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x91) type=ANIMATION
+[11:02:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x92) type=INTERACT_ENTITY
+[11:02:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x93) type=ANIMATION
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Hitboxes (x1) type=zombie
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsJ (x1) 
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsJ (x2) 
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Hitboxes (x2) type=zombie
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsJ (x3) 
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed BadPacketsJ (x4) 
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x2) .083157 /gl 161
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x3) .081261 /gl 162
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x4) .079438 /gl 163
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x5) .077682 /gl 164
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x6) .075987 /gl 165
+[11:02:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player942 failed Simulation (x7) .010561 /gl 166
+[11:02:09] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x94) type=INTERACT_ENTITY
+[11:02:09] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x95) type=ANIMATION
+[11:02:10] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x27) interact entity v1.21.4
+[11:02:12] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x96) type=INTERACT_ENTITY
+[11:02:12] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x97) type=ANIMATION
+[11:02:13] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x28) interact entity v1.21.4
+[11:02:13] [Render thread/INFO] (Minecraft) [CHAT] Player549 left the game
+[11:02:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x98) type=INTERACT_ENTITY
+[11:02:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x99) type=ANIMATION
+[11:02:16] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x29) interact entity v1.21.4
+[11:02:18] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x100) type=INTERACT_ENTITY
+[11:02:18] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x101) type=ANIMATION
+[11:02:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x30) interact entity v1.21.4
+[11:02:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x102) type=INTERACT_ENTITY
+[11:02:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x103) type=ANIMATION
+[11:02:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x31) interact entity v1.21.4
+[11:02:23] [Render thread/INFO] (Minecraft) [CHAT] Gave 1 [Elytra] to Player942
+[11:02:23] [Render thread/INFO] (Minecraft) Loaded 40 advancements
+[11:02:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x104) type=INTERACT_ENTITY
+[11:02:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x105) type=ANIMATION
+[11:02:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x32) interact entity v1.21.4
+[11:02:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x106) type=INTERACT_ENTITY
+[11:02:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x107) type=ANIMATION
+[11:02:28] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x33) interact entity v1.21.4
+[11:02:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x108) type=INTERACT_ENTITY
+[11:02:30] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x109) type=ANIMATION
+[11:02:30] [Render thread/INFO] (Minecraft) [CHAT] Gave 1 [Chainmail Chestplate] to Player942
+[11:02:30] [Render thread/INFO] (Minecraft) Loaded 42 advancements
+[11:02:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x34) interact entity v1.21.4
+[11:02:32] [Render thread/INFO] (Minecraft) [CHAT] Grim » priv_444 failed Hitboxes (x1) type=player
+[11:02:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x110) type=INTERACT_ENTITY
+[11:02:33] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x111) type=ANIMATION
+[11:02:33] [Render thread/INFO] (Minecraft) [CHAT] M1le joined the game
+[11:02:34] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x35) interact entity v1.21.4
+[11:02:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x112) type=INTERACT_ENTITY
+[11:02:36] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x113) type=ANIMATION
+[11:02:37] [Render thread/INFO] (Minecraft) [CHAT] Gave 111 [Firework Rocket] to Player942
+[11:02:38] [Render thread/INFO] (Minecraft) [CHAT] vintedde joined the game
+[11:02:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x114) type=INTERACT_ENTITY
+[11:02:39] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x115) type=ANIMATION
+[11:02:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x116) type=INTERACT_ENTITY
+[11:02:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x117) type=ANIMATION
+[11:02:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x36) interact entity v1.21.4
+[11:02:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x118) type=INTERACT_ENTITY
+[11:02:45] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x119) type=ANIMATION
+[11:02:46] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed Post (x37) interact entity v1.21.4
+[11:02:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x120) type=INTERACT_ENTITY
+[11:02:48] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x121) type=ANIMATION
+[11:02:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x122) type=INTERACT_ENTITY
+[11:02:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x122) type=ANIMATION
+[11:02:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x123) type=INTERACT_ENTITY
+[11:02:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x124) type=ANIMATION
+[11:02:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x125) type=INTERACT_ENTITY
+[11:02:57] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x126) type=ANIMATION
+[11:02:58] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x127) type=INTERACT_ENTITY
+[11:02:58] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x128) type=ANIMATION
+[11:02:59] [Render thread/INFO] (Minecraft) Loaded 80 advancements
+[11:02:59] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x129) type=INTERACT_ENTITY
+[11:02:59] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x130) type=ANIMATION
+[11:03:00] [Render thread/INFO] (Minecraft) [CHAT] SteelGamer_8 joined the game
+[11:03:00] [Render thread/INFO] (Minecraft) [CHAT] Grim » SteelGamer_8 failed Timer (x1) 
+[11:03:09] [Render thread/INFO] (Minecraft) [CHAT] Player919 joined the game
+[11:03:10] [Render thread/INFO] (Minecraft) [CHAT] priv_444 left the game
+[11:03:43] [Render thread/INFO] (Minecraft) [CHAT] saimaro left the game
+[11:03:43] [Render thread/INFO] (Minecraft) [CHAT] Baflllik_ left the game
+[11:03:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 60 seconds
+[11:04:13] [Render thread/INFO] (Minecraft) [CHAT] Grim » darkl1te failed PacketOrderB (x2) post-attack
+[11:04:16] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 30 seconds
+[11:04:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed Reach (x1) 3.12585 blocks, type=player
+[11:04:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x131) type=INTERACT_ENTITY
+[11:04:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x132) type=ANIMATION
+[11:04:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x131) type=INTERACT_ENTITY
+[11:04:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x132) type=ANIMATION
+[11:04:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x133) type=INTERACT_ENTITY
+[11:04:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » gewqasqw failed PacketOrderO* (x134) type=ANIMATION
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x1) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x2) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x3) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x4) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x4) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x5) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x6) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x6) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x7) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x8) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x8) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x9) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x10) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x11) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x11) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x12) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x12) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x13) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x14) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x15) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x15) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x16) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x16) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x17) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x18) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x19) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x19) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x20) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x21) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x22) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x23) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x24) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x25) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x26) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x27) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x28) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed TimerLimit (x29) 
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player18 failed Simulation (x1) .056798 /gl 167
+[11:04:24] [Render thread/INFO] (Minecraft) [CHAT] SteelGamer_8 left the game
+[11:04:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed SprintE* (x1) 
+[11:04:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed SprintE* (x2) 
+[11:04:27] [Render thread/INFO] (Minecraft) [CHAT] Baflllik_ joined the game
+[11:04:28] [Render thread/INFO] (Minecraft) [CHAT] <Player919> 123
+[11:04:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed MultiActionsD (x1) sprinting
+[11:04:31] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed SprintE* (x3) 
+[11:04:36] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area is going to be cleared in 10 seconds
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x1) .194424 /gl 168
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x1) type=flying, packets=1
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed AimDuplicateLook (x1) 
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x2) .222134 /gl 169
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x1) type=INTERACT_ENTITY
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x2) type=ANIMATION
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x3) type=PLAYER_INPUT
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x4) type=ENTITY_ACTION
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x2) type=flying, packets=2
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x3) .088053 /gl 170
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x3) type=end, packets=3
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x4) .085709 /gl 171
+[11:04:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x5) .083500 /gl 172
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x6) .166443 /gl 173
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x1) 
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x4) type=flying, packets=1
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x5) type=INTERACT_ENTITY
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x6) type=ANIMATION
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x2) 
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x5) type=flying, packets=2
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x6) type=end, packets=3
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x1) interact entity v1.21.11
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x7) .166443 /gl 174
+[11:04:43] [Render thread/INFO] (Minecraft) [CHAT] <Player18> M1le лох
+[11:04:46] [Render thread/INFO] (Minecraft) [CHAT] The scaffold area has been cleared
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x8) .122676 /gl 175
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x3) 
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x7) type=flying, packets=1
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x7) type=INTERACT_ENTITY
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed PacketOrderO* (x8) type=ANIMATION
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Timer (x3) 
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x8) type=flying, packets=2
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed TickTimer (x8) type=end, packets=3
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Post (x2) interact entity v1.21.11
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x9) .082101 /gl 176
+[11:04:47] [Render thread/INFO] (Minecraft) [CHAT] Grim » Baflllik_ failed Simulation (x10) .067228 /gl 177
+[11:05:01] [Render thread/INFO] (Minecraft) [CHAT] saimaro joined the game
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x1) entityId=462462998
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x1) .079356 /gl 178
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x2) .035720 /gl 179
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x3) .099731 /gl 180
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x4) .025467 /gl 181
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x5) .093825 /gl 182
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x6) .028692 /gl 183
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x7) .095586 /gl 184
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x8) .027730 /gl 185
+[11:05:06] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x9) .095061 /gl 186
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x10) .028017 /gl 187
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x11) .095217 /gl 188
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x2) entityId=462462998
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x12) .027931 /gl 189
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x13) .095171 /gl 190
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x14) .027957 /gl 191
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x15) .095184 /gl 192
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x16) .068350 /gl 193
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x17) .036521 /gl 194
+[11:05:07] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x18) .019941 /gl 195
+[11:05:12] [Render thread/INFO] (Minecraft) [CHAT] imaahomerunner died
+[11:05:14] [Render thread/INFO] (Minecraft) [CHAT] SteelGamer_8 joined the game
+[11:05:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x3) entityId=462462998
+[11:05:15] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x4) entityId=462462998
+[11:05:16] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x5) entityId=462462998
+[11:05:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x6) entityId=462462998
+[11:05:17] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x7) entityId=462462998
+[11:05:17] [Render thread/INFO] (Minecraft) [CHAT] Player984 joined the game
+[11:05:18] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x8) entityId=462462998
+[11:05:18] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x9) entityId=462462998
+[11:05:19] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x10) entityId=462462998
+[11:05:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x11) entityId=462462998
+[11:05:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x19) .033021 /gl 196
+[11:05:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x20) .018030 /gl 197
+[11:05:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x21) .009844 /gl 198
+[11:05:20] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x12) entityId=462462998
+[11:05:21] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x13) entityId=462462998
+[11:05:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x14) entityId=462462998
+[11:05:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x22) .006910 /gl 199
+[11:05:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x23) .003773 /gl 200
+[11:05:22] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed Simulation (x24) .002060 /gl 201
+[11:05:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x15) entityId=462462998
+[11:05:23] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x16) entityId=462462998
+[11:05:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x17) entityId=462462998
+[11:05:24] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x18) entityId=462462998
+[11:05:25] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x19) entityId=462462998
+[11:05:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x20) entityId=462462998
+[11:05:26] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x21) entityId=462462998
+[11:05:27] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x22) entityId=462462998
+[11:05:37] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed PacketOrderB (x1) post-attack
+[11:05:42] [Render thread/INFO] (Minecraft) [CHAT] Grim » M1le failed Simulation (x1) .087605 /gl 202
+[11:05:51] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player919 failed Reach (x1) 3.92869 blocks, type=player
+[11:05:52] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player919 failed Reach (x2) 3.90721 blocks, type=player
+[11:05:53] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x23) entityId=462462998
+[11:05:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x24) entityId=462462998
+[11:05:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player919 failed Reach (x3) 5.11071 blocks, type=zombie
+[11:05:54] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x25) entityId=462462998
+[11:05:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » Player919 failed Reach (x4) 4.81198 blocks, type=zombie
+[11:05:55] [Render thread/INFO] (Minecraft) [CHAT] Grim » saimaro failed BadPacketsW* (x26) entityId=462462998
+[11:05:59] [Render thread/INFO] (voicechat) [voicechat/ClientVoicechat] Clearing audio channels
+[11:05:59] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[11:06:00] [Render thread/ERROR] (Minecraft) Can't ping mc.lonygrief.me: Internal Exception: java.net.SocketException: Connection reset
+[11:06:00] [Render thread/ERROR] (Minecraft) Can't ping mc.wellmine.su: Internal Exception: java.net.SocketException: Connection reset
+[11:06:00] [Render thread/ERROR] (Minecraft) Can't ping mc.cakeworld.pw: Internal Exception: java.net.SocketException: Connection reset
+[11:06:00] [Render thread/ERROR] (Minecraft) Can't ping mc.cuteworld.pw: Internal Exception: java.net.SocketException: Connection reset
+[11:06:01] [CullThread/INFO] (Minecraft) [STDOUT]: Shutting down culling task!
+[11:06:01] [Render thread/INFO] (Minecraft) Stopping!
+[11:06:01] [Render thread/INFO] (IAS) IAS: Closing IAS...
+[11:06:01] [Render thread/INFO] (IAS) IAS: Shutting down IAS executor...
+[11:06:01] [Render thread/INFO] (IAS) IAS: IAS executor shut down.
+[11:06:01] [Render thread/INFO] (IAS) IAS: IAS has been unloaded.
+[11:06:01] [Render thread/INFO] (YetAnotherConfigLib) Serializing class fabric.io.github.adytech99.healthindicators.config.ModConfig to 'C:\cheatdlc\run\config\health_indicators_config.json'
